@@ -36,7 +36,8 @@
 		{"id":"dc972804ee12795b","type":"text","text":"[[最坏适应法]]","x":4080,"y":-1297,"width":250,"height":60},
 		{"id":"65e8673559c28b63","type":"text","text":"[[快速适应算法]]","x":4080,"y":-1180,"width":250,"height":60},
 		{"id":"ddb505154ebbb083","type":"text","text":"### [[单一连续分区分配]]","x":3242,"y":-1500,"width":250,"height":60},
-		{"id":"c7add92bc2641055","type":"text","text":"### [[固定分区分配]]","x":3242,"y":-1372,"width":250,"height":60}
+		{"id":"c7add92bc2641055","type":"text","text":"### [[固定分区分配]]","x":3242,"y":-1372,"width":250,"height":60},
+		{"id":"6a0ee2eab8c56214","x":4076,"y":-1094,"width":250,"height":60,"type":"text","text":"[[伙伴系统]]"}
 	],
 	"edges":[
 		{"id":"354aaaf95680e2c3","fromNode":"aeb4701a27de9027","fromSide":"right","toNode":"dd4ff66eb76557f9","toSide":"left"},
@@ -73,6 +74,7 @@
 		{"id":"c36afdae62392106","fromNode":"774b0dbb5c55e794","fromSide":"right","toNode":"a3d3981c8950b7f0","toSide":"left"},
 		{"id":"a8babaee264204ed","fromNode":"774b0dbb5c55e794","fromSide":"right","toNode":"dc972804ee12795b","toSide":"left"},
 		{"id":"56f30643a0a63d75","fromNode":"88351268e68de859","fromSide":"right","toNode":"b250525309efe6e3","toSide":"left"},
-		{"id":"b9b9dd7cd3ea2e3f","fromNode":"b250525309efe6e3","fromSide":"right","toNode":"65e8673559c28b63","toSide":"left"}
+		{"id":"b9b9dd7cd3ea2e3f","fromNode":"b250525309efe6e3","fromSide":"right","toNode":"65e8673559c28b63","toSide":"left"},
+		{"id":"29f60e5dc44240e9","fromNode":"b250525309efe6e3","fromSide":"right","toNode":"6a0ee2eab8c56214","toSide":"left"}
 	]
 }
