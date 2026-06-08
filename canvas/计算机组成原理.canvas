@@ -4,7 +4,7 @@
 		{"id":"88e45fddac2b9238","type":"text","text":"## 计算机系统概述","x":-500,"y":-955,"width":250,"height":60,"color":"6"},
 		{"id":"2027dd4c9dcb7e62","type":"text","text":"计算机性能指标","x":-142,"y":-895,"width":250,"height":60},
 		{"id":"12a12a95a01d6a40","type":"text","text":"## 数据的表示和运算","x":-482,"y":-347,"width":250,"height":60,"color":"6"},
-		{"id":"ad185900ed06dc02","type":"text","text":"# 计算机组成原理","x":-1129,"y":-72,"width":250,"height":50,"color":"1"},
+		{"id":"ad185900ed06dc02","type":"text","text":"# 计算机组成原理","x":-1129,"y":-72,"width":269,"height":72,"color":"1"},
 		{"id":"b3dbd6deaafc55fc","type":"text","text":"### 存储系统基本概念","x":144,"y":-47,"width":250,"height":60},
 		{"id":"8d08820074ac4ae5","type":"text","text":"### 主存储器","x":132,"y":113,"width":250,"height":60},
 		{"id":"ba86829b1193746d","type":"text","text":"### 高速缓存存储器","x":124,"y":273,"width":250,"height":60},
@@ -14,8 +14,10 @@
 		{"id":"c8ef845df12d6d2d","type":"text","text":"### 主存储器与CPU的连接","x":124,"y":733,"width":284,"height":50},
 		{"id":"ef431b8c03885f13","type":"text","text":"[[虚拟存储器的访存过程]]","x":879,"y":913,"width":250,"height":60},
 		{"id":"49ec4f401eb4a291","type":"text","text":"### [[虚拟存储器]]","x":124,"y":972,"width":250,"height":62},
-		{"id":"90a3b7c8e78b49b4","type":"text","text":"#### [[页式虚拟存储器]]","x":444,"y":973,"width":250,"height":60},
-		{"id":"b724d9beb193edc7","type":"text","text":"#### [[快表TLB]]","x":879,"y":1033,"width":145,"height":54}
+		{"id":"90a3b7c8e78b49b4","type":"text","text":"#### [[页式虚拟存储器]]","x":444,"y":973,"width":256,"height":60},
+		{"id":"b724d9beb193edc7","type":"text","text":"#### [[快表TLB]]","x":879,"y":1033,"width":145,"height":54},
+		{"id":"bcbf0ce22dae7654","type":"text","text":"## [[TLB-Cache]]","x":875,"y":1149,"width":250,"height":60},
+		{"id":"f868b022183e0d86","type":"text","text":"# [[指令系统]]","x":-586,"y":1260,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -32,6 +34,8 @@
 		{"id":"5dc053fb801b2f6f","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"49ec4f401eb4a291","toSide":"left"},
 		{"id":"b8c5628f9a83a51a","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"ef431b8c03885f13","toSide":"left"},
 		{"id":"eda817126542ded4","fromNode":"49ec4f401eb4a291","fromSide":"right","toNode":"90a3b7c8e78b49b4","toSide":"left"},
-		{"id":"205dda6ebc33c801","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"b724d9beb193edc7","toSide":"left"}
+		{"id":"205dda6ebc33c801","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"b724d9beb193edc7","toSide":"left"},
+		{"id":"15ae90e1300fc0d3","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"bcbf0ce22dae7654","toSide":"left"},
+		{"id":"d8b77ba5685f7fd5","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"f868b022183e0d86","toSide":"left"}
 	]
 }
