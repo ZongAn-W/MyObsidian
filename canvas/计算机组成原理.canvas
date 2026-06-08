@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"a0bd71b31edc1df6","type":"text","text":"### 计算机系统的层次结构","x":-142,"y":-1087,"width":266,"height":50},
+		{"id":"88e45fddac2b9238","type":"text","text":"## 计算机系统概述","x":-500,"y":-955,"width":250,"height":60,"color":"6"},
+		{"id":"2027dd4c9dcb7e62","type":"text","text":"计算机性能指标","x":-142,"y":-895,"width":250,"height":60},
+		{"id":"12a12a95a01d6a40","type":"text","text":"## 数据的表示和运算","x":-482,"y":-347,"width":250,"height":60,"color":"6"},
+		{"id":"ad185900ed06dc02","type":"text","text":"# 计算机组成原理","x":-1129,"y":-72,"width":250,"height":50,"color":"1"},
+		{"id":"b3dbd6deaafc55fc","type":"text","text":"### 存储系统基本概念","x":144,"y":-47,"width":250,"height":60},
+		{"id":"8d08820074ac4ae5","type":"text","text":"### 主存储器","x":132,"y":113,"width":250,"height":60},
+		{"id":"ba86829b1193746d","type":"text","text":"### 高速缓存存储器","x":124,"y":273,"width":250,"height":60},
+		{"id":"a187a416f4819a92","type":"text","text":"## 存储系统","x":-586,"y":433,"width":175,"height":60,"color":"6"},
+		{"id":"3365ab4158ba1601","type":"text","text":"### 外部存储器","x":124,"y":433,"width":250,"height":60},
+		{"id":"57a8bb5e395e5d83","type":"text","text":"### 多模块存储器","x":124,"y":553,"width":250,"height":60},
+		{"id":"c8ef845df12d6d2d","type":"text","text":"### 主存储器与CPU的连接","x":124,"y":733,"width":284,"height":50},
+		{"id":"ef431b8c03885f13","type":"text","text":"[[虚拟存储器的访存过程]]","x":879,"y":913,"width":250,"height":60},
+		{"id":"49ec4f401eb4a291","type":"text","text":"### [[虚拟存储器]]","x":124,"y":972,"width":250,"height":62},
+		{"id":"90a3b7c8e78b49b4","type":"text","text":"#### [[页式虚拟存储器]]","x":444,"y":973,"width":250,"height":60},
+		{"id":"b724d9beb193edc7","type":"text","text":"#### [[快表TLB]]","x":879,"y":1033,"width":145,"height":54}
+	],
+	"edges":[
+		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
+		{"id":"94575213d2ec414e","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"2027dd4c9dcb7e62","toSide":"left"},
+		{"id":"40ea1583c80944e5","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"88e45fddac2b9238","toSide":"left","color":"1"},
+		{"id":"c3c46ee424238abc","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"12a12a95a01d6a40","toSide":"left","color":"1"},
+		{"id":"313b06b062442d5d","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"a187a416f4819a92","toSide":"left","color":"1"},
+		{"id":"5f4ee4c3e2769c29","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"b3dbd6deaafc55fc","toSide":"left"},
+		{"id":"a0c48cf5bac67117","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"8d08820074ac4ae5","toSide":"left"},
+		{"id":"778654b76124310b","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"ba86829b1193746d","toSide":"left"},
+		{"id":"10f70f7902a00268","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"c8ef845df12d6d2d","toSide":"left"},
+		{"id":"98ce6d0393e3142b","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"57a8bb5e395e5d83","toSide":"left"},
+		{"id":"6f396ea4787a4465","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"3365ab4158ba1601","toSide":"left"},
+		{"id":"5dc053fb801b2f6f","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"49ec4f401eb4a291","toSide":"left"},
+		{"id":"b8c5628f9a83a51a","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"ef431b8c03885f13","toSide":"left"},
+		{"id":"eda817126542ded4","fromNode":"49ec4f401eb4a291","fromSide":"right","toNode":"90a3b7c8e78b49b4","toSide":"left"},
+		{"id":"205dda6ebc33c801","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"b724d9beb193edc7","toSide":"left"}
+	]
+}
