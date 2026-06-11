@@ -61,8 +61,11 @@
 		{"id":"2eaeb33d85567044","type":"text","text":"### [[CPU的基本结构]]","x":1307,"y":3640,"width":250,"height":60},
 		{"id":"711635253eb7ba95","type":"text","text":"## 指令执行过程","x":945,"y":3764,"width":250,"height":60},
 		{"id":"eca1f7b71e8b2780","type":"text","text":"### [[指令周期]]","x":1295,"y":3729,"width":250,"height":60},
-		{"id":"c83f13f340fe49de","x":1299,"y":3811,"width":250,"height":60,"type":"text","text":"### 指令周期的数据流"},
-		{"id":"6033ea1fecde0194","x":1700,"y":3751,"width":250,"height":60,"type":"text","text":"[[取指周期]]"}
+		{"id":"c83f13f340fe49de","type":"text","text":"### 指令周期的数据流","x":1299,"y":3811,"width":250,"height":60},
+		{"id":"6033ea1fecde0194","type":"text","text":"[[取指周期]]","x":1700,"y":3693,"width":250,"height":60},
+		{"id":"e2d60e89342253bd","type":"text","text":"[[间址周期]]","x":1701,"y":3781,"width":250,"height":60},
+		{"id":"ff1ce7b39bec66f3","type":"text","text":"[[执行周期]]","x":1706,"y":3861,"width":250,"height":60},
+		{"id":"ea238f6ed7ba3c9d","x":1706,"y":3942,"width":250,"height":60,"type":"text","text":"[[中断周期]]"}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -128,6 +131,9 @@
 		{"id":"4275064546fa8690","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"711635253eb7ba95","toSide":"left"},
 		{"id":"c7d0aa9b016dc43b","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"eca1f7b71e8b2780","toSide":"left"},
 		{"id":"5796fa5716e1a0d3","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"c83f13f340fe49de","toSide":"left"},
-		{"id":"d76101d5231a66e8","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"6033ea1fecde0194","toSide":"left"}
+		{"id":"d76101d5231a66e8","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"6033ea1fecde0194","toSide":"left"},
+		{"id":"8b68e9a2321bcf38","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"e2d60e89342253bd","toSide":"left"},
+		{"id":"c966f6e9a307b039","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ff1ce7b39bec66f3","toSide":"left"},
+		{"id":"b730220180b987be","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ea238f6ed7ba3c9d","toSide":"left"}
 	]
 }
