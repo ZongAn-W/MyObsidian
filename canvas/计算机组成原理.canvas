@@ -56,16 +56,18 @@
 		{"id":"b65f50cfbcacc8ec","type":"text","text":"## 高级语言代码与机器代码之间的对应","x":977,"y":2896,"width":250,"height":64},
 		{"id":"f868b022183e0d86","type":"text","text":"# [[指令系统]]","x":520,"y":2278,"width":250,"height":60},
 		{"id":"24b5dc638d511ba2","type":"text","text":"## 中央处理器","x":560,"y":3720,"width":234,"height":60},
-		{"id":"71eedf4e15b0ab85","type":"text","text":"## CPU的功能和基本结构","x":974,"y":3560,"width":246,"height":80},
 		{"id":"e32605f70a397735","type":"text","text":"### [[CPU的功能]]","x":1307,"y":3508,"width":250,"height":60},
 		{"id":"2eaeb33d85567044","type":"text","text":"### [[CPU的基本结构]]","x":1307,"y":3640,"width":250,"height":60},
-		{"id":"711635253eb7ba95","type":"text","text":"## 指令执行过程","x":945,"y":3764,"width":250,"height":60},
 		{"id":"eca1f7b71e8b2780","type":"text","text":"### [[指令周期]]","x":1295,"y":3729,"width":250,"height":60},
 		{"id":"c83f13f340fe49de","type":"text","text":"### 指令周期的数据流","x":1299,"y":3811,"width":250,"height":60},
 		{"id":"6033ea1fecde0194","type":"text","text":"[[取指周期]]","x":1700,"y":3693,"width":250,"height":60},
 		{"id":"e2d60e89342253bd","type":"text","text":"[[间址周期]]","x":1701,"y":3781,"width":250,"height":60},
 		{"id":"ff1ce7b39bec66f3","type":"text","text":"[[执行周期]]","x":1706,"y":3861,"width":250,"height":60},
-		{"id":"ea238f6ed7ba3c9d","x":1706,"y":3942,"width":250,"height":60,"type":"text","text":"[[中断周期]]"}
+		{"id":"ea238f6ed7ba3c9d","type":"text","text":"[[中断周期]]","x":1706,"y":3942,"width":250,"height":60},
+		{"id":"867afe19d43872e6","type":"text","text":"### [[指令执行方案]]","x":1304,"y":3907,"width":250,"height":60},
+		{"id":"711635253eb7ba95","type":"text","text":"## 指令执行过程","x":940,"y":3811,"width":250,"height":60},
+		{"id":"71eedf4e15b0ab85","type":"text","text":"## CPU的功能和基本结构","x":940,"y":3560,"width":246,"height":80},
+		{"id":"40ac0f16666479e6","x":940,"y":4000,"width":250,"height":60,"type":"text","text":"## [[指令流水线]]"}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -134,6 +136,8 @@
 		{"id":"d76101d5231a66e8","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"6033ea1fecde0194","toSide":"left"},
 		{"id":"8b68e9a2321bcf38","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"e2d60e89342253bd","toSide":"left"},
 		{"id":"c966f6e9a307b039","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ff1ce7b39bec66f3","toSide":"left"},
-		{"id":"b730220180b987be","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ea238f6ed7ba3c9d","toSide":"left"}
+		{"id":"b730220180b987be","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ea238f6ed7ba3c9d","toSide":"left"},
+		{"id":"ec260501fd2c35f2","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"867afe19d43872e6","toSide":"left"},
+		{"id":"983f6ba29a5fb44a","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"40ac0f16666479e6","toSide":"left"}
 	]
 }
