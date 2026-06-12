@@ -127,7 +127,8 @@
 		{"id":"ea68cc6e252946a7","type":"text","text":"## [[存储器管理]]","x":3799,"y":-8640,"width":250,"height":60},
 		{"id":"966bdcdf91246a1e","type":"text","text":"## [[设备管理]]","x":3799,"y":-8559,"width":250,"height":60},
 		{"id":"9b28c90dee3bb3f1","type":"text","text":"### [[文件管理]]","x":3799,"y":-8468,"width":250,"height":60},
-		{"id":"018ba2098b0e28d9","type":"text","text":"### [[接口管理]]","x":3799,"y":-8373,"width":250,"height":60}
+		{"id":"018ba2098b0e28d9","type":"text","text":"### [[接口管理]]","x":3799,"y":-8373,"width":250,"height":60},
+		{"id":"b15592bfdbb70afe","type":"text","text":"### [[位示图法]]","x":3666,"y":740,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a3f74d0f2428730a","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b8ae160ec8e5daef","toSide":"left","color":"1"},
@@ -260,6 +261,7 @@
 		{"id":"05ca65ea605d1c60","fromNode":"42c4f296bec0ff74","fromSide":"right","toNode":"d7ab8ebf75f27f56","toSide":"left"},
 		{"id":"3ead5e70aa7c774d","fromNode":"42c4f296bec0ff74","fromSide":"right","toNode":"4a863d7a900166db","toSide":"left"},
 		{"id":"ec04fcac01afd6ae","fromNode":"74c25b2a6a4a4371","fromSide":"right","toNode":"45284b9f9a2383ff","toSide":"left"},
-		{"id":"cfaa885d896912ec","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b9a1fdcb9cc32887","toSide":"left"}
+		{"id":"cfaa885d896912ec","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b9a1fdcb9cc32887","toSide":"left"},
+		{"id":"90c90425c3c977de","fromNode":"de71ba2a0ba45a7c","fromSide":"right","toNode":"b15592bfdbb70afe","toSide":"left"}
 	]
 }
