@@ -61,7 +61,6 @@
 		{"id":"e32605f70a397735","type":"text","text":"### [[CPU的功能]]","x":1419,"y":3440,"width":250,"height":60},
 		{"id":"71eedf4e15b0ab85","type":"text","text":"## CPU的功能和基本结构","x":979,"y":3502,"width":246,"height":80},
 		{"id":"2eaeb33d85567044","type":"text","text":"### [[CPU的基本结构]]","x":1419,"y":3572,"width":250,"height":60},
-		{"id":"24b5dc638d511ba2","type":"text","text":"## 中央处理器","x":560,"y":4180,"width":234,"height":60},
 		{"id":"2b7954634cc0c46e","type":"text","text":"[[结构相关（资源冲突、资源冒险）]]","x":1781,"y":4520,"width":300,"height":60},
 		{"id":"a91bc2301a5f1209","type":"text","text":"[[数据相关（数据冲突、数据冒险）]]","x":1781,"y":4600,"width":300,"height":60},
 		{"id":"ee49ce7751dbf502","type":"text","text":"[[控制相关（控制冲突、控制冒险）]]","x":1781,"y":4672,"width":300,"height":60},
@@ -99,8 +98,18 @@
 		{"id":"2f587fe3b24e217e","type":"text","text":"[[异常（内中断）]]","x":1820,"y":5840,"width":250,"height":60},
 		{"id":"c4ea40b9c0686a3a","type":"text","text":"[[中断（外中断）]]）","x":1820,"y":5960,"width":250,"height":60},
 		{"id":"0ac5a4b3e7e299dc","type":"text","text":"### 异常和中断的分类","x":1418,"y":5900,"width":250,"height":60},
-		{"id":"9e97afb39c257a13","type":"text","text":"## [[异常和中断]]","x":1000,"y":5960,"width":250,"height":60},
-		{"id":"f520811ac4fda156","x":1418,"y":6020,"width":250,"height":60,"type":"text","text":"### [[中断响应过程]]"}
+		{"id":"f520811ac4fda156","type":"text","text":"### [[中断响应过程]]","x":1418,"y":6020,"width":250,"height":60},
+		{"id":"ab322d81f2781c36","type":"text","text":"### [[中断服务过程]]","x":1418,"y":6140,"width":250,"height":60},
+		{"id":"3b8f862e80dd2812","type":"text","text":"### [[多重中断]]","x":1418,"y":6239,"width":250,"height":60},
+		{"id":"9e97afb39c257a13","type":"text","text":"## [[异常和中断]]","x":1000,"y":6080,"width":250,"height":60},
+		{"id":"3f2fb25ec4f843be","type":"text","text":"### [[中断判优]]","x":1418,"y":6340,"width":250,"height":60},
+		{"id":"63662c21f31a8851","type":"text","text":"[[中断响应优先级和处理优先级的例题]]","x":1780,"y":6280,"width":250,"height":60},
+		{"id":"9efd0110abc50844","type":"text","text":"## [[多处理器基本概念]]","x":1000,"y":6580,"width":250,"height":60},
+		{"id":"24b5dc638d511ba2","type":"text","text":"## 中央处理器","x":480,"y":5030,"width":234,"height":60},
+		{"id":"172b68591bd02751","type":"text","text":"[[SISD、SIMD、MIMD]]","x":1418,"y":6479,"width":250,"height":54},
+		{"id":"b58aa5a6815410c3","type":"text","text":"[[硬件多线程]]","x":1418,"y":6550,"width":250,"height":60},
+		{"id":"caea83146fb02d9c","type":"text","text":"[[多核处理器]]","x":1418,"y":6629,"width":250,"height":60},
+		{"id":"61c9a3a26a068d04","x":1418,"y":6709,"width":250,"height":60,"type":"text","text":"[[共享内存多处理器SMP]]"}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -204,6 +213,16 @@
 		{"id":"1ae96295185121d1","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"0ac5a4b3e7e299dc","toSide":"left"},
 		{"id":"a724cfef63c5380d","fromNode":"0ac5a4b3e7e299dc","fromSide":"right","toNode":"2f587fe3b24e217e","toSide":"left"},
 		{"id":"fc05f6ece590a81b","fromNode":"0ac5a4b3e7e299dc","fromSide":"right","toNode":"c4ea40b9c0686a3a","toSide":"left"},
-		{"id":"02ad30ccbd07841a","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"f520811ac4fda156","toSide":"left"}
+		{"id":"02ad30ccbd07841a","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"f520811ac4fda156","toSide":"left"},
+		{"id":"f348eb5d5d4d766c","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"ab322d81f2781c36","toSide":"left"},
+		{"id":"07312ecc136bd467","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"3b8f862e80dd2812","toSide":"left"},
+		{"id":"b8c41df06c78d208","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"3f2fb25ec4f843be","toSide":"left"},
+		{"id":"4aa1938c4ff7e0d7","fromNode":"3b8f862e80dd2812","fromSide":"right","toNode":"63662c21f31a8851","toSide":"left"},
+		{"id":"2828cfba97ac728d","fromNode":"3f2fb25ec4f843be","fromSide":"right","toNode":"63662c21f31a8851","toSide":"left"},
+		{"id":"7659c511e777887f","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"9efd0110abc50844","toSide":"left"},
+		{"id":"6ac3c80ba47ee61a","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"172b68591bd02751","toSide":"left"},
+		{"id":"cf68113acf4ed0ae","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"b58aa5a6815410c3","toSide":"left"},
+		{"id":"a62ecaf9e5fa6664","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"caea83146fb02d9c","toSide":"left"},
+		{"id":"c4a29989445cce8a","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"61c9a3a26a068d04","toSide":"left"}
 	]
 }
