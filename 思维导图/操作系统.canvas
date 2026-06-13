@@ -132,7 +132,20 @@
 		{"id":"195e55ad6eadcf12","type":"text","text":"## [[虚拟文件系统VFS]]","x":3216,"y":770,"width":250,"height":60},
 		{"id":"25c0e630ad258e02","type":"text","text":"## [[操作系统的引导过程]]","x":3216,"y":908,"width":276,"height":60},
 		{"id":"53a2c82675becff7","type":"text","text":"# 操作系统","x":1480,"y":-2000,"width":250,"height":50},
-		{"id":"9414119e1a1707dc","x":2722,"y":2080,"width":250,"height":60,"type":"text","text":"# 输入输出管理"}
+		{"id":"9414119e1a1707dc","type":"text","text":"# 输入输出管理","x":2722,"y":2080,"width":250,"height":60},
+		{"id":"2d24ee406b8b9326","type":"text","text":"## I/O管理基础","x":3033,"y":1940,"width":250,"height":60},
+		{"id":"a507adb3888bd693","type":"text","text":"### [[IO设备]]","x":3404,"y":1744,"width":250,"height":60},
+		{"id":"51063b90c1fa9668","type":"text","text":"[[设备的分类]]","x":3794,"y":1671,"width":250,"height":60},
+		{"id":"d9ca6548c3fa7eef","type":"text","text":"[[IO接口]]","x":3810,"y":1797,"width":250,"height":60},
+		{"id":"56964abc6564edff","type":"text","text":"[[IO接口的类型]]","x":4154,"y":1730,"width":250,"height":60},
+		{"id":"e10d5ac3ca725308","type":"text","text":"[[IO端口]]","x":4210,"y":1827,"width":250,"height":60},
+		{"id":"cd043e9c84f28f87","type":"text","text":"[[独立编址]]","x":4636,"y":1727,"width":250,"height":60},
+		{"id":"d0693e0a71ab0f4d","type":"text","text":"[[统一编址]]","x":4601,"y":1907,"width":250,"height":60},
+		{"id":"b9f9ac6492c4215b","type":"text","text":"### [[IO控制方式]]","x":3100,"y":2140,"width":250,"height":60},
+		{"id":"4ec6c72cbae915c4","type":"text","text":"[[程序直接控制方式]]","x":3444,"y":2055,"width":250,"height":60},
+		{"id":"666fb8966b4d2edf","type":"text","text":"[[中断驱动方式]]","x":3561,"y":2204,"width":250,"height":60},
+		{"id":"b25308c30a1bafcb","type":"text","text":"[[DMA方式]]","x":3500,"y":2304,"width":250,"height":60},
+		{"id":"9cfb22494441185e","type":"text","text":"[[通道控制方式]]","x":3482,"y":2442,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"a3f74d0f2428730a","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b8ae160ec8e5daef","toSide":"left","color":"1"},
@@ -270,6 +283,19 @@
 		{"id":"23e52a6d97322bd8","fromNode":"de71ba2a0ba45a7c","fromSide":"right","toNode":"7050e6472c40f6d7","toSide":"left"},
 		{"id":"bf2342d0fc625b34","fromNode":"0e9fa00bd262df5f","fromSide":"right","toNode":"195e55ad6eadcf12","toSide":"left"},
 		{"id":"76c8b9df836693ad","fromNode":"0e9fa00bd262df5f","fromSide":"right","toNode":"25c0e630ad258e02","toSide":"left"},
-		{"id":"c6aacf213772dcb6","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"9414119e1a1707dc","toSide":"left"}
+		{"id":"c6aacf213772dcb6","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"9414119e1a1707dc","toSide":"left"},
+		{"id":"808da5a37fa7a461","fromNode":"9414119e1a1707dc","fromSide":"right","toNode":"2d24ee406b8b9326","toSide":"left"},
+		{"id":"1fcd56f218a75eea","fromNode":"2d24ee406b8b9326","fromSide":"right","toNode":"a507adb3888bd693","toSide":"left"},
+		{"id":"3b400953a7e90b57","fromNode":"a507adb3888bd693","fromSide":"right","toNode":"51063b90c1fa9668","toSide":"left"},
+		{"id":"04413ebdd72c11c4","fromNode":"a507adb3888bd693","fromSide":"right","toNode":"d9ca6548c3fa7eef","toSide":"left"},
+		{"id":"b33ef97e1c1a5cb5","fromNode":"d9ca6548c3fa7eef","fromSide":"right","toNode":"56964abc6564edff","toSide":"left"},
+		{"id":"a45b787d9d84f8b6","fromNode":"d9ca6548c3fa7eef","fromSide":"right","toNode":"e10d5ac3ca725308","toSide":"left"},
+		{"id":"6fa7477560c4e9e6","fromNode":"e10d5ac3ca725308","fromSide":"right","toNode":"cd043e9c84f28f87","toSide":"left"},
+		{"id":"71320a9300308d67","fromNode":"e10d5ac3ca725308","fromSide":"right","toNode":"d0693e0a71ab0f4d","toSide":"left"},
+		{"id":"d47d89d5f602e9c7","fromNode":"9414119e1a1707dc","fromSide":"right","toNode":"b9f9ac6492c4215b","toSide":"left"},
+		{"id":"3895dc6a5852f656","fromNode":"b9f9ac6492c4215b","fromSide":"right","toNode":"4ec6c72cbae915c4","toSide":"left"},
+		{"id":"4949b8a19e4ca579","fromNode":"b9f9ac6492c4215b","fromSide":"right","toNode":"666fb8966b4d2edf","toSide":"left"},
+		{"id":"2b2246ef6ac2b734","fromNode":"b9f9ac6492c4215b","fromSide":"right","toNode":"b25308c30a1bafcb","toSide":"left"},
+		{"id":"58caebfc9ad1f693","fromNode":"b9f9ac6492c4215b","fromSide":"right","toNode":"9cfb22494441185e","toSide":"left"}
 	]
 }
