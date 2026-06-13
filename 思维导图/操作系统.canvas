@@ -43,7 +43,6 @@
 		{"id":"225d2c68607d8e16","type":"text","text":"### [[缺段中断机构]]","x":4048,"y":-1851,"width":250,"height":60},
 		{"id":"0c0020c72c8e5efa","type":"text","text":"### [[请求分段系统的地址变换机构]]","x":4044,"y":-1751,"width":250,"height":60},
 		{"id":"b8ae160ec8e5daef","type":"text","text":"## 内存管理","x":2720,"y":-3111,"width":250,"height":60},
-		{"id":"53a2c82675becff7","type":"text","text":"# 操作系统","x":2040,"y":-2000,"width":250,"height":50},
 		{"id":"b250525309efe6e3","type":"text","text":"基于==索引搜索==的动态分区分配算法","x":4096,"y":-3565,"width":250,"height":60},
 		{"id":"774b0dbb5c55e794","type":"text","text":"基于==顺序搜索==的动态分区分配算法","x":4096,"y":-3886,"width":250,"height":60},
 		{"id":"95d41930ec9df4c1","type":"text","text":"### [[请求分页系统]]","x":3640,"y":-2371,"width":250,"height":60},
@@ -115,9 +114,8 @@
 		{"id":"836ca2578c6feef3","type":"text","text":"## [[文件共享]]","x":3679,"y":315,"width":250,"height":60},
 		{"id":"9210b6d8c198f77e","type":"text","text":"## [[软链接（利用符号链实现文件共享）]]","x":4068,"y":375,"width":250,"height":60},
 		{"id":"dbb18ed035fb38a9","type":"text","text":"# [[文件系统的全局结构]]","x":3202,"y":300,"width":294,"height":63},
-		{"id":"de71ba2a0ba45a7c","type":"text","text":"## 外存空闲空间的管理","x":3208,"y":501,"width":266,"height":60},
-		{"id":"9aaa55a5b4237c61","type":"text","text":"### [[空闲表法]]","x":3669,"y":457,"width":250,"height":60},
-		{"id":"e38ca402d668d458","type":"text","text":"### [[空闲链表法]]","x":3666,"y":566,"width":250,"height":60},
+		{"id":"9aaa55a5b4237c61","type":"text","text":"### [[空闲表法]]","x":3662,"y":457,"width":250,"height":60},
+		{"id":"e38ca402d668d458","type":"text","text":"### [[空闲链表法]]","x":3662,"y":566,"width":250,"height":60},
 		{"id":"0e9fa00bd262df5f","type":"text","text":"# 文件管理","x":2722,"y":-225,"width":250,"height":60},
 		{"id":"97db4172ed50502e","type":"text","text":"# [[文件的物理结构]]","x":3679,"y":-309,"width":250,"height":60},
 		{"id":"02458bf38e9dcc37","type":"text","text":"## [[目录的基本概念]]","x":3679,"y":-135,"width":250,"height":60},
@@ -128,7 +126,13 @@
 		{"id":"966bdcdf91246a1e","type":"text","text":"## [[设备管理]]","x":3799,"y":-8559,"width":250,"height":60},
 		{"id":"9b28c90dee3bb3f1","type":"text","text":"### [[文件管理]]","x":3799,"y":-8468,"width":250,"height":60},
 		{"id":"018ba2098b0e28d9","type":"text","text":"### [[接口管理]]","x":3799,"y":-8373,"width":250,"height":60},
-		{"id":"b15592bfdbb70afe","type":"text","text":"### [[位示图法]]","x":3666,"y":740,"width":250,"height":60}
+		{"id":"b15592bfdbb70afe","type":"text","text":"### [[位示图法]]","x":3662,"y":680,"width":250,"height":60},
+		{"id":"7050e6472c40f6d7","type":"text","text":"### [[成组链接法]]","x":3662,"y":800,"width":250,"height":60},
+		{"id":"de71ba2a0ba45a7c","type":"text","text":"## 外存空闲空间的管理","x":3216,"y":620,"width":266,"height":60},
+		{"id":"195e55ad6eadcf12","type":"text","text":"## [[虚拟文件系统VFS]]","x":3216,"y":770,"width":250,"height":60},
+		{"id":"25c0e630ad258e02","type":"text","text":"## [[操作系统的引导过程]]","x":3216,"y":908,"width":276,"height":60},
+		{"id":"53a2c82675becff7","type":"text","text":"# 操作系统","x":1480,"y":-2000,"width":250,"height":50},
+		{"id":"9414119e1a1707dc","x":2722,"y":2080,"width":250,"height":60,"type":"text","text":"# 输入输出管理"}
 	],
 	"edges":[
 		{"id":"a3f74d0f2428730a","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b8ae160ec8e5daef","toSide":"left","color":"1"},
@@ -262,6 +266,10 @@
 		{"id":"3ead5e70aa7c774d","fromNode":"42c4f296bec0ff74","fromSide":"right","toNode":"4a863d7a900166db","toSide":"left"},
 		{"id":"ec04fcac01afd6ae","fromNode":"74c25b2a6a4a4371","fromSide":"right","toNode":"45284b9f9a2383ff","toSide":"left"},
 		{"id":"cfaa885d896912ec","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b9a1fdcb9cc32887","toSide":"left"},
-		{"id":"90c90425c3c977de","fromNode":"de71ba2a0ba45a7c","fromSide":"right","toNode":"b15592bfdbb70afe","toSide":"left"}
+		{"id":"90c90425c3c977de","fromNode":"de71ba2a0ba45a7c","fromSide":"right","toNode":"b15592bfdbb70afe","toSide":"left"},
+		{"id":"23e52a6d97322bd8","fromNode":"de71ba2a0ba45a7c","fromSide":"right","toNode":"7050e6472c40f6d7","toSide":"left"},
+		{"id":"bf2342d0fc625b34","fromNode":"0e9fa00bd262df5f","fromSide":"right","toNode":"195e55ad6eadcf12","toSide":"left"},
+		{"id":"76c8b9df836693ad","fromNode":"0e9fa00bd262df5f","fromSide":"right","toNode":"25c0e630ad258e02","toSide":"left"},
+		{"id":"c6aacf213772dcb6","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"9414119e1a1707dc","toSide":"left"}
 	]
 }
