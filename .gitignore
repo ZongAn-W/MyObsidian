@@ -1,4 +1,20 @@
+# Obsidian local workspace state
 .obsidian/
 
+# Local trash and generated scratch files
+.trash/
+.temp_pages/
+
+# OS/editor noise
 Thumbs.db
+Desktop.ini
 .DS_Store
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Runtime logs
+*.log
