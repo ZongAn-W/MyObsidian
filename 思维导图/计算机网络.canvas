@@ -13,7 +13,8 @@
 		{"id":"d429ec8842970a7d","type":"text","text":"### [[域名解析过程]]","x":1012,"y":200,"width":250,"height":60},
 		{"id":"37c8a9376740f00e","type":"text","text":"# 应用层","x":40,"y":10,"width":250,"height":60},
 		{"id":"ece6273f1e4aa966","type":"text","text":"# 计算机网络","x":-560,"y":-1000,"width":250,"height":60},
-		{"id":"7994714ba54f8da5","x":575,"y":320,"width":250,"height":60,"type":"text","text":"## [[FTP协议]]"}
+		{"id":"7994714ba54f8da5","type":"text","text":"## [[FTP协议]]","x":575,"y":320,"width":250,"height":60},
+		{"id":"71de22b35d3c4315","x":40,"y":-1320,"width":250,"height":60,"type":"text","text":"# [[数据链路层]]"}
 	],
 	"edges":[
 		{"id":"b59128a116252341","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"37c8a9376740f00e","toSide":"left"},
@@ -28,6 +29,7 @@
 		{"id":"45e9b4c9a8a7f146","fromNode":"381c53f899473643","fromSide":"right","toNode":"e9b2658514b05e54","toSide":"left"},
 		{"id":"de8ad7f3d8a56ecf","fromNode":"381c53f899473643","fromSide":"right","toNode":"4224ac516dde2404","toSide":"left"},
 		{"id":"c1e9c09030b63e2c","fromNode":"fdac52a1d87e4cf7","fromSide":"right","toNode":"d429ec8842970a7d","toSide":"left"},
-		{"id":"6b21453448bfde6e","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"7994714ba54f8da5","toSide":"left"}
+		{"id":"6b21453448bfde6e","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"7994714ba54f8da5","toSide":"left"},
+		{"id":"0a66718933e4ca11","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"71de22b35d3c4315","toSide":"left"}
 	]
 }
