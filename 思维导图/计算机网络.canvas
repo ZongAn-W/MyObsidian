@@ -14,7 +14,19 @@
 		{"id":"37c8a9376740f00e","type":"text","text":"# 应用层","x":40,"y":10,"width":250,"height":60},
 		{"id":"ece6273f1e4aa966","type":"text","text":"# 计算机网络","x":-560,"y":-1000,"width":250,"height":60},
 		{"id":"7994714ba54f8da5","type":"text","text":"## [[FTP协议]]","x":575,"y":320,"width":250,"height":60},
-		{"id":"71de22b35d3c4315","x":40,"y":-1320,"width":250,"height":60,"type":"text","text":"# [[数据链路层]]"}
+		{"id":"71de22b35d3c4315","type":"text","text":"# [[数据链路层]]","x":60,"y":-1580,"width":250,"height":60},
+		{"id":"2c005525bae79414","type":"text","text":"# 网络层","x":86,"y":-1362,"width":250,"height":60},
+		{"id":"2b3e2a9de5341be5","type":"text","text":"# 传输层","x":91,"y":-1132,"width":250,"height":60},
+		{"id":"65cfbe43495cae66","type":"text","text":"[[传输层的功能]]","x":988,"y":-1339,"width":250,"height":60},
+		{"id":"4046e909245ca7f5","type":"text","text":"传输层寻址与端口","x":988,"y":-1242,"width":250,"height":60},
+		{"id":"195d5ecbdf52fa4f","type":"text","text":"[[无连接服务与面向连接服务]]","x":988,"y":-1134,"width":250,"height":60},
+		{"id":"8fe2c05f14116367","type":"text","text":"[[端口的作用]]","x":1380,"y":-1317,"width":250,"height":60},
+		{"id":"5a72050e9f229a15","type":"text","text":"[[端口号]]","x":1380,"y":-1242,"width":250,"height":60},
+		{"id":"51d99c1e5db7bdec","type":"text","text":"[[套接字]]","x":1380,"y":-1164,"width":250,"height":60},
+		{"id":"fbcd76fbf0de83b6","type":"text","text":"## 传输层提供的服务","x":600,"y":-1242,"width":250,"height":60},
+		{"id":"aad2de8f4147c252","type":"text","text":"## [[UDP]]","x":600,"y":-940,"width":250,"height":60},
+		{"id":"8a668188338024dc","type":"text","text":"[[UDP数据报]]","x":986,"y":-1015,"width":250,"height":60},
+		{"id":"a8e33c75cc109a2b","x":998,"y":-920,"width":250,"height":60,"type":"text","text":"[[UDP校验]]"}
 	],
 	"edges":[
 		{"id":"b59128a116252341","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"37c8a9376740f00e","toSide":"left"},
@@ -30,6 +42,18 @@
 		{"id":"de8ad7f3d8a56ecf","fromNode":"381c53f899473643","fromSide":"right","toNode":"4224ac516dde2404","toSide":"left"},
 		{"id":"c1e9c09030b63e2c","fromNode":"fdac52a1d87e4cf7","fromSide":"right","toNode":"d429ec8842970a7d","toSide":"left"},
 		{"id":"6b21453448bfde6e","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"7994714ba54f8da5","toSide":"left"},
-		{"id":"0a66718933e4ca11","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"71de22b35d3c4315","toSide":"left"}
+		{"id":"0a66718933e4ca11","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"71de22b35d3c4315","toSide":"left"},
+		{"id":"b5c6e8534374e879","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"2c005525bae79414","toSide":"left"},
+		{"id":"c9956d85dba07696","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"2b3e2a9de5341be5","toSide":"left"},
+		{"id":"45dadfb9eaa8c477","fromNode":"2b3e2a9de5341be5","fromSide":"right","toNode":"fbcd76fbf0de83b6","toSide":"left"},
+		{"id":"298a95cacada5230","fromNode":"fbcd76fbf0de83b6","fromSide":"right","toNode":"65cfbe43495cae66","toSide":"left"},
+		{"id":"b7d0940e9e2add06","fromNode":"fbcd76fbf0de83b6","fromSide":"right","toNode":"4046e909245ca7f5","toSide":"left"},
+		{"id":"82fbe113347ca7fa","fromNode":"4046e909245ca7f5","fromSide":"right","toNode":"8fe2c05f14116367","toSide":"left"},
+		{"id":"a148f1efe3c1ff14","fromNode":"4046e909245ca7f5","fromSide":"right","toNode":"5a72050e9f229a15","toSide":"left"},
+		{"id":"47a26412e9e73f4b","fromNode":"4046e909245ca7f5","fromSide":"right","toNode":"51d99c1e5db7bdec","toSide":"left"},
+		{"id":"3d1a78205c02122c","fromNode":"fbcd76fbf0de83b6","fromSide":"right","toNode":"195d5ecbdf52fa4f","toSide":"left"},
+		{"id":"bcc09187c8d5a28b","fromNode":"2b3e2a9de5341be5","fromSide":"right","toNode":"aad2de8f4147c252","toSide":"left"},
+		{"id":"c2b3eacf8381f830","fromNode":"aad2de8f4147c252","fromSide":"right","toNode":"8a668188338024dc","toSide":"left"},
+		{"id":"3f418c5a495b7213","fromNode":"aad2de8f4147c252","fromSide":"right","toNode":"a8e33c75cc109a2b","toSide":"left"}
 	]
 }
