@@ -130,8 +130,11 @@
 		{"id":"71d03bc273a5c69b","type":"text","text":"[[定点数的移位运算]]","x":1613,"y":-816,"width":250,"height":60,"color":"6"},
 		{"id":"8fb1d378d837c868","type":"text","text":"[[定点数的加减运算]]","x":1613,"y":-720,"width":250,"height":60},
 		{"id":"0962226b9298b0b2","type":"text","text":"[[无符号数的加减运算]]","x":1613,"y":-615,"width":250,"height":60,"color":"6"},
-		{"id":"59986731e0db6d14","type":"text","text":"[[IEEE 754标准的格式]]","x":1542,"y":-439,"width":250,"height":60},
-		{"id":"d3a5bf6f50726bc8","type":"text","text":"### 浮点数的加减运算","x":1542,"y":-200,"width":250,"height":60}
+		{"id":"59986731e0db6d14","type":"text","text":"### [[IEEE 754标准的格式]]","x":1542,"y":-439,"width":250,"height":60},
+		{"id":"d3a5bf6f50726bc8","type":"text","text":"### [[浮点数的加减运算]]","x":1542,"y":-200,"width":250,"height":60},
+		{"id":"7bc10eb34c2916e4","type":"text","text":"### [[IEEE 754浮点数的表示范围]]","x":1542,"y":-320,"width":250,"height":60},
+		{"id":"9c84ff6a47d87392","x":1912,"y":-260,"width":250,"height":60,"color":"6","type":"text","text":"[[浮点数加减运算的舍入问题]]"},
+		{"id":"0b074d9a5d4199ee","x":1912,"y":-160,"width":250,"height":60,"color":"6","type":"text","text":"[[浮点数加减运算的溢出问题]]"}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -267,6 +270,9 @@
 		{"id":"ca09bf4528dd50a5","fromNode":"a019be283afd505b","fromSide":"right","toNode":"8fb1d378d837c868","toSide":"left"},
 		{"id":"c71bcdff6951f330","fromNode":"a019be283afd505b","fromSide":"right","toNode":"0962226b9298b0b2","toSide":"left"},
 		{"id":"7930591482abb7b4","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"d3a5bf6f50726bc8","toSide":"left"},
-		{"id":"2afdc517b52ab315","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"59986731e0db6d14","toSide":"left"}
+		{"id":"2afdc517b52ab315","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"59986731e0db6d14","toSide":"left"},
+		{"id":"cb6458e6afaad11e","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"7bc10eb34c2916e4","toSide":"left"},
+		{"id":"18d6dc577d838323","fromNode":"d3a5bf6f50726bc8","fromSide":"right","toNode":"9c84ff6a47d87392","toSide":"left"},
+		{"id":"a8bc7aa9005aa9d9","fromNode":"d3a5bf6f50726bc8","fromSide":"right","toNode":"0b074d9a5d4199ee","toSide":"left"}
 	]
 }
