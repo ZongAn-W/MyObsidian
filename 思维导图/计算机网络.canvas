@@ -26,7 +26,8 @@
 		{"id":"fbcd76fbf0de83b6","type":"text","text":"## 传输层提供的服务","x":600,"y":-1242,"width":250,"height":60},
 		{"id":"aad2de8f4147c252","type":"text","text":"## [[UDP]]","x":600,"y":-940,"width":250,"height":60},
 		{"id":"8a668188338024dc","type":"text","text":"[[UDP数据报]]","x":986,"y":-1015,"width":250,"height":60},
-		{"id":"a8e33c75cc109a2b","x":998,"y":-920,"width":250,"height":60,"type":"text","text":"[[UDP校验]]"}
+		{"id":"a8e33c75cc109a2b","type":"text","text":"[[UDP校验]]","x":986,"y":-920,"width":250,"height":60},
+		{"id":"9d98ef87e784f645","x":600,"y":-770,"width":250,"height":60,"type":"text","text":"## [[TCP]]"}
 	],
 	"edges":[
 		{"id":"b59128a116252341","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"37c8a9376740f00e","toSide":"left"},
@@ -54,6 +55,7 @@
 		{"id":"3d1a78205c02122c","fromNode":"fbcd76fbf0de83b6","fromSide":"right","toNode":"195d5ecbdf52fa4f","toSide":"left"},
 		{"id":"bcc09187c8d5a28b","fromNode":"2b3e2a9de5341be5","fromSide":"right","toNode":"aad2de8f4147c252","toSide":"left"},
 		{"id":"c2b3eacf8381f830","fromNode":"aad2de8f4147c252","fromSide":"right","toNode":"8a668188338024dc","toSide":"left"},
-		{"id":"3f418c5a495b7213","fromNode":"aad2de8f4147c252","fromSide":"right","toNode":"a8e33c75cc109a2b","toSide":"left"}
+		{"id":"3f418c5a495b7213","fromNode":"aad2de8f4147c252","fromSide":"right","toNode":"a8e33c75cc109a2b","toSide":"left"},
+		{"id":"1493d6be74d45bbd","fromNode":"2b3e2a9de5341be5","fromSide":"right","toNode":"9d98ef87e784f645","toSide":"left"}
 	]
 }
