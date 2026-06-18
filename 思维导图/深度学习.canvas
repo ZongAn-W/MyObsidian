@@ -2,13 +2,15 @@
 	"nodes":[
 		{"id":"2e65846eb8fabd63","type":"text","text":"# [[D-Linear]]","x":-335,"y":-28,"width":250,"height":60},
 		{"id":"bb7eeb7019c433b0","type":"text","text":"# [[Max-Ent]]","x":-335,"y":200,"width":250,"height":60},
-		{"id":"680ee80cdd0aeb9a","type":"text","text":"将臭氧经过条件最大熵，做出臭氧的条件适宜分布图后，再将条件适宜分布图送入Predrnnpp模型（无解码器，直接卷积）来预测火星臭氧，精度无提升","x":38,"y":155,"width":278,"height":150},
-		{"id":"37bd7d1df9d2cdb9","type":"file","file":"深度学习/D-Linear.pdf","x":316,"y":-640,"width":824,"height":480},
-		{"id":"85678cd9bdbf0d03","type":"text","text":"将Dlinear后的两个线性分支替换成Predrnnpp模型（不带解码器，直接卷积出结果）来预测火星臭氧，精度提升及其有限","x":385,"y":-41,"width":262,"height":147}
+		{"id":"37bd7d1df9d2cdb9","type":"file","file":"深度学习/D-Linear.pdf","x":316,"y":-640,"width":484,"height":440},
+		{"id":"e70262e896416365","type":"file","file":"深度学习/maxent_icml.pdf","x":528,"y":480,"width":400,"height":400},
+		{"id":"85678cd9bdbf0d03","type":"text","text":"将Dlinear后的两个线性分支替换成Predrnnpp模型（不带解码器，直接卷积出结果）来预测火星臭氧，精度提升及其有限","x":360,"y":-71,"width":262,"height":147},
+		{"id":"680ee80cdd0aeb9a","type":"text","text":"将臭氧经过条件最大熵，做出臭氧的条件适宜分布图后，再将条件适宜分布图送入Predrnnpp模型（无解码器，直接卷积）来预测火星臭氧，精度无提升","x":389,"y":155,"width":278,"height":150}
 	],
 	"edges":[
 		{"id":"baa0cdeda5f50cfe","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"85678cd9bdbf0d03","toSide":"left"},
 		{"id":"1f8433cf772e9bd1","fromNode":"bb7eeb7019c433b0","fromSide":"right","toNode":"680ee80cdd0aeb9a","toSide":"left"},
-		{"id":"c306c62e872de5af","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"37bd7d1df9d2cdb9","toSide":"left"}
+		{"id":"c306c62e872de5af","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"37bd7d1df9d2cdb9","toSide":"left"},
+		{"id":"f467883581e23e60","fromNode":"bb7eeb7019c433b0","fromSide":"right","toNode":"e70262e896416365","toSide":"left"}
 	]
 }

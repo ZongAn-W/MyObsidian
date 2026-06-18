@@ -1,4 +1,4 @@
-# MaxEnt 模型
+# MaxEnt 模型[[maxent_icml.pdf]]
 
 这里的 MaxEnt 通常指生态学和物种分布建模中常用的 **Maximum Entropy Model**，也就是 **最大熵模型**。
 

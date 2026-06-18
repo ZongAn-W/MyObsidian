@@ -1,4 +1,4 @@
-# DLinear 模型
+# DLinear 模型[[D-Linear.pdf]]
 
 DLinear 是一种用于**时间序列预测**的模型。
 
