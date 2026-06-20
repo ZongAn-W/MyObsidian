@@ -141,14 +141,22 @@
 		{"id":"82c78fdb36c69eb9","type":"text","text":"## [[链路层的流量控制方式]]","x":742,"y":-3506,"width":250,"height":60},
 		{"id":"896712d26945b4ae","type":"text","text":"## [[链路层的可靠传输机制]]","x":734,"y":-3337,"width":250,"height":60},
 		{"id":"1fcef66bcd505889","type":"text","text":"## [[链路层的滑动窗口机制]]","x":739,"y":-3173,"width":250,"height":60},
-		{"id":"33e15f9344fc6a0a","type":"text","text":"## [[介质访问控制]]","x":739,"y":-2840,"width":250,"height":60},
 		{"id":"283d035043e20bbd","type":"text","text":"### [[信道划分介质访问控制]]","x":1193,"y":-2920,"width":250,"height":60},
 		{"id":"ee528b8df7cbbae0","type":"text","text":"[[波分复用WDM]]","x":1560,"y":-2885,"width":250,"height":60},
 		{"id":"f1a37a966b02aeb6","type":"text","text":"[[码分复用CDM]]","x":1560,"y":-2806,"width":250,"height":60,"color":"1"},
 		{"id":"4c38177d48914706","type":"text","text":"[[频分多路复用FDM]]","x":1560,"y":-2960,"width":250,"height":60},
 		{"id":"8a9d8f69f9247842","type":"text","text":"[[时分多路复用TDM]]","x":1560,"y":-3040,"width":250,"height":60},
-		{"id":"8d3da33ecdd023bc","type":"text","text":"### [[随机访问介质访问控制]]","x":1198,"y":-2660,"width":250,"height":60},
-		{"id":"ca5637e102f9d995","x":1579,"y":-2699,"width":250,"height":60,"type":"text","text":""}
+		{"id":"ca5637e102f9d995","type":"text","text":"[[ALOHA]]","x":1560,"y":-2700,"width":250,"height":60},
+		{"id":"8e6f56cb2227f591","type":"text","text":"[[CSMA协议]]","x":1564,"y":-2630,"width":250,"height":60},
+		{"id":"01a396d8f6ab14fe","type":"text","text":"[[CSMA-CD协议]]","x":1564,"y":-2540,"width":250,"height":60},
+		{"id":"eb839a0b74c80f76","type":"text","text":"[[CSMA-CA协议]]","x":1566,"y":-2453,"width":250,"height":60},
+		{"id":"8d3da33ecdd023bc","type":"text","text":"### [[随机访问介质访问控制]]","x":1198,"y":-2570,"width":250,"height":60},
+		{"id":"3a4ed8bbf0280fd1","type":"text","text":"### [[轮询访问]]","x":1198,"y":-2420,"width":250,"height":60},
+		{"id":"33e15f9344fc6a0a","type":"text","text":"## [[介质访问控制]]","x":739,"y":-2680,"width":250,"height":60},
+		{"id":"08299012085e9bfe","type":"text","text":"## [[局域网]]","x":724,"y":-2205,"width":250,"height":60},
+		{"id":"c9174af99cf7f81b","x":1157,"y":-2264,"width":250,"height":60,"type":"text","text":"### [[以太网]]"},
+		{"id":"401441cdb280bcb5","x":1185,"y":-2089,"width":250,"height":60,"type":"text","text":"### [[以太网的MAC层]]"},
+		{"id":"5a15247d02b2cd49","x":1531,"y":-2167,"width":250,"height":60,"type":"text","text":"[[以太网的MAC地址]]"}
 	],
 	"edges":[
 		{"id":"b59128a116252341","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"37c8a9376740f00e","toSide":"left"},
@@ -299,6 +307,14 @@
 		{"id":"f3642a997f84f83c","fromNode":"283d035043e20bbd","fromSide":"right","toNode":"8a9d8f69f9247842","toSide":"left"},
 		{"id":"ebe06c60de7016dc","fromNode":"283d035043e20bbd","fromSide":"right","toNode":"ee528b8df7cbbae0","toSide":"left"},
 		{"id":"3efbe830b9203db8","fromNode":"283d035043e20bbd","fromSide":"right","toNode":"f1a37a966b02aeb6","toSide":"left"},
-		{"id":"bc7085cff8eb7201","fromNode":"8d3da33ecdd023bc","fromSide":"right","toNode":"ca5637e102f9d995","toSide":"left"}
+		{"id":"bc7085cff8eb7201","fromNode":"8d3da33ecdd023bc","fromSide":"right","toNode":"ca5637e102f9d995","toSide":"left"},
+		{"id":"0658b6cb3ab9e779","fromNode":"8d3da33ecdd023bc","fromSide":"right","toNode":"8e6f56cb2227f591","toSide":"left"},
+		{"id":"c45d8008573008bc","fromNode":"8d3da33ecdd023bc","fromSide":"right","toNode":"01a396d8f6ab14fe","toSide":"left"},
+		{"id":"c02d1a309440db9d","fromNode":"8d3da33ecdd023bc","fromSide":"right","toNode":"eb839a0b74c80f76","toSide":"left"},
+		{"id":"dd527f8774a45917","fromNode":"33e15f9344fc6a0a","fromSide":"right","toNode":"3a4ed8bbf0280fd1","toSide":"left"},
+		{"id":"9615cdddf1db940e","fromNode":"71de22b35d3c4315","fromSide":"right","toNode":"08299012085e9bfe","toSide":"left"},
+		{"id":"38f9a11b9e81ebfa","fromNode":"08299012085e9bfe","fromSide":"right","toNode":"c9174af99cf7f81b","toSide":"left"},
+		{"id":"d1830b8e10e903ed","fromNode":"08299012085e9bfe","fromSide":"right","toNode":"401441cdb280bcb5","toSide":"left"},
+		{"id":"6019955a78a8a53f","fromNode":"401441cdb280bcb5","fromSide":"right","toNode":"5a15247d02b2cd49","toSide":"left"}
 	]
 }
