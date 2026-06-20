@@ -1,15 +1,15 @@
 {
 	"nodes":[
+		{"id":"97b8edb2c3d4ae3a","x":-880,"y":904,"width":570,"height":360,"type":"group","label":"baseline"},
 		{"id":"093904bbfca3c102","type":"group","x":-9,"y":1264,"width":614,"height":277,"label":"IDEA"},
 		{"id":"2e65846eb8fabd63","type":"text","text":"# [[D-Linear]]","x":-335,"y":-28,"width":250,"height":60},
 		{"id":"bb7eeb7019c433b0","type":"text","text":"# [[Max-Ent]]","x":-335,"y":200,"width":250,"height":60},
 		{"id":"ac831a565122c3eb","type":"text","text":"# [[SimVP]]","x":-335,"y":480,"width":250,"height":60},
-		{"id":"c79ff37bd41bf655","type":"file","file":"论文/Gao_SimVP_Simpler_Yet_Better_Video_Prediction_CVPR_2022_paper.pdf","x":1000,"y":364,"width":302,"height":293},
 		{"id":"85678cd9bdbf0d03","type":"text","text":"将Dlinear后的两个线性分支替换成Predrnnpp模型（不带解码器，直接卷积出结果）来预测火星臭氧，精度提升及其有限","x":405,"y":-220,"width":262,"height":147},
 		{"id":"680ee80cdd0aeb9a","type":"text","text":"将臭氧经过条件最大熵，做出臭氧的条件适宜分布图后，再将条件适宜分布图送入Predrnnpp模型（无解码器，直接卷积）来预测火星臭氧，精度无提升","x":397,"y":32,"width":278,"height":150},
 		{"id":"e70262e896416365","type":"file","file":"论文/maxent_icml.pdf","x":1400,"y":32,"width":360,"height":332},
-		{"id":"8be0d3a533d216c9","type":"text","text":"SimVP+SPHERE RMSE 0.9367(0.0148)","x":-400,"y":797,"width":250,"height":60},
 		{"id":"37bd7d1df9d2cdb9","type":"file","file":"论文/D-Linear.pdf","x":1880,"y":-160,"width":340,"height":318},
+		{"id":"c79ff37bd41bf655","type":"file","file":"论文/Gao_SimVP_Simpler_Yet_Better_Video_Prediction_CVPR_2022_paper.pdf","x":1000,"y":364,"width":302,"height":293},
 		{"id":"0cba4ff4c12dc329","type":"text","text":"做了RNN-CNN-RNN变体和CNN-RNN-CNN-RNN-CNN变体，后者表现优于前者，略逊色于SimVP优于LSTM一族","x":120,"y":640,"width":320,"height":120,"color":"1"},
 		{"id":"a3ad2318d76240f2","type":"text","text":"SimVP把TemporalTranslator替换成3D卷积核RMSE1.0784 还是稍逊于simvp","x":120,"y":827,"width":277,"height":93,"color":"1"},
 		{"id":"d3e15dc148694746","type":"text","text":"CRCRC-RMSE1.2279","x":545,"y":620,"width":250,"height":60},
@@ -21,10 +21,12 @@
 		{"id":"b26c2004c8b44fac","type":"text","text":"seed11 RMSE0.9278","x":335,"y":1285,"width":250,"height":60},
 		{"id":"3b8c42ca526bedb4","type":"text","text":"再加上SPHERE","x":17,"y":1461,"width":250,"height":60},
 		{"id":"5ea537f27865c118","type":"text","text":"seed11 RMSE 0.8854","x":335,"y":1461,"width":250,"height":60},
-		{"id":"6e553c2c1d7da387","x":129,"y":1660,"width":250,"height":69,"color":"1","type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016"},
-		{"id":"33d776fba813566e","x":480,"y":1618,"width":265,"height":182,"color":"1","type":"text","text":"LSTM去掉解码器，直接拿三个时间步最后一层的隐藏层接入MST，然后拿一个CNN预测头出结果，该方式是目前不加入SPHERE表现最好的，但是SPHERE对该模型无提升"},
-		{"id":"6266c7773639bff4","type":"text","text":"RMSE 0.9526(0.0131)","x":-680,"y":680,"width":250,"height":60,"color":"1"},
-		{"id":"54dca9c071def954","x":-670,"y":928,"width":250,"height":72,"color":"1","type":"text","text":"# BASELINE"}
+		{"id":"6e553c2c1d7da387","type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016","x":129,"y":1660,"width":250,"height":69,"color":"1"},
+		{"id":"33d776fba813566e","type":"text","text":"LSTM去掉解码器，直接拿三个时间步最后一层的隐藏层接入MST，然后拿一个CNN预测头出结果，该方式是目前不加入SPHERE表现最好的，但是SPHERE对该模型无提升","x":480,"y":1618,"width":265,"height":182,"color":"1"},
+		{"id":"5daad0928e61330f","x":878,"y":1333,"width":322,"height":70,"type":"text","text":"分解成季节背景场和动力异常残差，Convlstm_CARefiner  RMSE0.9463"},
+		{"id":"8be0d3a533d216c9","type":"text","text":"SimVP+SPHERE RMSE 0.9367(0.0148)","x":-585,"y":1037,"width":250,"height":60},
+		{"id":"6266c7773639bff4","type":"text","text":"RMSE 0.9526(0.0131)","x":-865,"y":920,"width":250,"height":60,"color":"1"},
+		{"id":"54dca9c071def954","type":"text","text":"# BASELINE","x":-855,"y":1168,"width":250,"height":72,"color":"1"}
 	],
 	"edges":[
 		{"id":"baa0cdeda5f50cfe","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"85678cd9bdbf0d03","toSide":"left"},
@@ -47,6 +49,7 @@
 		{"id":"c275e9db72fba825","fromNode":"3b8c42ca526bedb4","fromSide":"right","toNode":"5ea537f27865c118","toSide":"left"},
 		{"id":"5f26cd2b6c496e9a","fromNode":"093904bbfca3c102","fromSide":"bottom","toNode":"6e553c2c1d7da387","toSide":"top"},
 		{"id":"465e9a77d9b43d5d","fromNode":"6e553c2c1d7da387","fromSide":"right","toNode":"33d776fba813566e","toSide":"left"},
-		{"id":"6b7ab699333400a5","fromNode":"6266c7773639bff4","fromSide":"bottom","toNode":"54dca9c071def954","toSide":"top"}
+		{"id":"6b7ab699333400a5","fromNode":"6266c7773639bff4","fromSide":"bottom","toNode":"54dca9c071def954","toSide":"top"},
+		{"id":"a67681f01ccd665f","fromNode":"093904bbfca3c102","fromSide":"right","toNode":"5daad0928e61330f","toSide":"left"}
 	]
 }
