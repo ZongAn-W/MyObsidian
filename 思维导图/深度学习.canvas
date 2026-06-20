@@ -22,7 +22,7 @@
 		{"id":"b26c2004c8b44fac","type":"text","text":"seed11 RMSE0.9278","x":335,"y":1285,"width":250,"height":60},
 		{"id":"3b8c42ca526bedb4","type":"text","text":"再加上SPHERE","x":17,"y":1461,"width":250,"height":60},
 		{"id":"5ea537f27865c118","type":"text","text":"seed11 RMSE 0.8854","x":335,"y":1461,"width":250,"height":60},
-		{"id":"6e553c2c1d7da387","x":129,"y":1660,"width":250,"height":69,"type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016"}
+		{"id":"6e553c2c1d7da387","type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016","x":129,"y":1660,"width":250,"height":69}
 	],
 	"edges":[
 		{"id":"baa0cdeda5f50cfe","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"85678cd9bdbf0d03","toSide":"left"},
