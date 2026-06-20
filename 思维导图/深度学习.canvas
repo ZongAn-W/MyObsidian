@@ -8,7 +8,6 @@
 		{"id":"85678cd9bdbf0d03","type":"text","text":"将Dlinear后的两个线性分支替换成Predrnnpp模型（不带解码器，直接卷积出结果）来预测火星臭氧，精度提升及其有限","x":405,"y":-220,"width":262,"height":147},
 		{"id":"680ee80cdd0aeb9a","type":"text","text":"将臭氧经过条件最大熵，做出臭氧的条件适宜分布图后，再将条件适宜分布图送入Predrnnpp模型（无解码器，直接卷积）来预测火星臭氧，精度无提升","x":397,"y":32,"width":278,"height":150},
 		{"id":"e70262e896416365","type":"file","file":"论文/maxent_icml.pdf","x":1400,"y":32,"width":360,"height":332},
-		{"id":"6266c7773639bff4","type":"text","text":"RMSE 0.9526(0.0131)","x":-479,"y":700,"width":250,"height":60},
 		{"id":"8be0d3a533d216c9","type":"text","text":"SimVP+SPHERE RMSE 0.9367(0.0148)","x":-400,"y":797,"width":250,"height":60},
 		{"id":"37bd7d1df9d2cdb9","type":"file","file":"论文/D-Linear.pdf","x":1880,"y":-160,"width":340,"height":318},
 		{"id":"0cba4ff4c12dc329","type":"text","text":"做了RNN-CNN-RNN变体和CNN-RNN-CNN-RNN-CNN变体，后者表现优于前者，略逊色于SimVP优于LSTM一族","x":120,"y":640,"width":320,"height":120,"color":"1"},
@@ -22,7 +21,10 @@
 		{"id":"b26c2004c8b44fac","type":"text","text":"seed11 RMSE0.9278","x":335,"y":1285,"width":250,"height":60},
 		{"id":"3b8c42ca526bedb4","type":"text","text":"再加上SPHERE","x":17,"y":1461,"width":250,"height":60},
 		{"id":"5ea537f27865c118","type":"text","text":"seed11 RMSE 0.8854","x":335,"y":1461,"width":250,"height":60},
-		{"id":"6e553c2c1d7da387","x":129,"y":1660,"width":250,"height":69,"type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016"}
+		{"id":"6e553c2c1d7da387","x":129,"y":1660,"width":250,"height":69,"color":"1","type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016"},
+		{"id":"33d776fba813566e","x":480,"y":1618,"width":265,"height":182,"color":"1","type":"text","text":"LSTM去掉解码器，直接拿三个时间步最后一层的隐藏层接入MST，然后拿一个CNN预测头出结果，该方式是目前不加入SPHERE表现最好的，但是SPHERE对该模型无提升"},
+		{"id":"6266c7773639bff4","type":"text","text":"RMSE 0.9526(0.0131)","x":-680,"y":680,"width":250,"height":60,"color":"1"},
+		{"id":"54dca9c071def954","x":-670,"y":928,"width":250,"height":72,"color":"1","type":"text","text":"# BASELINE"}
 	],
 	"edges":[
 		{"id":"baa0cdeda5f50cfe","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"85678cd9bdbf0d03","toSide":"left"},
@@ -43,6 +45,8 @@
 		{"id":"a858a5d0f8d36b40","fromNode":"ae701a779e645b02","fromSide":"right","toNode":"b26c2004c8b44fac","toSide":"left"},
 		{"id":"b2fe43eedf7b7f49","fromNode":"ae701a779e645b02","fromSide":"bottom","toNode":"3b8c42ca526bedb4","toSide":"top"},
 		{"id":"c275e9db72fba825","fromNode":"3b8c42ca526bedb4","fromSide":"right","toNode":"5ea537f27865c118","toSide":"left"},
-		{"id":"5f26cd2b6c496e9a","fromNode":"093904bbfca3c102","fromSide":"bottom","toNode":"6e553c2c1d7da387","toSide":"top"}
+		{"id":"5f26cd2b6c496e9a","fromNode":"093904bbfca3c102","fromSide":"bottom","toNode":"6e553c2c1d7da387","toSide":"top"},
+		{"id":"465e9a77d9b43d5d","fromNode":"6e553c2c1d7da387","fromSide":"right","toNode":"33d776fba813566e","toSide":"left"},
+		{"id":"6b7ab699333400a5","fromNode":"6266c7773639bff4","fromSide":"bottom","toNode":"54dca9c071def954","toSide":"top"}
 	]
 }
