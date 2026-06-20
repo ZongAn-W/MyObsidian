@@ -10,6 +10,7 @@
 		{"id":"e70262e896416365","type":"file","file":"论文/maxent_icml.pdf","x":1400,"y":32,"width":360,"height":332},
 		{"id":"6266c7773639bff4","type":"text","text":"RMSE 0.9526(0.0131)","x":-479,"y":700,"width":250,"height":60},
 		{"id":"8be0d3a533d216c9","type":"text","text":"SimVP+SPHERE RMSE 0.9367(0.0148)","x":-400,"y":797,"width":250,"height":60},
+		{"id":"37bd7d1df9d2cdb9","type":"file","file":"论文/D-Linear.pdf","x":1880,"y":-160,"width":340,"height":318},
 		{"id":"0cba4ff4c12dc329","type":"text","text":"做了RNN-CNN-RNN变体和CNN-RNN-CNN-RNN-CNN变体，后者表现优于前者，略逊色于SimVP优于LSTM一族","x":120,"y":640,"width":320,"height":120,"color":"1"},
 		{"id":"a3ad2318d76240f2","type":"text","text":"SimVP把TemporalTranslator替换成3D卷积核RMSE1.0784 还是稍逊于simvp","x":120,"y":827,"width":277,"height":93,"color":"1"},
 		{"id":"d3e15dc148694746","type":"text","text":"CRCRC-RMSE1.2279","x":545,"y":620,"width":250,"height":60},
@@ -21,7 +22,7 @@
 		{"id":"b26c2004c8b44fac","type":"text","text":"seed11 RMSE0.9278","x":335,"y":1285,"width":250,"height":60},
 		{"id":"3b8c42ca526bedb4","type":"text","text":"再加上SPHERE","x":17,"y":1461,"width":250,"height":60},
 		{"id":"5ea537f27865c118","type":"text","text":"seed11 RMSE 0.8854","x":335,"y":1461,"width":250,"height":60},
-		{"id":"37bd7d1df9d2cdb9","type":"file","file":"论文/D-Linear.pdf","x":1880,"y":-160,"width":340,"height":318}
+		{"id":"6e553c2c1d7da387","x":129,"y":1660,"width":250,"height":69,"type":"text","text":"ConvLSTM_MSTRefiner_Raw_seed11 RMSE: 0.9016"}
 	],
 	"edges":[
 		{"id":"baa0cdeda5f50cfe","fromNode":"2e65846eb8fabd63","fromSide":"right","toNode":"85678cd9bdbf0d03","toSide":"left"},
@@ -41,6 +42,7 @@
 		{"id":"0ba9e4c1a2c9cb3d","fromNode":"ac831a565122c3eb","fromSide":"bottom","toNode":"ae701a779e645b02","toSide":"top"},
 		{"id":"a858a5d0f8d36b40","fromNode":"ae701a779e645b02","fromSide":"right","toNode":"b26c2004c8b44fac","toSide":"left"},
 		{"id":"b2fe43eedf7b7f49","fromNode":"ae701a779e645b02","fromSide":"bottom","toNode":"3b8c42ca526bedb4","toSide":"top"},
-		{"id":"c275e9db72fba825","fromNode":"3b8c42ca526bedb4","fromSide":"right","toNode":"5ea537f27865c118","toSide":"left"}
+		{"id":"c275e9db72fba825","fromNode":"3b8c42ca526bedb4","fromSide":"right","toNode":"5ea537f27865c118","toSide":"left"},
+		{"id":"5f26cd2b6c496e9a","fromNode":"093904bbfca3c102","fromSide":"bottom","toNode":"6e553c2c1d7da387","toSide":"top"}
 	]
 }
