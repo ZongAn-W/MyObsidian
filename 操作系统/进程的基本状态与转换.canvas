@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"1fbd42e09222e4ab","type":"text","text":"# 新建","x":-100,"y":-140,"width":100,"height":50},
+		{"id":"296d4729aad9b034","type":"text","text":"# 就绪","x":-98,"y":69,"width":98,"height":51},
+		{"id":"917415443f756698","type":"text","text":"# 阻塞","x":-100,"y":280,"width":100,"height":50},
+		{"id":"68d3be90c2d94f74","type":"text","text":"# 挂起阻塞","x":-520,"y":280,"width":154,"height":50},
+		{"id":"02458593d16ec945","type":"text","text":"# 挂起就绪","x":-526,"y":70,"width":166,"height":50},
+		{"id":"9ca983be013e25c0","x":180,"y":70,"width":105,"height":50,"type":"text","text":"# 运行"},
+		{"id":"9df0fc9eb472a2e0","x":425,"y":70,"width":115,"height":50,"type":"text","text":"# 结束"}
+	],
+	"edges":[
+		{"id":"94b22bfbf33c8abb","fromNode":"1fbd42e09222e4ab","fromSide":"bottom","toNode":"296d4729aad9b034","toSide":"top","label":"加载"},
+		{"id":"abff8609c50ec55c","fromNode":"917415443f756698","fromSide":"top","toNode":"296d4729aad9b034","toSide":"bottom","label":"事件发生"},
+		{"id":"28d32a88e58d3d2e","fromNode":"917415443f756698","fromSide":"left","toNode":"68d3be90c2d94f74","toSide":"right"},
+		{"id":"29da324d3e7b94ab","fromNode":"68d3be90c2d94f74","fromSide":"right","toNode":"917415443f756698","toSide":"left","label":"换入/换出"},
+		{"id":"91c6c7857e9aa54b","fromNode":"68d3be90c2d94f74","fromSide":"top","toNode":"02458593d16ec945","toSide":"bottom","label":"事件发生"},
+		{"id":"68ed7ad05dadfd96","fromNode":"02458593d16ec945","fromSide":"right","toNode":"296d4729aad9b034","toSide":"left"},
+		{"id":"cd8f5474a979ec96","fromNode":"296d4729aad9b034","fromSide":"left","toNode":"02458593d16ec945","toSide":"right","label":"换入/换出"},
+		{"id":"0037fb30d1e5a86e","fromNode":"1fbd42e09222e4ab","fromSide":"left","toNode":"02458593d16ec945","toSide":"top","label":"加载"},
+		{"id":"242214f079bb6bb6","fromNode":"296d4729aad9b034","fromSide":"right","toNode":"9ca983be013e25c0","toSide":"left"},
+		{"id":"b8fc5abc904d6d03","fromNode":"9ca983be013e25c0","fromSide":"left","toNode":"296d4729aad9b034","toSide":"right","label":"调度/超时"},
+		{"id":"1b627d37cae8a155","fromNode":"9ca983be013e25c0","fromSide":"bottom","toNode":"917415443f756698","toSide":"right","label":"等待事件"},
+		{"id":"10ae8a6c12eadc2e","fromNode":"9ca983be013e25c0","fromSide":"right","toNode":"9df0fc9eb472a2e0","toSide":"left","label":"释放"}
+	]
+}
