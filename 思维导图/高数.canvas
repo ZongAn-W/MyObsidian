@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"8c95eb5070659d56","type":"text","text":"# 高等数学","x":-320,"y":-100,"width":250,"height":60},
+		{"id":"ae71b5d321b593ca","type":"text","text":"# 函数及其特性","x":-4,"y":-344,"width":250,"height":60},
+		{"id":"12385deb6963680c","type":"text","text":"## [[复合函数]]","x":372,"y":-338,"width":250,"height":60},
+		{"id":"340533432f2c0971","type":"text","text":"## [[函数的定义]]","x":372,"y":-440,"width":250,"height":60},
+		{"id":"fa0f8bd66c7c16d2","type":"text","text":"## 函数的性质","x":424,"y":-234,"width":250,"height":60},
+		{"id":"5605c5827f99e349","type":"text","text":"### [[有界性]]","x":736,"y":-324,"width":250,"height":60},
+		{"id":"cf6fc8a5ef62d5da","x":-196,"y":-688,"width":250,"height":60,"type":"text","text":"# [[三角函数公式]]"}
+	],
+	"edges":[
+		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
+		{"id":"facf00de00a8c3ce","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"340533432f2c0971","toSide":"left"},
+		{"id":"8ea546a0480bb28a","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"12385deb6963680c","toSide":"left"},
+		{"id":"32019f621a816827","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"fa0f8bd66c7c16d2","toSide":"left"},
+		{"id":"977ea262a8281e04","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"5605c5827f99e349","toSide":"left"}
+	]
+}
