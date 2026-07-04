@@ -5,14 +5,28 @@
 		{"id":"12385deb6963680c","type":"text","text":"## [[复合函数]]","x":372,"y":-338,"width":250,"height":60},
 		{"id":"340533432f2c0971","type":"text","text":"## [[函数的定义]]","x":372,"y":-440,"width":250,"height":60},
 		{"id":"fa0f8bd66c7c16d2","type":"text","text":"## 函数的性质","x":424,"y":-234,"width":250,"height":60},
-		{"id":"5605c5827f99e349","type":"text","text":"### [[有界性]]","x":736,"y":-324,"width":250,"height":60},
-		{"id":"cf6fc8a5ef62d5da","x":-196,"y":-688,"width":250,"height":60,"type":"text","text":"# [[三角函数公式]]"}
+		{"id":"cf6fc8a5ef62d5da","type":"text","text":"# [[三角函数公式]]","x":-196,"y":-688,"width":250,"height":60},
+		{"id":"5605c5827f99e349","type":"text","text":"### [[有界性]]","x":787,"y":-321,"width":250,"height":60},
+		{"id":"88bcb82766619246","type":"text","text":"## [[单调性]]","x":787,"y":-234,"width":250,"height":60},
+		{"id":"56eaa6697d55697e","type":"text","text":"## [[奇偶性]]","x":787,"y":-138,"width":250,"height":60},
+		{"id":"d5b597b253be02d5","type":"text","text":"## [[周期性]]","x":792,"y":-52,"width":250,"height":60},
+		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":40,"y":320,"width":250,"height":60},
+		{"id":"79c6ff9af89f28f2","type":"text","text":"## 极限的定义与性质","x":448,"y":195,"width":250,"height":60},
+		{"id":"c3d3fa8134cee69a","type":"text","text":"### [[数列极限的定义]]","x":866,"y":138,"width":250,"height":60},
+		{"id":"4a0782239d630a54","x":879,"y":243,"width":250,"height":60,"type":"text","text":"### [[函数的极限]]"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
 		{"id":"facf00de00a8c3ce","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"340533432f2c0971","toSide":"left"},
 		{"id":"8ea546a0480bb28a","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"12385deb6963680c","toSide":"left"},
 		{"id":"32019f621a816827","fromNode":"ae71b5d321b593ca","fromSide":"right","toNode":"fa0f8bd66c7c16d2","toSide":"left"},
-		{"id":"977ea262a8281e04","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"5605c5827f99e349","toSide":"left"}
+		{"id":"977ea262a8281e04","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"5605c5827f99e349","toSide":"left"},
+		{"id":"fb17777c32ac8527","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"88bcb82766619246","toSide":"left"},
+		{"id":"dddcfbc637c5b062","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"56eaa6697d55697e","toSide":"left"},
+		{"id":"e26b483fdeb6d402","fromNode":"fa0f8bd66c7c16d2","fromSide":"right","toNode":"d5b597b253be02d5","toSide":"left"},
+		{"id":"5c90ab641d689e5d","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"3b8ddb8bc41dfd1d","toSide":"left"},
+		{"id":"80435c6f0c7bac2a","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"79c6ff9af89f28f2","toSide":"left"},
+		{"id":"0af846ed95b709b0","fromNode":"79c6ff9af89f28f2","fromSide":"right","toNode":"c3d3fa8134cee69a","toSide":"left"},
+		{"id":"c7639f8fef5eba43","fromNode":"79c6ff9af89f28f2","fromSide":"right","toNode":"4a0782239d630a54","toSide":"left"}
 	]
 }
