@@ -17,7 +17,9 @@
 		{"id":"88bcb82766619246","type":"text","text":"## [[单调性]]","x":820,"y":-273,"width":250,"height":60},
 		{"id":"a85e2892392af2e5","type":"text","text":"## 无穷小、无穷大、及其阶","x":441,"y":415,"width":250,"height":60},
 		{"id":"13814b1520ebbd64","type":"text","text":"## [[无穷小]]","x":840,"y":402,"width":250,"height":60},
-		{"id":"01e01c254e092dd1","x":842,"y":484,"width":250,"height":60,"type":"text","text":"## [[无穷大]]"}
+		{"id":"01e01c254e092dd1","type":"text","text":"## [[无穷大]]","x":842,"y":484,"width":250,"height":60},
+		{"id":"9bf2e20087175482","x":430,"y":590,"width":250,"height":60,"type":"text","text":"## 函数极限的计算"},
+		{"id":"1e5834fc7088fbc5","x":821,"y":550,"width":250,"height":60,"type":"text","text":"## [[函数极限计算的原则]]"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -35,6 +37,8 @@
 		{"id":"0d96f3888945432e","fromNode":"79c6ff9af89f28f2","fromSide":"right","toNode":"4f578312a1dfc845","toSide":"left"},
 		{"id":"993aa470919aa5ec","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"a85e2892392af2e5","toSide":"left"},
 		{"id":"dda4fb07d2ad88a7","fromNode":"a85e2892392af2e5","fromSide":"right","toNode":"13814b1520ebbd64","toSide":"left"},
-		{"id":"3487f5deba86515e","fromNode":"a85e2892392af2e5","fromSide":"right","toNode":"01e01c254e092dd1","toSide":"left"}
+		{"id":"3487f5deba86515e","fromNode":"a85e2892392af2e5","fromSide":"right","toNode":"01e01c254e092dd1","toSide":"left"},
+		{"id":"87dc188708167fe1","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"9bf2e20087175482","toSide":"left"},
+		{"id":"8496a26a6e2de5a5","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"1e5834fc7088fbc5","toSide":"left"}
 	]
 }
