@@ -5,7 +5,6 @@
 		{"id":"340533432f2c0971","type":"text","text":"## [[函数的定义]]","x":372,"y":-440,"width":250,"height":60},
 		{"id":"fa0f8bd66c7c16d2","type":"text","text":"## 函数的性质","x":372,"y":-234,"width":250,"height":60},
 		{"id":"cf6fc8a5ef62d5da","type":"text","text":"# [[三角函数公式]]","x":-196,"y":-688,"width":250,"height":60},
-		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":40,"y":320,"width":250,"height":60},
 		{"id":"79c6ff9af89f28f2","type":"text","text":"## 极限的定义与性质","x":448,"y":195,"width":250,"height":60},
 		{"id":"8c95eb5070659d56","type":"text","text":"# 高等数学","x":-446,"y":40,"width":250,"height":60},
 		{"id":"4a0782239d630a54","type":"text","text":"### [[函数的极限]]","x":820,"y":195,"width":250,"height":60},
@@ -15,11 +14,15 @@
 		{"id":"d5b597b253be02d5","type":"text","text":"## [[周期性]]","x":820,"y":-91,"width":250,"height":60},
 		{"id":"5605c5827f99e349","type":"text","text":"### [[有界性]]","x":820,"y":-360,"width":250,"height":60},
 		{"id":"88bcb82766619246","type":"text","text":"## [[单调性]]","x":820,"y":-273,"width":250,"height":60},
-		{"id":"a85e2892392af2e5","type":"text","text":"## 无穷小、无穷大、及其阶","x":441,"y":415,"width":250,"height":60},
 		{"id":"13814b1520ebbd64","type":"text","text":"## [[无穷小]]","x":840,"y":402,"width":250,"height":60},
 		{"id":"01e01c254e092dd1","type":"text","text":"## [[无穷大]]","x":842,"y":484,"width":250,"height":60},
-		{"id":"9bf2e20087175482","x":430,"y":590,"width":250,"height":60,"type":"text","text":"## 函数极限的计算"},
-		{"id":"1e5834fc7088fbc5","x":821,"y":550,"width":250,"height":60,"type":"text","text":"## [[函数极限计算的原则]]"}
+		{"id":"1e5834fc7088fbc5","type":"text","text":"## [[函数极限计算的原则]]","x":842,"y":590,"width":250,"height":60},
+		{"id":"b84c1bbe886d8bc6","type":"text","text":"## [[极限的四则运算法则]]","x":842,"y":690,"width":250,"height":60},
+		{"id":"a85e2892392af2e5","type":"text","text":"## 无穷小、无穷大、及其阶","x":448,"y":432,"width":250,"height":60},
+		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":40,"y":432,"width":250,"height":60},
+		{"id":"afaa0f21fb214c33","type":"text","text":"## [[复合函数的极限运算法则]]","x":841,"y":808,"width":250,"height":60},
+		{"id":"8166255665099640","type":"text","text":"## [[洛必达法则]]","x":842,"y":908,"width":250,"height":60},
+		{"id":"9bf2e20087175482","type":"text","text":"## 函数极限的计算","x":448,"y":750,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -39,6 +42,9 @@
 		{"id":"dda4fb07d2ad88a7","fromNode":"a85e2892392af2e5","fromSide":"right","toNode":"13814b1520ebbd64","toSide":"left"},
 		{"id":"3487f5deba86515e","fromNode":"a85e2892392af2e5","fromSide":"right","toNode":"01e01c254e092dd1","toSide":"left"},
 		{"id":"87dc188708167fe1","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"9bf2e20087175482","toSide":"left"},
-		{"id":"8496a26a6e2de5a5","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"1e5834fc7088fbc5","toSide":"left"}
+		{"id":"8496a26a6e2de5a5","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"1e5834fc7088fbc5","toSide":"left"},
+		{"id":"3f62fe66a41c7374","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"b84c1bbe886d8bc6","toSide":"left"},
+		{"id":"81919b5333cd29f3","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"afaa0f21fb214c33","toSide":"left"},
+		{"id":"e6e59a9a98783055","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"8166255665099640","toSide":"left"}
 	]
 }
