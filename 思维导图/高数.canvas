@@ -19,13 +19,15 @@
 		{"id":"1e5834fc7088fbc5","type":"text","text":"## [[函数极限计算的原则]]","x":842,"y":590,"width":250,"height":60},
 		{"id":"b84c1bbe886d8bc6","type":"text","text":"## [[极限的四则运算法则]]","x":842,"y":690,"width":250,"height":60},
 		{"id":"a85e2892392af2e5","type":"text","text":"## 无穷小、无穷大、及其阶","x":448,"y":432,"width":250,"height":60},
-		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":40,"y":432,"width":250,"height":60},
 		{"id":"afaa0f21fb214c33","type":"text","text":"## [[复合函数的极限运算法则]]","x":841,"y":808,"width":250,"height":60},
 		{"id":"8166255665099640","type":"text","text":"## [[洛必达法则]]","x":842,"y":908,"width":250,"height":60},
 		{"id":"15196bd848a802a5","type":"text","text":"## [[等价无穷小]]","x":850,"y":998,"width":250,"height":60},
 		{"id":"7d5b5d1562844346","type":"text","text":"## [[抓大头-等价无穷大代换]]","x":840,"y":1091,"width":250,"height":60},
 		{"id":"9bf2e20087175482","type":"text","text":"## 函数极限的计算","x":448,"y":848,"width":250,"height":60},
-		{"id":"fb69d798a3589fbd","x":836,"y":1196,"width":250,"height":60,"type":"text","text":"## [[幂指类极限的求法]]"}
+		{"id":"da906dcf2c2e975d","x":448,"y":1440,"width":250,"height":60,"type":"text","text":"## 数列极限的计算"},
+		{"id":"fb69d798a3589fbd","type":"text","text":"## [[幂指类极限的求法]]","x":850,"y":1200,"width":250,"height":60},
+		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":-40,"y":848,"width":250,"height":60},
+		{"id":"10297ebaf25ba400","x":835,"y":1320,"width":250,"height":60,"type":"text","text":"## [[直接计算法]]"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -51,6 +53,8 @@
 		{"id":"e6e59a9a98783055","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"8166255665099640","toSide":"left"},
 		{"id":"9b186ed54d9d4fff","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"15196bd848a802a5","toSide":"left"},
 		{"id":"5e6b303fbac16e96","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"7d5b5d1562844346","toSide":"left"},
-		{"id":"8e947a280ac81e70","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"fb69d798a3589fbd","toSide":"left"}
+		{"id":"8e947a280ac81e70","fromNode":"9bf2e20087175482","fromSide":"right","toNode":"fb69d798a3589fbd","toSide":"left"},
+		{"id":"798eca6e5e716b46","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"da906dcf2c2e975d","toSide":"left"},
+		{"id":"3b31f7da53f032f4","fromNode":"da906dcf2c2e975d","fromSide":"right","toNode":"10297ebaf25ba400","toSide":"left"}
 	]
 }
