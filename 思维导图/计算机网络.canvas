@@ -17,7 +17,7 @@
 		{"id":"9dd34b72fb3f201c","type":"text","text":"### [[计算机网络的概念]]","x":859,"y":-8960,"width":250,"height":60},
 		{"id":"2b2cd34e41dbcb6c","type":"text","text":"### [[计算机网络的主要性能指标]]","x":859,"y":-8170,"width":250,"height":60},
 		{"id":"e603f9b6d54efbd8","type":"text","text":"### [[计算机网络的标准化工作以及相关组织]]","x":854,"y":-8027,"width":250,"height":60},
-		{"id":"29fad710cda6ce31","type":"text","text":"### [[计算机网络分层结构]]","x":861,"y":-7796,"width":250,"height":60,"color":"6"},
+		{"id":"29fad710cda6ce31","type":"text","text":"### [[计算机网络分层结构]]","x":861,"y":-7796,"width":250,"height":60},
 		{"id":"248630c87254fad4","type":"text","text":"### 计算机网络协议、接口和服务的概念","x":861,"y":-7695,"width":250,"height":60},
 		{"id":"ea002493611dbd6c","type":"text","text":"### [[计算机网络的组成]]","x":859,"y":-8863,"width":250,"height":60},
 		{"id":"49bf04ec84687c21","type":"text","text":"### [[计算机网络的功能]]","x":859,"y":-8778,"width":250,"height":60},
@@ -53,8 +53,8 @@
 		{"id":"394f35195c0df221","type":"text","text":"### [[字符填充的首尾定界符法]]","x":1115,"y":-4087,"width":250,"height":60},
 		{"id":"95c6d2a3870d2da5","type":"text","text":"### [[零比特填充的首尾标志法]]","x":1117,"y":-4013,"width":250,"height":60},
 		{"id":"38f3c558e6a44877","type":"text","text":"### [[物理编码违规法]]","x":1116,"y":-3928,"width":250,"height":60},
-		{"id":"b3ab5889d737446f","type":"text","text":"## [[OSI参考模型]]","x":861,"y":-7567,"width":250,"height":60,"color":"6"},
-		{"id":"a4adcc55b4adae55","type":"text","text":"## [[TCP-IP协议]]","x":861,"y":-7450,"width":250,"height":60,"color":"6"},
+		{"id":"b3ab5889d737446f","type":"text","text":"## [[OSI参考模型]]","x":861,"y":-7567,"width":250,"height":60},
+		{"id":"a4adcc55b4adae55","type":"text","text":"## [[TCP-IP模型]]","x":861,"y":-7450,"width":250,"height":60},
 		{"id":"46ad4db63d022abf","type":"text","text":"## 通信基础","x":684,"y":-6677,"width":250,"height":60,"color":"6"},
 		{"id":"b7947c63a0bbd8b3","type":"text","text":"## 传输介质","x":738,"y":-5670,"width":250,"height":60,"color":"6"},
 		{"id":"6cdf6dc1a701dd51","type":"text","text":"## 物理层设备","x":738,"y":-5237,"width":250,"height":60,"color":"6"},
@@ -177,12 +177,18 @@
 		{"id":"43d61e8c7745a40e","type":"text","text":"### [[POP3]]","x":1094,"y":4454,"width":250,"height":60},
 		{"id":"ac34d8c4f99cbd90","type":"text","text":"## [[电子邮件]]","x":657,"y":4394,"width":250,"height":60},
 		{"id":"3c9bf13a7b4173da","type":"text","text":"## [[WWW]]","x":657,"y":4514,"width":250,"height":60},
-		{"id":"36de656a29086132","type":"text","text":"[[计算机网络接口]]","x":1312,"y":-7688,"width":250,"height":60,"color":"6"},
-		{"id":"dcfe245b096cbaed","type":"text","text":"[[计算机网络服务]]","x":1319,"y":-7597,"width":250,"height":60,"color":"6"},
-		{"id":"1d78cdf750afebc8","type":"text","text":"[[计算机网络协议]]","x":1317,"y":-7782,"width":250,"height":60,"color":"6"},
+		{"id":"36de656a29086132","type":"text","text":"[[计算机网络接口]]","x":1312,"y":-7688,"width":250,"height":60},
+		{"id":"1d78cdf750afebc8","type":"text","text":"[[计算机网络协议]]","x":1317,"y":-7782,"width":250,"height":60},
 		{"id":"d8a94ffa582dc519","type":"text","text":"## 计算机网络概述","x":440,"y":-8473,"width":250,"height":60},
 		{"id":"a3db8a610c5995a4","type":"text","text":"# 计算机网络体系结构","x":40,"y":-8027,"width":250,"height":60},
-		{"id":"13694329b731d814","type":"text","text":"## 计算机网络体系结构与参考模型","x":440,"y":-7628,"width":250,"height":60}
+		{"id":"13694329b731d814","type":"text","text":"## 计算机网络体系结构与参考模型","x":440,"y":-7628,"width":250,"height":60},
+		{"id":"dcfe245b096cbaed","type":"text","text":"[[计算机网络服务]]","x":1312,"y":-7597,"width":250,"height":60},
+		{"id":"0f279244eaae806b","type":"text","text":"[[TCP-IP模型和OSI参考模型的比较]]","x":1312,"y":-7507,"width":250,"height":60},
+		{"id":"b92d88d92367c8a4","x":1675,"y":-8530,"width":166,"height":108,"type":"text","text":"- 电路交换\n- 报文交换\n- 分组交换"},
+		{"id":"a146fad9b15ea055","type":"text","text":"- 广播式网络\n- 点对点网络","x":1675,"y":-8610,"width":165,"height":60},
+		{"id":"7411fcfcf61aca2b","type":"text","text":"- 总线型网络\n- 星形网络\n- 环形网络\n- 网状网络","x":1676,"y":-8750,"width":165,"height":125},
+		{"id":"274b447ee412ad43","type":"text","text":"- 公用网\n- 专用网","x":1676,"y":-8833,"width":165,"height":66},
+		{"id":"b4a9a5d4fc09c437","type":"text","text":"- 广域网\n- 城域网\n- 局域网\n- 个域网","x":1676,"y":-9000,"width":164,"height":140}
 	],
 	"edges":[
 		{"id":"b59128a116252341","fromNode":"ece6273f1e4aa966","fromSide":"right","toNode":"37c8a9376740f00e","toSide":"left"},
@@ -366,6 +372,13 @@
 		{"id":"d0b3291018b01d2f","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"ac34d8c4f99cbd90","toSide":"left"},
 		{"id":"ca57cdb09d34593b","fromNode":"ac34d8c4f99cbd90","fromSide":"right","toNode":"09d4b70199f79dbe","toSide":"left"},
 		{"id":"43de08d53d530328","fromNode":"ac34d8c4f99cbd90","fromSide":"right","toNode":"43d61e8c7745a40e","toSide":"left"},
-		{"id":"64565cb8db84ae41","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"3c9bf13a7b4173da","toSide":"left"}
+		{"id":"64565cb8db84ae41","fromNode":"37c8a9376740f00e","fromSide":"right","toNode":"3c9bf13a7b4173da","toSide":"left"},
+		{"id":"c0bbeb6e5e23692f","fromNode":"b3ab5889d737446f","fromSide":"right","toNode":"0f279244eaae806b","toSide":"left"},
+		{"id":"91d44ebfe6380944","fromNode":"a4adcc55b4adae55","fromSide":"right","toNode":"0f279244eaae806b","toSide":"left"},
+		{"id":"c3358e65bd0e3a6d","fromNode":"a4bcdf915b230937","fromSide":"right","toNode":"a146fad9b15ea055","toSide":"left"},
+		{"id":"7498e58d820db156","fromNode":"0a5f8bb4da8ef0a2","fromSide":"right","toNode":"b4a9a5d4fc09c437","toSide":"left"},
+		{"id":"607b9c413ee08734","fromNode":"9678f253688c0d1d","fromSide":"right","toNode":"274b447ee412ad43","toSide":"left"},
+		{"id":"42b012b13956e269","fromNode":"1785cce87563d890","fromSide":"right","toNode":"7411fcfcf61aca2b","toSide":"left"},
+		{"id":"1c81449a2bd86130","fromNode":"8d2f9f9896993d8b","fromSide":"right","toNode":"b92d88d92367c8a4","toSide":"left"}
 	]
 }
