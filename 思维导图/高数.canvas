@@ -31,7 +31,10 @@
 		{"id":"d4f8ac4e1e5c84d9","type":"text","text":"## [[海涅归结原理]]","x":835,"y":1410,"width":250,"height":60},
 		{"id":"1ae04658dc608045","type":"text","text":"## [[夹逼准则]]","x":835,"y":1500,"width":250,"height":60},
 		{"id":"5577efdb059a9873","type":"text","text":"## [[用单调有限准则证明数列极限存在]]","x":835,"y":1580,"width":250,"height":60},
-		{"id":"02e42d9970d4b365","type":"text","text":"## [[渐近线]]","x":448,"y":1580,"width":250,"height":60}
+		{"id":"02e42d9970d4b365","type":"text","text":"## [[渐近线]]","x":448,"y":1580,"width":250,"height":60},
+		{"id":"85d8262406a4a560","x":838,"y":1714,"width":250,"height":60,"type":"text","text":"## [[函数的连续性]]"},
+		{"id":"54cecd0233ede2c7","x":838,"y":1820,"width":250,"height":60,"type":"text","text":"## [[函数的间断点]]"},
+		{"id":"e862282688d67eb3","x":448,"y":1760,"width":250,"height":60,"type":"text","text":"## 函数的连续性和间断点"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -63,6 +66,9 @@
 		{"id":"c1fe257ee34d8a34","fromNode":"da906dcf2c2e975d","fromSide":"right","toNode":"d4f8ac4e1e5c84d9","toSide":"left"},
 		{"id":"08e4892940914d48","fromNode":"da906dcf2c2e975d","fromSide":"right","toNode":"1ae04658dc608045","toSide":"left"},
 		{"id":"80773b558c3dd2ea","fromNode":"da906dcf2c2e975d","fromSide":"right","toNode":"5577efdb059a9873","toSide":"left"},
-		{"id":"b5fc98aa63708bc8","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"02e42d9970d4b365","toSide":"left"}
+		{"id":"b5fc98aa63708bc8","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"02e42d9970d4b365","toSide":"left"},
+		{"id":"8f144d760a3642af","fromNode":"3b8ddb8bc41dfd1d","fromSide":"right","toNode":"e862282688d67eb3","toSide":"left"},
+		{"id":"5d291b43923ea23b","fromNode":"e862282688d67eb3","fromSide":"right","toNode":"85d8262406a4a560","toSide":"left"},
+		{"id":"9c2b69bd8c2add9c","fromNode":"e862282688d67eb3","fromSide":"right","toNode":"54cecd0233ede2c7","toSide":"left"}
 	]
 }
