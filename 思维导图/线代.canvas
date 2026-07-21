@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"dc259681894a4d44","x":-14,"y":117,"width":250,"height":60,"type":"text","text":"# 线性代数"},
+		{"id":"1d72f5025416cb45","x":425,"y":-53,"width":250,"height":60,"type":"text","text":"# 行列式"},
+		{"id":"14093910fa5cec80","x":818,"y":-215,"width":250,"height":60,"type":"text","text":"## n阶行列式的定义"},
+		{"id":"19dac9000de1f9d9","x":1205,"y":-315,"width":250,"height":60,"type":"text","text":"## [[排列及其逆序数]]"},
+		{"id":"83f68e7932fee041","x":1205,"y":-185,"width":250,"height":60,"type":"text","text":"## [[n阶行列式]]"}
+	],
+	"edges":[
+		{"id":"74a98697b60ac528","fromNode":"dc259681894a4d44","fromSide":"right","toNode":"1d72f5025416cb45","toSide":"left"},
+		{"id":"c1522017a620e3d6","fromNode":"1d72f5025416cb45","fromSide":"right","toNode":"14093910fa5cec80","toSide":"left"},
+		{"id":"1c5957c913217655","fromNode":"14093910fa5cec80","fromSide":"right","toNode":"19dac9000de1f9d9","toSide":"left"},
+		{"id":"7bc7ffa348a469a5","fromNode":"14093910fa5cec80","fromSide":"right","toNode":"83f68e7932fee041","toSide":"left"}
+	]
+}
