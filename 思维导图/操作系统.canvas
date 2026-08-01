@@ -246,7 +246,7 @@
 		{"id":"a660b8734b194d83","type":"text","text":"## CPU调度","x":3122,"y":-5663,"width":250,"height":60,"color":"6"},
 		{"id":"b9a1fdcb9cc32887","type":"text","text":"# 进程管理","x":2560,"y":-7310,"width":250,"height":60,"color":"6"},
 		{"id":"5253f925bb7cac10","type":"text","text":"## 进程通信","x":3158,"y":-8518,"width":250,"height":60},
-		{"id":"7def259086d0a7c7","type":"file","file":"操作系统/进程的基本状态与转换.canvas","x":3960,"y":-8842,"width":180,"height":104}
+		{"id":"7def259086d0a7c7","type":"file","file":"408/操作系统/进程的基本状态与转换.canvas","x":3960,"y":-8842,"width":180,"height":104}
 	],
 	"edges":[
 		{"id":"a3f74d0f2428730a","fromNode":"53a2c82675becff7","fromSide":"right","toNode":"b8ae160ec8e5daef","toSide":"left","color":"1"},

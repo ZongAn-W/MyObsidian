@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"2a73839e727e2e6c","type":"text","text":"## 数据结构的基本概念","x":589,"y":-361,"width":250,"height":60},
+		{"id":"f067311a0ab5a5a8","type":"text","text":"### [[数据]]","x":1040,"y":-563,"width":250,"height":60},
+		{"id":"7cbb852d33382985","type":"text","text":"### [[数据元素]]","x":1040,"y":-477,"width":250,"height":60},
+		{"id":"07eb80c2e2634221","type":"text","text":"### [[数据对象]]","x":1040,"y":-391,"width":250,"height":60},
+		{"id":"a6442834dd045b11","type":"text","text":"### [[数据类型]]","x":1040,"y":-313,"width":250,"height":60},
+		{"id":"0740e7e1fecbd6c1","type":"text","text":"### [[抽象数据类型]]","x":1040,"y":-233,"width":250,"height":60},
+		{"id":"cd59710a5e7e31e1","type":"text","text":"### [[数据结构]]","x":1040,"y":-153,"width":250,"height":60},
+		{"id":"83870ccd5da32919","type":"text","text":"[[逻辑结构]]","x":1387,"y":-231,"width":250,"height":60},
+		{"id":"ac5e17c5311b3481","type":"text","text":"[[存储结构]]","x":1387,"y":-153,"width":250,"height":60},
+		{"id":"85ae3236a3fc297d","type":"text","text":"[[数据运算]]","x":1387,"y":-73,"width":250,"height":60},
+		{"id":"5d73f358adcc5409","type":"text","text":"## 算法和算法评价","x":589,"y":100,"width":250,"height":60},
+		{"id":"05972fd552a2f380","type":"text","text":"# 绪论","x":180,"y":-153,"width":250,"height":60},
+		{"id":"8db123ecfa538bba","type":"text","text":"# 数据结构","x":-280,"y":340,"width":250,"height":60},
+		{"id":"115ed60fbb499ad2","type":"text","text":"### 算法效率的度量","x":1040,"y":180,"width":250,"height":60},
+		{"id":"286de665024d296d","type":"text","text":"### [[算法的基本概念]]","x":1040,"y":40,"width":250,"height":60},
+		{"id":"5ceb55710b5c7935","x":1412,"y":119,"width":250,"height":60,"type":"text","text":"[[时间复杂度]]"},
+		{"id":"1b0b2189ec962bf8","x":1412,"y":240,"width":250,"height":55,"type":"text","text":"[[空间复杂度]]"}
+	],
+	"edges":[
+		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
+		{"id":"62c19f4e97bb84ad","fromNode":"05972fd552a2f380","fromSide":"right","toNode":"2a73839e727e2e6c","toSide":"left"},
+		{"id":"78d3944d1281d9ca","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"83870ccd5da32919","toSide":"left"},
+		{"id":"d8f5bf00f347b10a","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"ac5e17c5311b3481","toSide":"left"},
+		{"id":"d376436b162cf780","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"85ae3236a3fc297d","toSide":"left"},
+		{"id":"f46f441bbac575b7","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"f067311a0ab5a5a8","toSide":"left"},
+		{"id":"c771e98bf367f11f","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"7cbb852d33382985","toSide":"left"},
+		{"id":"bf374cc8d48126d7","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"07eb80c2e2634221","toSide":"left"},
+		{"id":"0e9e3516d65e8c4b","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"a6442834dd045b11","toSide":"left"},
+		{"id":"f7e35a8c6d00f69b","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"0740e7e1fecbd6c1","toSide":"left"},
+		{"id":"d5be766951b69917","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"cd59710a5e7e31e1","toSide":"left"},
+		{"id":"91ae45740077e67a","fromNode":"05972fd552a2f380","fromSide":"right","toNode":"5d73f358adcc5409","toSide":"left"},
+		{"id":"c1cdd22b47e185f9","fromNode":"5d73f358adcc5409","fromSide":"right","toNode":"286de665024d296d","toSide":"left"},
+		{"id":"a74a58a69249ea39","fromNode":"5d73f358adcc5409","fromSide":"right","toNode":"115ed60fbb499ad2","toSide":"left"},
+		{"id":"061abfdf0c5db239","fromNode":"115ed60fbb499ad2","fromSide":"right","toNode":"5ceb55710b5c7935","toSide":"left"},
+		{"id":"0616e61cc77d010f","fromNode":"115ed60fbb499ad2","fromSide":"right","toNode":"1b0b2189ec962bf8","toSide":"left"}
+	]
+}
