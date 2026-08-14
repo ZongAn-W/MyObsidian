@@ -37,9 +37,12 @@
 		{"id":"8c95eb5070659d56","type":"text","text":"# 高等数学","x":-606,"y":1520,"width":250,"height":60},
 		{"id":"cf6fc8a5ef62d5da","type":"text","text":"# [[三角函数公式]]","x":-1040,"y":1520,"width":250,"height":60},
 		{"id":"b12957dcac36deca","type":"text","text":"# 一元函数微分学","x":-76,"y":2341,"width":250,"height":60},
-		{"id":"e098e88628c7b6a7","type":"text","text":"## 导数与微分","x":448,"y":2138,"width":250,"height":60},
-		{"id":"af5ca0e959558887","type":"text","text":"### [[导数的定义]]","x":838,"y":2060,"width":250,"height":60},
-		{"id":"20f15712d1129139","x":833,"y":2156,"width":250,"height":60,"type":"text","text":"### [[导函数]]"}
+		{"id":"20f15712d1129139","type":"text","text":"### [[导函数]]","x":833,"y":2156,"width":250,"height":60},
+		{"id":"da20a616764db5fc","type":"text","text":"### [[导数的几何意义]]","x":833,"y":2260,"width":250,"height":60},
+		{"id":"af5ca0e959558887","type":"text","text":"### [[导数]]","x":833,"y":2060,"width":250,"height":60},
+		{"id":"897de8e09cdc9122","type":"text","text":"### [[微分]]","x":833,"y":2357,"width":250,"height":60},
+		{"id":"e098e88628c7b6a7","type":"text","text":"## 导数与微分","x":448,"y":2216,"width":250,"height":60},
+		{"id":"930ce32a4e966e90","x":835,"y":2454,"width":250,"height":60,"type":"text","text":"### [[可微、可导与连续的关系]]"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -80,6 +83,9 @@
 		{"id":"3b0c1f53267c74f7","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"b12957dcac36deca","toSide":"left"},
 		{"id":"ebcaccb17f325e0b","fromNode":"b12957dcac36deca","fromSide":"right","toNode":"e098e88628c7b6a7","toSide":"left"},
 		{"id":"5549648659301d1f","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"af5ca0e959558887","toSide":"left"},
-		{"id":"bba6e20d159f6a8e","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"20f15712d1129139","toSide":"left"}
+		{"id":"bba6e20d159f6a8e","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"20f15712d1129139","toSide":"left"},
+		{"id":"428650677ef76b90","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"da20a616764db5fc","toSide":"left"},
+		{"id":"e57382a166863382","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"897de8e09cdc9122","toSide":"left"},
+		{"id":"258d96c1a4b5fced","fromNode":"e098e88628c7b6a7","fromSide":"right","toNode":"930ce32a4e966e90","toSide":"left"}
 	]
 }

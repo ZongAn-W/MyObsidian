@@ -15,7 +15,9 @@
 		{"id":"6173b37122a1bc57","type":"text","text":"### [[一些特殊的矩阵]]","x":1248,"y":523,"width":250,"height":60},
 		{"id":"716a6b6ccc5d6df1","type":"text","text":"### [[矩阵的线性运算]]","x":1248,"y":630,"width":250,"height":60},
 		{"id":"719efed3a757d827","type":"text","text":"### [[矩阵的乘法]]","x":1249,"y":726,"width":250,"height":60},
-		{"id":"03031495e73b0394","type":"text","text":"## 矩阵及其运算","x":818,"y":570,"width":250,"height":60}
+		{"id":"03031495e73b0394","type":"text","text":"## 矩阵及其运算","x":818,"y":570,"width":250,"height":60},
+		{"id":"6db3f0d0ee7a73b5","type":"text","text":"### [[方阵的幂]]","x":1249,"y":840,"width":250,"height":60},
+		{"id":"4025a47b502eccda","x":1251,"y":944,"width":250,"height":60,"type":"text","text":"### [[矩阵的转置]]"}
 	],
 	"edges":[
 		{"id":"74a98697b60ac528","fromNode":"dc259681894a4d44","fromSide":"right","toNode":"1d72f5025416cb45","toSide":"left"},
@@ -32,6 +34,8 @@
 		{"id":"c9947e5aafc02c51","fromNode":"03031495e73b0394","fromSide":"right","toNode":"d735148020047655","toSide":"left"},
 		{"id":"c65abe37b944302d","fromNode":"03031495e73b0394","fromSide":"right","toNode":"6173b37122a1bc57","toSide":"left"},
 		{"id":"8fe1ade4495233b7","fromNode":"03031495e73b0394","fromSide":"right","toNode":"716a6b6ccc5d6df1","toSide":"left"},
-		{"id":"f67e1290ec6229e9","fromNode":"03031495e73b0394","fromSide":"right","toNode":"719efed3a757d827","toSide":"left"}
+		{"id":"f67e1290ec6229e9","fromNode":"03031495e73b0394","fromSide":"right","toNode":"719efed3a757d827","toSide":"left"},
+		{"id":"ebcfb379e81f1dae","fromNode":"03031495e73b0394","fromSide":"right","toNode":"6db3f0d0ee7a73b5","toSide":"left"},
+		{"id":"9b7a27ee105f067b","fromNode":"03031495e73b0394","fromSide":"right","toNode":"4025a47b502eccda","toSide":"left"}
 	]
 }
