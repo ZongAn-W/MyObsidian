@@ -40,9 +40,19 @@
 		{"id":"0667c4739a94f78a","type":"text","text":"## [[顺序表和链表的比较]]","x":640,"y":1360,"width":250,"height":60},
 		{"id":"9c606be993bb79b4","type":"text","text":"### [[顺序表删除]]","x":1046,"y":940,"width":250,"height":60},
 		{"id":"e1421e3c4302645f","type":"text","text":"### [[顺序表查找]]","x":1046,"y":760,"width":250,"height":60},
-		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":1720,"width":250,"height":60},
-		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":542,"y":1610,"width":250,"height":60},
-		{"id":"4d3b7ae4f378f4ea","x":899,"y":1564,"width":250,"height":60,"type":"text","text":"### [[顺序栈]]"}
+		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":640,"y":1659,"width":250,"height":60},
+		{"id":"4d3b7ae4f378f4ea","type":"text","text":"### [[顺序栈]]","x":1046,"y":1599,"width":250,"height":60},
+		{"id":"8d6c938197c7dc63","type":"text","text":"### [[链栈]]","x":1046,"y":1719,"width":250,"height":60},
+		{"id":"1d8b74f967f5c682","type":"text","text":"### [[顺序队列]]","x":1046,"y":1860,"width":250,"height":60},
+		{"id":"6e07a84e11f9de4c","type":"text","text":"[[顺序栈的基本操作]]","x":1530,"y":1539,"width":250,"height":60},
+		{"id":"d50fb6fd62b580c6","type":"text","text":"[[共享栈]]","x":1528,"y":1676,"width":250,"height":60},
+		{"id":"3039cec5831e222f","type":"text","text":"[[顺序队列的基本操作]]","x":1526,"y":1817,"width":250,"height":60},
+		{"id":"7c2f53614f2d78d2","type":"text","text":"[[循环队列]]","x":1528,"y":1907,"width":250,"height":60},
+		{"id":"11330ae9eaa564d8","type":"text","text":"### [[链队]]","x":1046,"y":2020,"width":250,"height":60},
+		{"id":"4a8969c22b94fc34","type":"text","text":"[[链队的基本操作]]","x":1526,"y":2020,"width":250,"height":60},
+		{"id":"484042af89d58c75","type":"text","text":"## [[队列]]","x":640,"y":2020,"width":250,"height":60},
+		{"id":"79ac235291168fce","type":"text","text":"### [[双端队列]]","x":1046,"y":2120,"width":250,"height":60},
+		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":1870,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -86,6 +96,16 @@
 		{"id":"c8dc1a618ecf974c","fromNode":"fe46e0724c90d384","fromSide":"right","toNode":"0667c4739a94f78a","toSide":"left"},
 		{"id":"a6ebae83e309715c","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"df3bcd0973b4232b","toSide":"left"},
 		{"id":"6225381a7a297b82","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"0e6887035a3f17e0","toSide":"left"},
-		{"id":"eb6720cafc6cf588","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"4d3b7ae4f378f4ea","toSide":"left"}
+		{"id":"eb6720cafc6cf588","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"4d3b7ae4f378f4ea","toSide":"left"},
+		{"id":"07b054fe600aac3e","fromNode":"4d3b7ae4f378f4ea","fromSide":"right","toNode":"6e07a84e11f9de4c","toSide":"left"},
+		{"id":"990365103c2a75b0","fromNode":"4d3b7ae4f378f4ea","fromSide":"right","toNode":"d50fb6fd62b580c6","toSide":"left"},
+		{"id":"3a7d9fb3a9e086c8","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"8d6c938197c7dc63","toSide":"left"},
+		{"id":"087398d9d50ab71c","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"484042af89d58c75","toSide":"left"},
+		{"id":"af6813a8439fcded","fromNode":"484042af89d58c75","fromSide":"right","toNode":"1d8b74f967f5c682","toSide":"left"},
+		{"id":"f7ac040f419cb3ef","fromNode":"1d8b74f967f5c682","fromSide":"right","toNode":"3039cec5831e222f","toSide":"left"},
+		{"id":"35ff3415b0688541","fromNode":"1d8b74f967f5c682","fromSide":"right","toNode":"7c2f53614f2d78d2","toSide":"left"},
+		{"id":"0b7079784568282f","fromNode":"484042af89d58c75","fromSide":"right","toNode":"11330ae9eaa564d8","toSide":"left"},
+		{"id":"dbae9df223460b7c","fromNode":"11330ae9eaa564d8","fromSide":"right","toNode":"4a8969c22b94fc34","toSide":"left"},
+		{"id":"8fe1eee6394f84e7","fromNode":"484042af89d58c75","fromSide":"right","toNode":"79ac235291168fce","toSide":"left"}
 	]
 }
