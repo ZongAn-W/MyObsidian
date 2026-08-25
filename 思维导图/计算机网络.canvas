@@ -80,7 +80,7 @@
 		{"id":"1fcef66bcd505889","type":"text","text":"## [[链路层的滑动窗口机制]]","x":739,"y":-3173,"width":250,"height":60},
 		{"id":"283d035043e20bbd","type":"text","text":"### [[信道划分介质访问控制]]","x":1193,"y":-2920,"width":250,"height":60},
 		{"id":"ee528b8df7cbbae0","type":"text","text":"[[波分复用WDM]]","x":1560,"y":-2885,"width":250,"height":60},
-		{"id":"f1a37a966b02aeb6","type":"text","text":"[[码分复用CDM]]","x":1560,"y":-2806,"width":250,"height":60,"color":"1"},
+		{"id":"f1a37a966b02aeb6","type":"text","text":"[[码分复用CDMA]]","x":1560,"y":-2806,"width":250,"height":60,"color":"1"},
 		{"id":"4c38177d48914706","type":"text","text":"[[频分多路复用FDM]]","x":1560,"y":-2960,"width":250,"height":60},
 		{"id":"8a9d8f69f9247842","type":"text","text":"[[时分多路复用TDM]]","x":1560,"y":-3040,"width":250,"height":60},
 		{"id":"ca5637e102f9d995","type":"text","text":"[[ALOHA]]","x":1560,"y":-2700,"width":250,"height":60},
