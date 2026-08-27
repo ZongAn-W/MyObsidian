@@ -53,7 +53,9 @@
 		{"id":"7c2f53614f2d78d2","type":"text","text":"[[循环队列]]","x":1528,"y":2170,"width":250,"height":60},
 		{"id":"4a8969c22b94fc34","type":"text","text":"[[链队的基本操作]]","x":1526,"y":2283,"width":250,"height":60},
 		{"id":"1aa1f301bbfae4ed","type":"text","text":"### [[栈的应用]]","x":1046,"y":1829,"width":250,"height":60},
-		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":640,"y":1719,"width":250,"height":60}
+		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":640,"y":1719,"width":250,"height":60},
+		{"id":"0439a106de05400d","type":"text","text":"### [[队列的应用]]","x":1046,"y":2480,"width":250,"height":60},
+		{"id":"01b5404db81f6eaf","x":640,"y":2628,"width":250,"height":60,"type":"text","text":"## [[数组]]"}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -108,6 +110,8 @@
 		{"id":"0b7079784568282f","fromNode":"484042af89d58c75","fromSide":"right","toNode":"11330ae9eaa564d8","toSide":"left"},
 		{"id":"dbae9df223460b7c","fromNode":"11330ae9eaa564d8","fromSide":"right","toNode":"4a8969c22b94fc34","toSide":"left"},
 		{"id":"8fe1eee6394f84e7","fromNode":"484042af89d58c75","fromSide":"right","toNode":"79ac235291168fce","toSide":"left"},
-		{"id":"83b73a9535cdd8ed","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"1aa1f301bbfae4ed","toSide":"left"}
+		{"id":"83b73a9535cdd8ed","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"1aa1f301bbfae4ed","toSide":"left"},
+		{"id":"226fe0e9b288a612","fromNode":"484042af89d58c75","fromSide":"right","toNode":"0439a106de05400d","toSide":"left"},
+		{"id":"4fa63e130d1ea486","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"01b5404db81f6eaf","toSide":"left"}
 	]
 }
