@@ -55,7 +55,11 @@
 		{"id":"1aa1f301bbfae4ed","type":"text","text":"### [[栈的应用]]","x":1046,"y":1829,"width":250,"height":60},
 		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":640,"y":1719,"width":250,"height":60},
 		{"id":"0439a106de05400d","type":"text","text":"### [[队列的应用]]","x":1046,"y":2480,"width":250,"height":60},
-		{"id":"01b5404db81f6eaf","x":640,"y":2628,"width":250,"height":60,"type":"text","text":"## [[数组]]"}
+		{"id":"01b5404db81f6eaf","type":"text","text":"## [[数组]]","x":640,"y":2383,"width":250,"height":60},
+		{"id":"edb6755a93870258","type":"text","text":"### [[三角矩阵]]","x":1046,"y":2685,"width":250,"height":60},
+		{"id":"b504962660dab2f4","type":"text","text":"### [[三对角矩阵]]","x":1046,"y":2780,"width":250,"height":60},
+		{"id":"330d8b9c8f500423","type":"text","text":"### [[对称矩阵]]","x":1046,"y":2600,"width":250,"height":60},
+		{"id":"e28053ac96502b28","type":"text","text":"## [[数据结构-矩阵]]","x":640,"y":2685,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -112,6 +116,10 @@
 		{"id":"8fe1eee6394f84e7","fromNode":"484042af89d58c75","fromSide":"right","toNode":"79ac235291168fce","toSide":"left"},
 		{"id":"83b73a9535cdd8ed","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"1aa1f301bbfae4ed","toSide":"left"},
 		{"id":"226fe0e9b288a612","fromNode":"484042af89d58c75","fromSide":"right","toNode":"0439a106de05400d","toSide":"left"},
-		{"id":"4fa63e130d1ea486","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"01b5404db81f6eaf","toSide":"left"}
+		{"id":"4fa63e130d1ea486","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"01b5404db81f6eaf","toSide":"left"},
+		{"id":"ac9412d4eba9335a","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"e28053ac96502b28","toSide":"left"},
+		{"id":"59c7951adf296dd2","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"330d8b9c8f500423","toSide":"left"},
+		{"id":"7454858a451544ab","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"edb6755a93870258","toSide":"left"},
+		{"id":"6598361eb8445658","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"b504962660dab2f4","toSide":"left"}
 	]
 }
