@@ -24,7 +24,11 @@
 		{"id":"48c915dedd114f07","type":"text","text":"### [[可逆矩阵性质]]","x":1248,"y":1130,"width":250,"height":60},
 		{"id":"b8c92bfdf32c1c42","type":"text","text":"### [[伴随矩阵的性质]]","x":1249,"y":1220,"width":250,"height":60},
 		{"id":"21dbcd3faee8d3fc","type":"text","text":"## [[矩阵的逆]]","x":840,"y":1130,"width":250,"height":60},
-		{"id":"cd14d1da54124584","x":840,"y":1440,"width":250,"height":60,"type":"text","text":"## [[分块矩阵]]"}
+		{"id":"2f98abcfdbb3279a","type":"text","text":"### [[分块矩阵的运算]]","x":1247,"y":1357,"width":250,"height":60},
+		{"id":"a75fa2648e1a8349","type":"text","text":"### [[分块矩阵的转置]]","x":1247,"y":1440,"width":250,"height":60},
+		{"id":"9594a72f45c8fbdb","type":"text","text":"### [[分块对角阵]]","x":1247,"y":1520,"width":250,"height":60},
+		{"id":"b307d4d399b3a31e","type":"text","text":"### [[拉普拉斯行列式]]","x":1249,"y":1600,"width":250,"height":60},
+		{"id":"cd14d1da54124584","type":"text","text":"## [[分块矩阵]]","x":840,"y":1490,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"74a98697b60ac528","fromNode":"dc259681894a4d44","fromSide":"right","toNode":"1d72f5025416cb45","toSide":"left"},
@@ -50,6 +54,10 @@
 		{"id":"87aadc8317db4c46","fromNode":"ddd1f6de5a3f1db2","fromSide":"right","toNode":"b6b32113657e5e98","toSide":"left"},
 		{"id":"2d35d584b0ba3c07","fromNode":"21dbcd3faee8d3fc","fromSide":"right","toNode":"48c915dedd114f07","toSide":"left"},
 		{"id":"af205df2e805fc48","fromNode":"21dbcd3faee8d3fc","fromSide":"right","toNode":"b8c92bfdf32c1c42","toSide":"left"},
-		{"id":"934b6ba153e78276","fromNode":"8e4ec5c04cd632e3","fromSide":"right","toNode":"cd14d1da54124584","toSide":"left"}
+		{"id":"934b6ba153e78276","fromNode":"8e4ec5c04cd632e3","fromSide":"right","toNode":"cd14d1da54124584","toSide":"left"},
+		{"id":"a02386fc63750fb0","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"2f98abcfdbb3279a","toSide":"left"},
+		{"id":"e94ac916af35c8e9","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"a75fa2648e1a8349","toSide":"left"},
+		{"id":"9c8424f686e12118","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"9594a72f45c8fbdb","toSide":"left"},
+		{"id":"79481f9ef0b5f077","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"b307d4d399b3a31e","toSide":"left"}
 	]
 }
