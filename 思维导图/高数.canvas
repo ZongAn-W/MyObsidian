@@ -48,7 +48,8 @@
 		{"id":"327aeadaa838418a","type":"text","text":"### [[复合函数求导]]","x":880,"y":2672,"width":250,"height":60},
 		{"id":"9cddffec9f46316c","type":"text","text":"### [[隐函数求导]]","x":882,"y":2760,"width":250,"height":60},
 		{"id":"5a8f91323d9e7c6e","type":"text","text":"### [[参数方程求导]]","x":882,"y":2860,"width":250,"height":60},
-		{"id":"1da49d35008323d6","x":880,"y":2961,"width":250,"height":60,"type":"text","text":"### [[反函数求导]]"}
+		{"id":"1da49d35008323d6","type":"text","text":"### [[反函数求导]]","x":880,"y":2961,"width":250,"height":60},
+		{"id":"419601842a993819","x":880,"y":3060,"width":250,"height":60,"type":"text","text":"### [[利用对数工具求导]]"}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -98,6 +99,7 @@
 		{"id":"b84e38446ff3a2af","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"327aeadaa838418a","toSide":"left"},
 		{"id":"66b4c8182f24ceb4","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"9cddffec9f46316c","toSide":"left"},
 		{"id":"41a24c389de89f88","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"5a8f91323d9e7c6e","toSide":"left"},
-		{"id":"f926648adc6ecf9d","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"1da49d35008323d6","toSide":"left"}
+		{"id":"f926648adc6ecf9d","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"1da49d35008323d6","toSide":"left"},
+		{"id":"59427cccdc33af4c","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"419601842a993819","toSide":"left"}
 	]
 }
