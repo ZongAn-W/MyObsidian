@@ -44,7 +44,6 @@
 		{"id":"8d6c938197c7dc63","type":"text","text":"### [[链栈]]","x":1046,"y":1719,"width":250,"height":60},
 		{"id":"6e07a84e11f9de4c","type":"text","text":"[[顺序栈的基本操作]]","x":1530,"y":1539,"width":250,"height":60},
 		{"id":"d50fb6fd62b580c6","type":"text","text":"[[共享栈]]","x":1528,"y":1676,"width":250,"height":60},
-		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":1870,"width":250,"height":60},
 		{"id":"1d8b74f967f5c682","type":"text","text":"### [[顺序队列]]","x":1046,"y":2123,"width":250,"height":60},
 		{"id":"11330ae9eaa564d8","type":"text","text":"### [[链队]]","x":1046,"y":2283,"width":250,"height":60},
 		{"id":"484042af89d58c75","type":"text","text":"## [[队列]]","x":640,"y":2283,"width":250,"height":60},
@@ -59,7 +58,12 @@
 		{"id":"edb6755a93870258","type":"text","text":"### [[三角矩阵]]","x":1046,"y":2685,"width":250,"height":60},
 		{"id":"b504962660dab2f4","type":"text","text":"### [[三对角矩阵]]","x":1046,"y":2780,"width":250,"height":60},
 		{"id":"330d8b9c8f500423","type":"text","text":"### [[对称矩阵]]","x":1046,"y":2600,"width":250,"height":60},
-		{"id":"e28053ac96502b28","type":"text","text":"## [[数据结构-矩阵]]","x":640,"y":2685,"width":250,"height":60}
+		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":2170,"width":250,"height":60},
+		{"id":"c20fa7fa733fed2d","type":"text","text":"### [[稀疏矩阵]]","x":1046,"y":2880,"width":250,"height":60},
+		{"id":"e28053ac96502b28","type":"text","text":"## [[数据结构-矩阵]]","x":640,"y":2745,"width":250,"height":60},
+		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":155,"y":3050,"width":250,"height":60},
+		{"id":"c6084943815f0bca","type":"text","text":"## [[串的存储结构]]","x":640,"y":2925,"width":250,"height":60},
+		{"id":"af6c95ff1810a555","x":640,"y":3020,"width":250,"height":60,"type":"text","text":"## [[串的基本操作]]"}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -120,6 +124,10 @@
 		{"id":"ac9412d4eba9335a","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"e28053ac96502b28","toSide":"left"},
 		{"id":"59c7951adf296dd2","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"330d8b9c8f500423","toSide":"left"},
 		{"id":"7454858a451544ab","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"edb6755a93870258","toSide":"left"},
-		{"id":"6598361eb8445658","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"b504962660dab2f4","toSide":"left"}
+		{"id":"6598361eb8445658","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"b504962660dab2f4","toSide":"left"},
+		{"id":"ba94adb53934e422","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"c20fa7fa733fed2d","toSide":"left"},
+		{"id":"ac8497ff8aba8d1c","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"5d8ac9c3b7b46bdd","toSide":"left"},
+		{"id":"f78407c0c260bf77","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"c6084943815f0bca","toSide":"left"},
+		{"id":"de37ae0f23f0ca3f","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"af6c95ff1810a555","toSide":"left"}
 	]
 }
