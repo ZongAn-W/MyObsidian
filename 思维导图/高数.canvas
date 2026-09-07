@@ -36,9 +36,7 @@
 		{"id":"3b8ddb8bc41dfd1d","type":"text","text":"# 极限与连续","x":-40,"y":908,"width":250,"height":60},
 		{"id":"8c95eb5070659d56","type":"text","text":"# 高等数学","x":-606,"y":1520,"width":250,"height":60},
 		{"id":"cf6fc8a5ef62d5da","type":"text","text":"# [[三角函数公式]]","x":-1040,"y":1520,"width":250,"height":60},
-		{"id":"b12957dcac36deca","type":"text","text":"# 一元函数微分学","x":-76,"y":2341,"width":250,"height":60},
 		{"id":"e098e88628c7b6a7","type":"text","text":"## 导数与微分","x":448,"y":2216,"width":250,"height":60},
-		{"id":"2ad26f64e4207b27","type":"text","text":"## 导数的计算","x":448,"y":2700,"width":250,"height":60},
 		{"id":"af5ca0e959558887","type":"text","text":"### [[导数]]","x":880,"y":2046,"width":250,"height":60},
 		{"id":"20f15712d1129139","type":"text","text":"### [[导函数]]","x":880,"y":2142,"width":250,"height":60},
 		{"id":"da20a616764db5fc","type":"text","text":"### [[导数的几何意义]]","x":880,"y":2246,"width":250,"height":60},
@@ -49,7 +47,10 @@
 		{"id":"9cddffec9f46316c","type":"text","text":"### [[隐函数求导]]","x":882,"y":2760,"width":250,"height":60},
 		{"id":"5a8f91323d9e7c6e","type":"text","text":"### [[参数方程求导]]","x":882,"y":2860,"width":250,"height":60},
 		{"id":"1da49d35008323d6","type":"text","text":"### [[反函数求导]]","x":880,"y":2961,"width":250,"height":60},
-		{"id":"419601842a993819","x":880,"y":3060,"width":250,"height":60,"type":"text","text":"### [[利用对数工具求导]]"}
+		{"id":"419601842a993819","type":"text","text":"### [[利用对数工具求导]]","x":880,"y":3060,"width":250,"height":60},
+		{"id":"69523f9d0d8f640a","type":"text","text":"### [[高阶导数的计算]]","x":880,"y":3160,"width":250,"height":60},
+		{"id":"2ad26f64e4207b27","type":"text","text":"## 导数的计算","x":448,"y":2860,"width":250,"height":60},
+		{"id":"b12957dcac36deca","type":"text","text":"# 一元函数微分学","x":-20,"y":2520,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ab1853cafdec978a","fromNode":"8c95eb5070659d56","fromSide":"right","toNode":"ae71b5d321b593ca","toSide":"left"},
@@ -100,6 +101,7 @@
 		{"id":"66b4c8182f24ceb4","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"9cddffec9f46316c","toSide":"left"},
 		{"id":"41a24c389de89f88","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"5a8f91323d9e7c6e","toSide":"left"},
 		{"id":"f926648adc6ecf9d","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"1da49d35008323d6","toSide":"left"},
-		{"id":"59427cccdc33af4c","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"419601842a993819","toSide":"left"}
+		{"id":"59427cccdc33af4c","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"419601842a993819","toSide":"left"},
+		{"id":"5f08bce9ad4942af","fromNode":"2ad26f64e4207b27","fromSide":"right","toNode":"69523f9d0d8f640a","toSide":"left"}
 	]
 }
