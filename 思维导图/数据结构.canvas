@@ -61,12 +61,13 @@
 		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":2170,"width":250,"height":60},
 		{"id":"c20fa7fa733fed2d","type":"text","text":"### [[稀疏矩阵]]","x":1046,"y":2880,"width":250,"height":60},
 		{"id":"e28053ac96502b28","type":"text","text":"## [[数据结构-矩阵]]","x":640,"y":2745,"width":250,"height":60},
-		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":155,"y":3050,"width":250,"height":60},
 		{"id":"c6084943815f0bca","type":"text","text":"## [[串的存储结构]]","x":640,"y":2925,"width":250,"height":60},
 		{"id":"af6c95ff1810a555","type":"text","text":"## [[串的基本操作]]","x":640,"y":3020,"width":250,"height":60},
 		{"id":"f3ec49923b4f9e15","type":"text","text":"## [[串的模式匹配]]","x":640,"y":3110,"width":250,"height":60},
 		{"id":"ff012703cda003df","type":"text","text":"### [[简单模式匹配算法]]","x":1020,"y":3072,"width":250,"height":60},
-		{"id":"8a28dd7400a3b5a9","x":1020,"y":3149,"width":250,"height":60,"type":"text","text":"### [[KMP算法]]"}
+		{"id":"8a28dd7400a3b5a9","type":"text","text":"### [[KMP算法]]","x":1020,"y":3149,"width":250,"height":60},
+		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":160,"y":3020,"width":250,"height":60},
+		{"id":"9e471cacd5bfca96","x":160,"y":3920,"width":250,"height":60,"type":"text","text":"# [[树]]"}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -134,6 +135,7 @@
 		{"id":"de37ae0f23f0ca3f","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"af6c95ff1810a555","toSide":"left"},
 		{"id":"daca5401ad83abf9","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"f3ec49923b4f9e15","toSide":"left"},
 		{"id":"e7e41b4c91dd3aa6","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"ff012703cda003df","toSide":"left"},
-		{"id":"26ed93a082c2c713","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"8a28dd7400a3b5a9","toSide":"left"}
+		{"id":"26ed93a082c2c713","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"8a28dd7400a3b5a9","toSide":"left"},
+		{"id":"0dc74387865d9549","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"9e471cacd5bfca96","toSide":"left"}
 	]
 }
