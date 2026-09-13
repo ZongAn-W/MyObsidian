@@ -67,7 +67,14 @@
 		{"id":"ff012703cda003df","type":"text","text":"### [[简单模式匹配算法]]","x":1020,"y":3072,"width":250,"height":60},
 		{"id":"8a28dd7400a3b5a9","type":"text","text":"### [[KMP算法]]","x":1020,"y":3149,"width":250,"height":60},
 		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":160,"y":3020,"width":250,"height":60},
-		{"id":"9e471cacd5bfca96","x":160,"y":3920,"width":250,"height":60,"type":"text","text":"# [[树]]"}
+		{"id":"6a0d3f9cbdb1be5b","type":"text","text":"## [[二叉树]]","x":640,"y":3640,"width":250,"height":60},
+		{"id":"b7eff66569acb9a3","type":"text","text":"## [[遍历二叉树]]","x":640,"y":3770,"width":250,"height":60},
+		{"id":"e29e76082a8bb971","type":"text","text":"## [[线索二叉树]]","x":640,"y":3890,"width":250,"height":60},
+		{"id":"9e471cacd5bfca96","type":"text","text":"# [[树]]","x":160,"y":3770,"width":250,"height":60},
+		{"id":"9c3659f91677b255","type":"text","text":"### [[特殊的二叉树]]","x":1046,"y":3580,"width":250,"height":60},
+		{"id":"656a5dc5684c887b","type":"text","text":"### 二叉树的存储结构","x":1046,"y":3700,"width":250,"height":60},
+		{"id":"b66966fc26973068","type":"text","text":"[[二叉树的顺序存储结构]]","x":1420,"y":3644,"width":250,"height":60},
+		{"id":"d937e57d613ca9eb","type":"text","text":"[[二叉树的链式存储结构]]","x":1420,"y":3760,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -136,6 +143,13 @@
 		{"id":"daca5401ad83abf9","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"f3ec49923b4f9e15","toSide":"left"},
 		{"id":"e7e41b4c91dd3aa6","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"ff012703cda003df","toSide":"left"},
 		{"id":"26ed93a082c2c713","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"8a28dd7400a3b5a9","toSide":"left"},
-		{"id":"0dc74387865d9549","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"9e471cacd5bfca96","toSide":"left"}
+		{"id":"0dc74387865d9549","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"9e471cacd5bfca96","toSide":"left"},
+		{"id":"9cbb59f60d2f091d","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"6a0d3f9cbdb1be5b","toSide":"left"},
+		{"id":"5f69660332e7f1f5","fromNode":"6a0d3f9cbdb1be5b","fromSide":"right","toNode":"9c3659f91677b255","toSide":"left"},
+		{"id":"b35a857731b730bc","fromNode":"6a0d3f9cbdb1be5b","fromSide":"right","toNode":"656a5dc5684c887b","toSide":"left"},
+		{"id":"43e28428a9f2595a","fromNode":"656a5dc5684c887b","fromSide":"right","toNode":"b66966fc26973068","toSide":"left"},
+		{"id":"3156801415107914","fromNode":"656a5dc5684c887b","fromSide":"right","toNode":"d937e57d613ca9eb","toSide":"left"},
+		{"id":"b88839ed5bfaa460","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"b7eff66569acb9a3","toSide":"left"},
+		{"id":"f1d6d0f1e749d773","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"e29e76082a8bb971","toSide":"left"}
 	]
 }
