@@ -4,6 +4,7 @@
 # Local trash and generated scratch files
 .trash/
 .temp_pages/
+.tmp-mermaid/
 
 # OS/editor noise
 Thumbs.db
@@ -18,3 +19,4 @@ Desktop.ini
 
 # Runtime logs
 *.log
+/.verify
