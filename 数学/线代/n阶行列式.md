@@ -1,5 +1,5 @@
-
 $n$ 阶行列式是取自==不同行不同列==的 $n$ 个元素乘积的代数和，即
+
 $$
 D=
 \begin{vmatrix}
@@ -10,11 +10,13 @@ a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 =\sum_{j_1j_2\cdots j_n}(-1)^{\tau(j_1j_2\cdots j_n)}a_{1j_1}a_{2j_2}\cdots a_{nj_n}.
 $$
+
 特别地，一阶行列式 $|a|=a$。
 
-### 几种特殊行列式
+## 几种特殊行列式
 
 （1）对角行列式、上（下）三角行列式的值等于主对角线元素之积
+
 $$
 D=
 \begin{vmatrix}
@@ -39,7 +41,9 @@ a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{vmatrix}
 =a_{11}a_{22}\cdots a_{nn}.
 $$
+
 （2）副对角线行列式
+
 $$
 D=
 \begin{vmatrix}
@@ -65,8 +69,8 @@ a_{n1} & \cdots & 0 & 0
 =(-1)^{\frac{n(n-1)}{2}}a_{1n}a_{2,n-1}\cdots a_{n1}.
 $$
 
-
 （3）范德蒙行列式
+
 $$
 \begin{vmatrix}
 1 & 1 & \cdots & 1\\
