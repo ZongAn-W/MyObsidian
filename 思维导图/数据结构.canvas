@@ -67,21 +67,22 @@
 		{"id":"ff012703cda003df","type":"text","text":"### [[简单模式匹配算法]]","x":1020,"y":3072,"width":250,"height":60},
 		{"id":"8a28dd7400a3b5a9","type":"text","text":"### [[KMP算法]]","x":1020,"y":3149,"width":250,"height":60},
 		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":160,"y":3020,"width":250,"height":60},
-		{"id":"6a0d3f9cbdb1be5b","type":"text","text":"## [[二叉树]]","x":640,"y":3640,"width":250,"height":60},
-		{"id":"b7eff66569acb9a3","type":"text","text":"## [[遍历二叉树]]","x":640,"y":3770,"width":250,"height":60},
-		{"id":"9c3659f91677b255","type":"text","text":"### [[特殊的二叉树]]","x":1046,"y":3580,"width":250,"height":60},
-		{"id":"656a5dc5684c887b","type":"text","text":"### 二叉树的存储结构","x":1046,"y":3700,"width":250,"height":60},
-		{"id":"b66966fc26973068","type":"text","text":"[[二叉树的顺序存储结构]]","x":1420,"y":3644,"width":250,"height":60},
-		{"id":"d937e57d613ca9eb","type":"text","text":"[[二叉树的链式存储结构]]","x":1420,"y":3760,"width":250,"height":60},
-		{"id":"0da47faaf6538713","type":"text","text":"### [[二叉树的中序线索化]]","x":1038,"y":3832,"width":250,"height":60},
-		{"id":"cbedb8a5e5e02b11","type":"text","text":"### [[二叉树的后序线索化]]","x":1038,"y":4060,"width":250,"height":60},
-		{"id":"de18ec78c13c5d76","type":"text","text":"### [[二叉树的先序线索化]]","x":1038,"y":3950,"width":250,"height":60},
-		{"id":"e29e76082a8bb971","type":"text","text":"## [[线索二叉树]]","x":640,"y":3950,"width":250,"height":60},
-		{"id":"9e471cacd5bfca96","type":"text","text":"# [[树]]","x":160,"y":3880,"width":250,"height":60},
-		{"id":"17a2dbd77b70a223","type":"text","text":"## [[树的存储结构]]","x":640,"y":4060,"width":250,"height":60},
-		{"id":"21e83d7385937b01","type":"text","text":"## [[树的遍历]]","x":640,"y":4160,"width":250,"height":60},
-		{"id":"06526b0c2e6af62a","type":"text","text":"## [[哈夫曼树]]","x":640,"y":4260,"width":250,"height":60},
-		{"id":"6549a731f76f832d","x":1038,"y":4260,"width":250,"height":60,"type":"text","text":"### [[哈夫曼编码]]"}
+		{"id":"0da47faaf6538713","type":"text","text":"### [[二叉树的中序线索化]]","x":1038,"y":3530,"width":250,"height":60},
+		{"id":"de18ec78c13c5d76","type":"text","text":"### [[二叉树的先序线索化]]","x":1038,"y":3650,"width":250,"height":60},
+		{"id":"cbedb8a5e5e02b11","type":"text","text":"### [[二叉树的后序线索化]]","x":1038,"y":3760,"width":250,"height":60},
+		{"id":"6549a731f76f832d","type":"text","text":"### [[哈夫曼编码]]","x":1038,"y":3960,"width":250,"height":60},
+		{"id":"6a0d3f9cbdb1be5b","type":"text","text":"## [[二叉树]]","x":640,"y":3340,"width":250,"height":60},
+		{"id":"b7eff66569acb9a3","type":"text","text":"## [[遍历二叉树]]","x":640,"y":3470,"width":250,"height":60},
+		{"id":"e29e76082a8bb971","type":"text","text":"## [[线索二叉树]]","x":640,"y":3650,"width":250,"height":60},
+		{"id":"17a2dbd77b70a223","type":"text","text":"## [[树的存储结构]]","x":640,"y":3760,"width":250,"height":60},
+		{"id":"21e83d7385937b01","type":"text","text":"## [[树的遍历]]","x":640,"y":3860,"width":250,"height":60},
+		{"id":"06526b0c2e6af62a","type":"text","text":"## [[哈夫曼树]]","x":640,"y":3960,"width":250,"height":60},
+		{"id":"9c3659f91677b255","type":"text","text":"### [[特殊的二叉树]]","x":1046,"y":3280,"width":250,"height":60},
+		{"id":"b66966fc26973068","type":"text","text":"[[二叉树的顺序存储结构]]","x":1420,"y":3344,"width":250,"height":60},
+		{"id":"656a5dc5684c887b","type":"text","text":"### 二叉树的存储结构","x":1046,"y":3400,"width":250,"height":60},
+		{"id":"d937e57d613ca9eb","type":"text","text":"[[二叉树的链式存储结构]]","x":1420,"y":3460,"width":250,"height":60},
+		{"id":"9e471cacd5bfca96","type":"text","text":"# [[树]]","x":160,"y":3650,"width":250,"height":60},
+		{"id":"3e7a207e337b9e44","x":160,"y":4220,"width":250,"height":60,"type":"text","text":"# [[图]]"}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -164,6 +165,7 @@
 		{"id":"ec78dfdfafbfd9dc","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"17a2dbd77b70a223","toSide":"left"},
 		{"id":"211ba999a268511a","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"21e83d7385937b01","toSide":"left"},
 		{"id":"2b5865b413e592a4","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"06526b0c2e6af62a","toSide":"left"},
-		{"id":"96eb765f079350d7","fromNode":"06526b0c2e6af62a","fromSide":"right","toNode":"6549a731f76f832d","toSide":"left"}
+		{"id":"96eb765f079350d7","fromNode":"06526b0c2e6af62a","fromSide":"right","toNode":"6549a731f76f832d","toSide":"left"},
+		{"id":"8e68e8ced54f6343","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"3e7a207e337b9e44","toSide":"left"}
 	]
 }
