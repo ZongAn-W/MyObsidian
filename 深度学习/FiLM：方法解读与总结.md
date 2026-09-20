@@ -15,13 +15,11 @@ tags:
 
 ## 1. 论文信息与阅读范围
 
-| | |
-| --- | --- |
-| **标题** | FiLM: Visual Reasoning with a General Conditioning Layer |
-| **作者** | Ethan Perez、Florian Strub、Harm de Vries、Vincent Dumoulin、Aaron Courville |
-| **发表会议** | AAAI 2018 |
-| **本地原文** | [[FiLM  Visual Reasoning with a General Conditioning Layer.pdf]] |
-| **主要依据** | 第 2–3 页 Section 2（Method）、第 3 页 Figure 3，以及第 11 页附录 7.2（Model Details）。机制解释另参考 Section 3 和 Section 4.2。 |
+- **标题**：FiLM: Visual Reasoning with a General Conditioning Layer
+- **作者**：Ethan Perez、Florian Strub、Harm de Vries、Vincent Dumoulin、Aaron Courville
+- **发表会议**：AAAI 2018
+- **本地原文**：[[FiLM  Visual Reasoning with a General Conditioning Layer.pdf]]
+- **主要依据**：第 2–3 页 Section 2（Method）、第 3 页 Figure 3，以及第 11 页附录 7.2（Model Details）。机制解释另参考 Section 3 和 Section 4.2。
 
 本文区分两个层次：**FiLM 是通用条件调制方法，论文中的视觉问答网络是其具体应用。**
 
@@ -51,11 +49,9 @@ $$
 
 这意味着：
 
-| | |
-| --- | --- |
-| **样本相关** | 不同问题产生不同的调制参数。 |
-| **逐通道调制** | 每个通道有自己的缩放和偏移。 |
-| **空间共享** | 同一通道所有空间位置使用相同参数。 |
+1. **样本相关**：不同问题产生不同的调制参数。
+2. **逐通道调制**：每个通道有自己的缩放和偏移。
+3. **空间共享**：同一通道所有空间位置使用相同参数。
 
 虽然名称中使用 Linear，但由于包含偏移项，严格来说这是一个**仿射变换**。
 
@@ -135,10 +131,8 @@ $$
 
 输入图像缩放到 $224\times224$，转换为 $128\times14\times14$ 的视觉特征。论文提供两种特征提取方式：
 
-| | |
-| --- | --- |
-| **从头训练 CNN** | 4 层卷积，每层包含 128 个 $4\times4$ 卷积核，配合 BN 与 ReLU。 |
-| **预训练特征** | 使用冻结的 ImageNet 预训练 ResNet-101 的 conv4 特征，再接可学习的 $3\times3$ 卷积。 |
+- **从头训练 CNN**：4 层卷积，每层包含 128 个 $4\times4$ 卷积核，配合 BN 与 ReLU。
+- **预训练特征**：使用冻结的 ImageNet 预训练 ResNet-101 的 conv4 特征，再接可学习的 $3\times3$ 卷积。
 
 特征随后经过 4 个 FiLM 残差块。分类器使用 $1\times1$ 卷积将通道数变为 512，进行全局最大池化，再通过隐藏层为 1024 维的两层 MLP 输出答案概率。
 
@@ -243,13 +237,11 @@ FiLM 的 $\gamma$ 和 $\beta$ 不受 $[0,1]$ 限制，因此能够执行负缩�
 
 ## 9. 容易误解的地方
 
-| | |
-| --- | --- |
-| **FiLM 不是直接生成卷积核** | 它生成的是中间特征的缩放和偏移参数。 |
-| **FiLM 不等于空间注意力图** | 默认参数不随空间位置变化。 |
-| **FiLM 本身不保证可解释推理** | 任务能力来自整个网络的学习结果。 |
-| **逐通道独立调制不代表通道互不关联** | 卷积仍混合通道，生成器也可以共享参数。 |
-| **分辨率无关的是调制参数数量** | 每层只需 $2C$ 个生成值；实际把变换应用到特征图仍需 $O(BCHW)$ 的逐元素运算，不能理解为整个计算过程与分辨率无关。 |
+- **FiLM 不是直接生成卷积核**：它生成的是中间特征的缩放和偏移参数。
+- **FiLM 不等于空间注意力图**：默认参数不随空间位置变化。
+- **FiLM 本身不保证可解释推理**：任务能力来自整个网络的学习结果。
+- **逐通道独立调制不代表通道互不关联**：卷积仍混合通道，生成器也可以共享参数。
+- **分辨率无关的是调制参数数量**：每层只需 $2C$ 个生成值；实际把变换应用到特征图仍需 $O(BCHW)$ 的逐元素运算，不能理解为整个计算过程与分辨率无关。
 
 ## 10. 可迁移的方法启发
 
