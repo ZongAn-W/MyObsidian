@@ -87,8 +87,10 @@
 		{"id":"a71c4e9d20b6f385","type":"text","text":"### [[图#图的定义|图的定义]]","x":1040,"y":4100,"width":250,"height":60},
 		{"id":"b83d5f0e31c7a496","type":"text","text":"### [[图#图的分类|图的分类]]","x":1040,"y":4180,"width":250,"height":60},
 		{"id":"d05f712a53e9c6b8","type":"text","text":"### [[图#权和网、邻接点、路径、回路|权和网、邻接点、路径、回路]]","x":1040,"y":4260,"width":250,"height":60},
-		{"id":"5a6b7c8d9e0f1a2b","type":"text","text":"### [[图#几个性质|几个性质]]","x":1040,"y":4340,"width":250,"height":60},
-		{"id":"c94e601f42d8b5a7","type":"text","text":"### [[图#顶点的度|顶点的度]]","x":1040,"y":4420,"width":250,"height":60}
+		{"id":"6d8e9f0a1b2c3d4e","type":"text","text":"### [[图#子图、连通分量、强连通分量|子图、连通分量、强连通分量]]","x":1040,"y":4340,"width":250,"height":60},
+		{"id":"9f0a1b2c3d4e5f60","type":"text","text":"### [[图#生成树和生成森林|生成树和生成森林]]","x":1040,"y":4420,"width":250,"height":60},
+		{"id":"5a6b7c8d9e0f1a2b","type":"text","text":"### [[图#几个性质|几个性质]]","x":1040,"y":4500,"width":250,"height":60},
+		{"id":"c94e601f42d8b5a7","type":"text","text":"### [[图#顶点的度|顶点的度]]","x":1040,"y":4580,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -177,6 +179,8 @@
 		{"id":"e16a823b64fad7c9","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"a71c4e9d20b6f385","toSide":"left"},
 		{"id":"f27b934c75abe8da","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"b83d5f0e31c7a496","toSide":"left"},
 		{"id":"038c045d86bcf9eb","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"d05f712a53e9c6b8","toSide":"left"},
+		{"id":"a0b1c2d3e4f5a6b7","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"9f0a1b2c3d4e5f60","toSide":"left"},
+		{"id":"8e9f0a1b2c3d4e5f","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"6d8e9f0a1b2c3d4e","toSide":"left"},
 		{"id":"6b7c8d9e0f1a2b3c","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"5a6b7c8d9e0f1a2b","toSide":"left"},
 		{"id":"7c8d9e0f1a2b3c4d","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"c94e601f42d8b5a7","toSide":"left"}
 	]
