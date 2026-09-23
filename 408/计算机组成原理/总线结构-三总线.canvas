@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"3a2b3c4d5e6f7001","type":"text","text":"# CPU","x":0,"y":0,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f7002","type":"text","text":"# I/O总线","x":200,"y":0,"width":620,"height":60},
+		{"id":"3a2b3c4d5e6f7003","type":"text","text":"# I/O接口","x":200,"y":180,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f7004","type":"text","text":"# I/O接口","x":380,"y":180,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f7005","type":"text","text":"# ……","x":560,"y":180,"width":60,"height":60},
+		{"id":"3a2b3c4d5e6f7006","type":"text","text":"# I/O接口","x":660,"y":180,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f7007","type":"text","text":"# 主存","x":0,"y":340,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f7008","type":"text","text":"# 高速I/O设备","x":200,"y":340,"width":170,"height":60},
+		{"id":"3a2b3c4d5e6f7009","type":"text","text":"# I/O设备","x":400,"y":340,"width":140,"height":60},
+		{"id":"3a2b3c4d5e6f700a","type":"text","text":"# I/O设备","x":660,"y":340,"width":140,"height":60}
+	],
+	"edges":[
+		{"id":"3a2b3c4d5e6f7011","fromNode":"3a2b3c4d5e6f7001","fromSide":"right","toNode":"3a2b3c4d5e6f7002","toSide":"left","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7012","fromNode":"3a2b3c4d5e6f7002","fromSide":"bottom","toNode":"3a2b3c4d5e6f7003","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7013","fromNode":"3a2b3c4d5e6f7002","fromSide":"bottom","toNode":"3a2b3c4d5e6f7004","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7014","fromNode":"3a2b3c4d5e6f7002","fromSide":"bottom","toNode":"3a2b3c4d5e6f7005","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7015","fromNode":"3a2b3c4d5e6f7002","fromSide":"bottom","toNode":"3a2b3c4d5e6f7006","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7016","fromNode":"3a2b3c4d5e6f7001","fromSide":"bottom","toNode":"3a2b3c4d5e6f7007","toSide":"top","fromEnd":"arrow","toEnd":"arrow","label":"主存总线"},
+		{"id":"3a2b3c4d5e6f7017","fromNode":"3a2b3c4d5e6f7003","fromSide":"bottom","toNode":"3a2b3c4d5e6f7008","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7018","fromNode":"3a2b3c4d5e6f7004","fromSide":"bottom","toNode":"3a2b3c4d5e6f7009","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f7019","fromNode":"3a2b3c4d5e6f7006","fromSide":"bottom","toNode":"3a2b3c4d5e6f700a","toSide":"top","fromEnd":"arrow","toEnd":"arrow"},
+		{"id":"3a2b3c4d5e6f701a","fromNode":"3a2b3c4d5e6f7007","fromSide":"right","toNode":"3a2b3c4d5e6f7008","toSide":"left","fromEnd":"arrow","toEnd":"arrow","label":"DMA总线"}
+	]
+}
