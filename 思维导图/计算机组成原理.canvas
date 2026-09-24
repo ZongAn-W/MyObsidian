@@ -139,13 +139,14 @@
 		{"id":"5a6b7c8d9e0f1122","type":"text","text":"### [[总线性能指标]]","x":1060,"y":7020,"width":250,"height":60},
 		{"id":"7c8d9e0f11223344","type":"text","text":"### [[总线结构]]","x":1060,"y":7110,"width":250,"height":60},
 		{"id":"4b5c6d7e8f900011","type":"text","text":"### [[总线事务和定时]]","x":1060,"y":7200,"width":250,"height":60},
-		{"id":"5e6f7081920304a5","type":"text","text":"### [[IO接口-基本概念]]","x":1060,"y":7440,"width":250,"height":60},
-		{"id":"7081920304a5b6c7","type":"text","text":"### [[IO接口-定义和功能]]","x":1060,"y":7530,"width":250,"height":60},
-		{"id":"a5b6c7d8e9f00112","type":"text","text":"### [[IO接口-基本结构]]","x":1060,"y":7620,"width":250,"height":60},
-		{"id":"d8e9f00112233445","type":"text","text":"### [[IO接口-端口]]","x":1060,"y":7710,"width":250,"height":60},
-		{"id":"0112233445566778","type":"text","text":"### [[IO接口-类型]]","x":1060,"y":7800,"width":250,"height":60},
-		{"id":"3445566778899aab","type":"text","text":"### [[程序查询方式]]","x":1060,"y":7890,"width":250,"height":60},
-		{"id":"6e3799f63db56b8a","type":"text","text":"## I/O系统","x":600,"y":7530,"width":234,"height":60}
+		{"id":"6e3799f63db56b8a","type":"text","text":"## I/O系统","x":600,"y":7650,"width":234,"height":60},
+		{"id":"5e6f7081920304a5","type":"text","text":"### [[IO接口-基本概念]]","x":1060,"y":7530,"width":250,"height":60},
+		{"id":"7081920304a5b6c7","type":"text","text":"### [[IO接口-定义和功能]]","x":1460,"y":7410,"width":250,"height":60},
+		{"id":"a5b6c7d8e9f00112","type":"text","text":"### [[IO接口-基本结构]]","x":1460,"y":7500,"width":250,"height":60},
+		{"id":"d8e9f00112233445","type":"text","text":"### [[IO接口-端口]]","x":1460,"y":7590,"width":250,"height":60},
+		{"id":"0112233445566778","type":"text","text":"### [[IO接口-类型]]","x":1460,"y":7680,"width":250,"height":60},
+		{"id":"3445566778899aab","type":"text","text":"### [[程序查询方式]]","x":1060,"y":7770,"width":250,"height":60},
+		{"id":"7ad8487b978c0ea4","type":"text","text":"### [[程序中断方式]]","x":1060,"y":7860,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
@@ -295,15 +296,11 @@
 		{"id":"5b6c7d8e9f001122","fromNode":"54866b81d9109246","fromSide":"right","toNode":"4b5c6d7e8f900011","toSide":"left"},
 		{"id":"6b7c8d9e0f001233","fromNode":"7c8d9e0f11223344","fromSide":"bottom","toNode":"4b5c6d7e8f900011","toSide":"top"},
 		{"id":"6f7081920304a5b6","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"5e6f7081920304a5","toSide":"left"},
-		{"id":"81920304a5b6c7d8","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"7081920304a5b6c7","toSide":"left"},
-		{"id":"920304a5b6c7d8e9","fromNode":"5e6f7081920304a5","fromSide":"bottom","toNode":"7081920304a5b6c7","toSide":"top"},
-		{"id":"b6c7d8e9f0011223","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"a5b6c7d8e9f00112","toSide":"left"},
-		{"id":"c7d8e9f001122334","fromNode":"7081920304a5b6c7","fromSide":"bottom","toNode":"a5b6c7d8e9f00112","toSide":"top"},
-		{"id":"e9f0011223344556","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"d8e9f00112233445","toSide":"left"},
-		{"id":"f001122334455667","fromNode":"a5b6c7d8e9f00112","fromSide":"bottom","toNode":"d8e9f00112233445","toSide":"top"},
-		{"id":"1223344556677889","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"0112233445566778","toSide":"left"},
-		{"id":"233445566778899a","fromNode":"d8e9f00112233445","fromSide":"bottom","toNode":"0112233445566778","toSide":"top"},
 		{"id":"45566778899aabbc","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"3445566778899aab","toSide":"left"},
-		{"id":"566778899aabbccd","fromNode":"0112233445566778","fromSide":"bottom","toNode":"3445566778899aab","toSide":"top"}
+		{"id":"d26208b02e0fa300","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"7081920304a5b6c7","toSide":"left"},
+		{"id":"42f33fb6ff8751ff","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"a5b6c7d8e9f00112","toSide":"left"},
+		{"id":"0c2ffa861856d376","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"d8e9f00112233445","toSide":"left"},
+		{"id":"26f62bd2502860c4","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"0112233445566778","toSide":"left"},
+		{"id":"ef5e2a5dd7bfbf65","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"7ad8487b978c0ea4","toSide":"left"}
 	]
 }
