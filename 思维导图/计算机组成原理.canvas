@@ -1,2435 +1,322 @@
 {
-	"nodes": [
-		{
-			"id": "521fc03614f7ce5e",
-			"type": "text",
-			"text": "[[指令长度是否固定]]",
-			"x": 1338,
-			"y": 1582,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d3b322926311535e",
-			"type": "text",
-			"text": "[[操作数地址码的数目]]",
-			"x": 1338,
-			"y": 1684,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ba84e3116905e76f",
-			"type": "text",
-			"text": "操作码长度是否固定",
-			"x": 1338,
-			"y": 1774,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2c21c4d4865b0ad2",
-			"type": "text",
-			"text": "### [[指令格式]]",
-			"x": 980,
-			"y": 1684,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ba86829b1193746d",
-			"type": "text",
-			"text": "### [[Cache]]",
-			"x": 1247,
-			"y": 716,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ef431b8c03885f13",
-			"type": "text",
-			"text": "#### [[虚拟存储器的访存过程]]",
-			"x": 2002,
-			"y": 876,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b724d9beb193edc7",
-			"type": "text",
-			"text": "#### [[快表TLB]]",
-			"x": 2002,
-			"y": 996,
-			"width": 145,
-			"height": 54
-		},
-		{
-			"id": "bcbf0ce22dae7654",
-			"type": "text",
-			"text": "#### [[TLB-Cache]]",
-			"x": 1998,
-			"y": 1112,
-			"width": 165,
-			"height": 60
-		},
-		{
-			"id": "c8ef845df12d6d2d",
-			"type": "text",
-			"text": "### 主存储器与CPU的连接",
-			"x": 1230,
-			"y": 359,
-			"width": 284,
-			"height": 50
-		},
-		{
-			"id": "57a8bb5e395e5d83",
-			"type": "text",
-			"text": "### 多模块存储器",
-			"x": 1239,
-			"y": 456,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "3365ab4158ba1601",
-			"type": "text",
-			"text": "### 外部存储器",
-			"x": 1239,
-			"y": 569,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "8d08820074ac4ae5",
-			"type": "text",
-			"text": "### 主存储器",
-			"x": 1247,
-			"y": 249,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b3dbd6deaafc55fc",
-			"type": "text",
-			"text": "### 存储系统基本概念",
-			"x": 1259,
-			"y": 89,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "a187a416f4819a92",
-			"type": "text",
-			"text": "## 存储系统",
-			"x": 529,
-			"y": 569,
-			"width": 175,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "ad185900ed06dc02",
-			"type": "text",
-			"text": "# 计算机组成原理",
-			"x": -280,
-			"y": 968,
-			"width": 269,
-			"height": 72,
-			"color": "1"
-		},
-		{
-			"id": "e325442c7cec1b65",
-			"type": "text",
-			"text": "## [[指令寻址]]",
-			"x": 1338,
-			"y": 1940,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6180d2360f3837f9",
-			"type": "text",
-			"text": "[[定长操作码]]",
-			"x": 1800,
-			"y": 1727,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d724a8629a9540dc",
-			"type": "text",
-			"text": "[[扩展操作码]]",
-			"x": 1800,
-			"y": 1820,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6ab757086fd69403",
-			"type": "text",
-			"text": "## [[数据寻址]]",
-			"x": 1338,
-			"y": 2310,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b73978ae1443f2fe",
-			"type": "text",
-			"text": "## [[寻址方式]]",
-			"x": 980,
-			"y": 2130,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "18af7587ab04d5d1",
-			"type": "text",
-			"text": "[[基址寻址]]",
-			"x": 1800,
-			"y": 2540,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d463889cce7874b2",
-			"type": "text",
-			"text": "偏移寻址",
-			"x": 2158,
-			"y": 2540,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "bd09808b82a0245e",
-			"type": "text",
-			"text": "[[相对寻址]]",
-			"x": 1798,
-			"y": 2625,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "15770b0a03bfbcd2",
-			"type": "text",
-			"text": "[[堆栈寻址]]",
-			"x": 1798,
-			"y": 2714,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6727c54c8e69d088",
-			"type": "text",
-			"text": "[[寄存器寻址]]",
-			"x": 1798,
-			"y": 2218,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "c1d486f2211ef79f",
-			"type": "text",
-			"text": "[[寄存器间接寻址]]",
-			"x": 1798,
-			"y": 2312,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "dd53e32f260e1d75",
-			"type": "text",
-			"text": "[[隐含寻址]]",
-			"x": 1798,
-			"y": 2392,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "23d07bcdc1d62710",
-			"type": "text",
-			"text": "[[变址寻址]]",
-			"x": 1798,
-			"y": 2472,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "664e73377a1599d7",
-			"type": "text",
-			"text": "[[立即数寻址]]",
-			"x": 1798,
-			"y": 1952,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "cd8baf82c23e20c7",
-			"type": "text",
-			"text": "[[直接寻址]]",
-			"x": 1798,
-			"y": 2042,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b500521ce280afd8",
-			"type": "text",
-			"text": "[[间接寻址]]",
-			"x": 1798,
-			"y": 2130,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0e229913505725ae",
-			"type": "text",
-			"text": "### [[大小端存储]]",
-			"x": 1328,
-			"y": 2552,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "eaaab044d7db28c5",
-			"type": "text",
-			"text": "### [[边界对齐]]",
-			"x": 1328,
-			"y": 2442,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "f72d88e99d433266",
-			"type": "text",
-			"text": "## 数据对齐",
-			"x": 980,
-			"y": 2492,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "bca03c0563354283",
-			"type": "text",
-			"text": "## [[CISC和RISC]]",
-			"x": 980,
-			"y": 2612,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "5b88528f1b670c75",
-			"type": "text",
-			"text": "[[通用寄存器]]",
-			"x": 1797,
-			"y": 2840,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "e8007b7b5262fb20",
-			"type": "text",
-			"text": "### 常用汇编指令",
-			"x": 1325,
-			"y": 2900,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "eb1f3bd22d32874e",
-			"type": "text",
-			"text": "[[常用指令]]",
-			"x": 1797,
-			"y": 2960,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0213cc96b564e1cf",
-			"type": "text",
-			"text": "[[控制流指令]]",
-			"x": 2158,
-			"y": 3051,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ee2ed08285194100",
-			"type": "text",
-			"text": "[[数据传送指令]]",
-			"x": 2155,
-			"y": 2870,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "f5d19875fe37fff9",
-			"type": "text",
-			"text": "[[算术和逻辑运算指令]]",
-			"x": 2155,
-			"y": 2960,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b65f50cfbcacc8ec",
-			"type": "text",
-			"text": "## 高级语言代码与机器代码之间的对应",
-			"x": 977,
-			"y": 2896,
-			"width": 250,
-			"height": 64
-		},
-		{
-			"id": "f868b022183e0d86",
-			"type": "text",
-			"text": "# [[指令系统]]",
-			"x": 520,
-			"y": 2278,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "eca1f7b71e8b2780",
-			"type": "text",
-			"text": "### [[指令周期]]",
-			"x": 1421,
-			"y": 3728,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "c83f13f340fe49de",
-			"type": "text",
-			"text": "### 指令周期的数据流",
-			"x": 1421,
-			"y": 3810,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6033ea1fecde0194",
-			"type": "text",
-			"text": "[[取指周期]]",
-			"x": 1781,
-			"y": 3687,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "e2d60e89342253bd",
-			"type": "text",
-			"text": "[[间址周期]]",
-			"x": 1781,
-			"y": 3775,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ff1ce7b39bec66f3",
-			"type": "text",
-			"text": "[[执行周期]]",
-			"x": 1781,
-			"y": 3855,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "e32605f70a397735",
-			"type": "text",
-			"text": "### [[CPU的功能]]",
-			"x": 1419,
-			"y": 3440,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "71eedf4e15b0ab85",
-			"type": "text",
-			"text": "## CPU的功能和基本结构",
-			"x": 979,
-			"y": 3502,
-			"width": 246,
-			"height": 80
-		},
-		{
-			"id": "2eaeb33d85567044",
-			"type": "text",
-			"text": "### [[CPU的基本结构]]",
-			"x": 1419,
-			"y": 3572,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2b7954634cc0c46e",
-			"type": "text",
-			"text": "[[结构相关（资源冲突、资源冒险）]]",
-			"x": 1781,
-			"y": 4520,
-			"width": 300,
-			"height": 60
-		},
-		{
-			"id": "a91bc2301a5f1209",
-			"type": "text",
-			"text": "[[数据相关（数据冲突、数据冒险）]]",
-			"x": 1781,
-			"y": 4600,
-			"width": 300,
-			"height": 60
-		},
-		{
-			"id": "ee49ce7751dbf502",
-			"type": "text",
-			"text": "[[控制相关（控制冲突、控制冒险）]]",
-			"x": 1781,
-			"y": 4672,
-			"width": 300,
-			"height": 60
-		},
-		{
-			"id": "5a560097febe2572",
-			"type": "text",
-			"text": "[[流水线的吞吐率TP]]",
-			"x": 1781,
-			"y": 4760,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "32c272ee48b7d13c",
-			"type": "text",
-			"text": "[[流水线的加速比S]]",
-			"x": 1781,
-			"y": 4850,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2762c9a29abf10b1",
-			"type": "text",
-			"text": "[[流水线的效率]]",
-			"x": 1781,
-			"y": 4940,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "06e4cb473561c2de",
-			"type": "text",
-			"text": "### [[五段流水线]]",
-			"x": 1421,
-			"y": 4360,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "47fdefd62ad52a72",
-			"type": "text",
-			"text": "### [[流水线的设置]]",
-			"x": 1421,
-			"y": 4440,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "335e65329cd7f819",
-			"type": "text",
-			"text": "### [[流水线的表示方法]]",
-			"x": 1421,
-			"y": 4520,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "25fe0003b6f35a43",
-			"type": "text",
-			"text": "### [[流水线的影响因素]]",
-			"x": 1421,
-			"y": 4600,
-			"width": 250,
-			"height": 60,
-			"color": "3"
-		},
-		{
-			"id": "734112556bb7a9e7",
-			"type": "text",
-			"text": "### [[流水线的性能指标]]",
-			"x": 1421,
-			"y": 4850,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6ef41834cbb39934",
-			"type": "text",
-			"text": "### [[高级流水线技术]]",
-			"x": 1421,
-			"y": 4970,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "40ac0f16666479e6",
-			"type": "text",
-			"text": "## [[指令流水线]]",
-			"x": 981,
-			"y": 4660,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "cce8b134982b478c",
-			"type": "text",
-			"text": "## [[数据通路]]",
-			"x": 991,
-			"y": 5139,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "e79f15c0afdc630b",
-			"type": "text",
-			"text": "### [[数据通路的组成]]",
-			"x": 1421,
-			"y": 5079,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "7e7be0103fdaf2d5",
-			"type": "text",
-			"text": "### [[数据通路的基本结构]]",
-			"x": 1421,
-			"y": 5183,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "4a3929505fa05bde",
-			"type": "text",
-			"text": "[[单周期处理器]]",
-			"x": 1781,
-			"y": 4017,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "8d3c009d9c2829d7",
-			"type": "text",
-			"text": "[[多周期处理器]]",
-			"x": 1781,
-			"y": 4090,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "867afe19d43872e6",
-			"type": "text",
-			"text": "### [[指令执行方案]]",
-			"x": 1419,
-			"y": 4090,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "711635253eb7ba95",
-			"type": "text",
-			"text": "## 指令执行过程",
-			"x": 980,
-			"y": 3936,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b148a736488cff4e",
-			"type": "text",
-			"text": "[[流水线处理器]]",
-			"x": 1781,
-			"y": 4160,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "3f5831a11635c228",
-			"type": "text",
-			"text": "[[单总线结构的数据通路]]",
-			"x": 1781,
-			"y": 5153,
-			"width": 250,
-			"height": 60,
-			"color": "3"
-		},
-		{
-			"id": "b63ee7e02098015a",
-			"type": "text",
-			"text": "[[专用结构的数据通路]]",
-			"x": 1781,
-			"y": 5220,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "49ec4f401eb4a291",
-			"type": "text",
-			"text": "### [[虚拟存储器]]",
-			"x": 1239,
-			"y": 996,
-			"width": 250,
-			"height": 62
-		},
-		{
-			"id": "90a3b7c8e78b49b4",
-			"type": "text",
-			"text": "#### [[页式虚拟存储器]]",
-			"x": 1555,
-			"y": 998,
-			"width": 256,
-			"height": 60
-		},
-		{
-			"id": "95ec70d85c61d04a",
-			"type": "text",
-			"text": "### [[控制器的控制方式]]",
-			"x": 1419,
-			"y": 5327,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "75d6c91a7fc0bfae",
-			"type": "text",
-			"text": "### [[硬布线控制器（组合逻辑控制器）]]",
-			"x": 1419,
-			"y": 5428,
-			"width": 250,
-			"height": 81
-		},
-		{
-			"id": "60a58d1e5146b948",
-			"type": "text",
-			"text": "### [[微程序控制器]]",
-			"x": 1418,
-			"y": 5559,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0de7e76e89c1e417",
-			"type": "text",
-			"text": "## [[控制器]]",
-			"x": 991,
-			"y": 5439,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "a1c30f38e91cc975",
-			"type": "text",
-			"text": "[[微指令的编码方式]]",
-			"x": 1820,
-			"y": 5524,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "4071eeac895522ee",
-			"type": "text",
-			"text": "[[微指令的地址形成方式]]",
-			"x": 1820,
-			"y": 5619,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "a127ade90267f82b",
-			"type": "text",
-			"text": "[[微指令的格式]]",
-			"x": 1820,
-			"y": 5696,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d36c7151f11a72a4",
-			"type": "text",
-			"text": "[[微程序控制器的组成]]",
-			"x": 1820,
-			"y": 5439,
-			"width": 250,
-			"height": 60,
-			"color": "3"
-		},
-		{
-			"id": "ea238f6ed7ba3c9d",
-			"type": "text",
-			"text": "[[中断周期]]",
-			"x": 1781,
-			"y": 3936,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2f587fe3b24e217e",
-			"type": "text",
-			"text": "[[异常（内中断）]]",
-			"x": 1820,
-			"y": 5840,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "c4ea40b9c0686a3a",
-			"type": "text",
-			"text": "[[中断（外中断）]]）",
-			"x": 1820,
-			"y": 5960,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0ac5a4b3e7e299dc",
-			"type": "text",
-			"text": "### 异常和中断的分类",
-			"x": 1418,
-			"y": 5900,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "f520811ac4fda156",
-			"type": "text",
-			"text": "### [[中断响应过程]]",
-			"x": 1418,
-			"y": 6020,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ab322d81f2781c36",
-			"type": "text",
-			"text": "### [[中断服务过程]]",
-			"x": 1418,
-			"y": 6140,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "3b8f862e80dd2812",
-			"type": "text",
-			"text": "### [[多重中断]]",
-			"x": 1418,
-			"y": 6239,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "9e97afb39c257a13",
-			"type": "text",
-			"text": "## [[异常和中断]]",
-			"x": 1000,
-			"y": 6080,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "3f2fb25ec4f843be",
-			"type": "text",
-			"text": "### [[中断判优]]",
-			"x": 1418,
-			"y": 6340,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "63662c21f31a8851",
-			"type": "text",
-			"text": "[[中断响应优先级和处理优先级的例题]]",
-			"x": 1780,
-			"y": 6280,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "9efd0110abc50844",
-			"type": "text",
-			"text": "## [[多处理器基本概念]]",
-			"x": 1000,
-			"y": 6580,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "24b5dc638d511ba2",
-			"type": "text",
-			"text": "## 中央处理器",
-			"x": 480,
-			"y": 5030,
-			"width": 234,
-			"height": 60
-		},
-		{
-			"id": "172b68591bd02751",
-			"type": "text",
-			"text": "[[SISD、SIMD、MIMD]]",
-			"x": 1418,
-			"y": 6479,
-			"width": 250,
-			"height": 54
-		},
-		{
-			"id": "b58aa5a6815410c3",
-			"type": "text",
-			"text": "[[硬件多线程]]",
-			"x": 1418,
-			"y": 6550,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "caea83146fb02d9c",
-			"type": "text",
-			"text": "[[多核处理器]]",
-			"x": 1418,
-			"y": 6629,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "61c9a3a26a068d04",
-			"type": "text",
-			"text": "[[共享内存多处理器SMP]]",
-			"x": 1418,
-			"y": 6709,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "88e45fddac2b9238",
-			"type": "text",
-			"text": "## 计算机系统概述",
-			"x": 755,
-			"y": -2028,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "12a12a95a01d6a40",
-			"type": "text",
-			"text": "## 数据的表示和运算",
-			"x": 773,
-			"y": -1420,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "a0bd71b31edc1df6",
-			"type": "text",
-			"text": "### 计算机系统的层次结构",
-			"x": 1113,
-			"y": -2160,
-			"width": 302,
-			"height": 50
-		},
-		{
-			"id": "2027dd4c9dcb7e62",
-			"type": "text",
-			"text": "### 计算机性能指标",
-			"x": 1113,
-			"y": -1968,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b5dc959872dc219c",
-			"type": "text",
-			"text": "### 数制与编码",
-			"x": 1175,
-			"y": -1608,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ec39be7bdfdaf9da",
-			"type": "text",
-			"text": "[[定点数]]",
-			"x": 1596,
-			"y": -1578,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "85f1f495017d72eb",
-			"type": "text",
-			"text": "[[进位计数制]]",
-			"x": 1603,
-			"y": -1668,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6706e3ca91f8924c",
-			"type": "text",
-			"text": "[[定点数的转换]]",
-			"x": 2020,
-			"y": -1500,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "4b88fb9f14b43831",
-			"type": "text",
-			"text": "[[无符号数]]",
-			"x": 2022,
-			"y": -1750,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "b976a6d75be1eee1",
-			"type": "text",
-			"text": "[[有符号数]]",
-			"x": 2022,
-			"y": -1608,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "830a80c81642693a",
-			"type": "text",
-			"text": "[[零扩展和符号扩展]]",
-			"x": 2027,
-			"y": -1417,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2f48bdc858b5e4ed",
-			"type": "text",
-			"text": "[[原码]]",
-			"x": 2420,
-			"y": -1735,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "2954247957f888d4",
-			"type": "text",
-			"text": "[[反码]]",
-			"x": 2420,
-			"y": -1653,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "1feac452811feda3",
-			"type": "text",
-			"text": "[[补码]]",
-			"x": 2420,
-			"y": -1563,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "f945b11053d00703",
-			"type": "text",
-			"text": "[[移码]]",
-			"x": 2420,
-			"y": -1477,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "21caa2b59ec438f0",
-			"type": "text",
-			"text": "电路基础",
-			"x": 1606,
-			"y": -1229,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "c149eb78f9a98894",
-			"type": "text",
-			"text": "[[加法器]]",
-			"x": 1606,
-			"y": -1034,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "ddc741f8f8139aad",
-			"type": "text",
-			"text": "[[逻辑门电路]]",
-			"x": 2030,
-			"y": -1280,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6b9829e5dd44799b",
-			"type": "text",
-			"text": "[[多路选择器和三态门]]",
-			"x": 2030,
-			"y": -1199,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "fb4cd0260432de5f",
-			"type": "text",
-			"text": "[[一位全加器]]",
-			"x": 2030,
-			"y": -1105,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "393b251aab8266f6",
-			"type": "text",
-			"text": "[[并行加法器]]",
-			"x": 2030,
-			"y": -1034,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "9fdba253e7729282",
-			"type": "text",
-			"text": "[[带标志位的加法器]]",
-			"x": 2030,
-			"y": -953,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "da1baf49f1a1fcbd",
-			"type": "text",
-			"text": "### [[浮点数]]",
-			"x": 1182,
-			"y": -320,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "a019be283afd505b",
-			"type": "text",
-			"text": "### 运算方法和运算电路",
-			"x": 1175,
-			"y": -876,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "32ad61e3802214d4",
-			"type": "text",
-			"text": "[[算术逻辑单元ALU]]",
-			"x": 1606,
-			"y": -923,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "71d03bc273a5c69b",
-			"type": "text",
-			"text": "[[定点数的移位运算]]",
-			"x": 1613,
-			"y": -816,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "8fb1d378d837c868",
-			"type": "text",
-			"text": "[[定点数的加减运算]]",
-			"x": 1613,
-			"y": -720,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0962226b9298b0b2",
-			"type": "text",
-			"text": "[[无符号数的加减运算]]",
-			"x": 1613,
-			"y": -615,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "59986731e0db6d14",
-			"type": "text",
-			"text": "### [[IEEE 754标准的格式]]",
-			"x": 1542,
-			"y": -439,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d3a5bf6f50726bc8",
-			"type": "text",
-			"text": "### [[浮点数的加减运算]]",
-			"x": 1542,
-			"y": -200,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "7bc10eb34c2916e4",
-			"type": "text",
-			"text": "### [[IEEE 754浮点数的表示范围]]",
-			"x": 1542,
-			"y": -320,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "9c84ff6a47d87392",
-			"type": "text",
-			"text": "[[浮点数加减运算的舍入问题]]",
-			"x": 1912,
-			"y": -260,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "0b074d9a5d4199ee",
-			"type": "text",
-			"text": "[[浮点数加减运算的溢出问题]]",
-			"x": 1912,
-			"y": -160,
-			"width": 250,
-			"height": 60,
-			"color": "6"
-		},
-		{
-			"id": "7a1b2c3d4e5f6071",
-			"type": "text",
-			"text": "### [[总线概述]]",
-			"x": 1060,
-			"y": 6840,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "9c3d4e5f60718293",
-			"type": "text",
-			"text": "### [[总线分类]]",
-			"x": 1060,
-			"y": 6930,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "54866b81d9109246",
-			"type": "text",
-			"text": "## 总线系统",
-			"x": 600,
-			"y": 7020,
-			"width": 234,
-			"height": 60
-		},
-		{
-			"id": "5a6b7c8d9e0f1122",
-			"type": "text",
-			"text": "### [[总线性能指标]]",
-			"x": 1060,
-			"y": 7020,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "7c8d9e0f11223344",
-			"type": "text",
-			"text": "### [[总线结构]]",
-			"x": 1060,
-			"y": 7110,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "4b5c6d7e8f900011",
-			"type": "text",
-			"text": "### [[总线事务和定时]]",
-			"x": 1060,
-			"y": 7200,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "6e3799f63db56b8a",
-			"type": "text",
-			"text": "## I/O系统",
-			"x": 600,
-			"y": 7650,
-			"width": 234,
-			"height": 60
-		},
-		{
-			"id": "5e6f7081920304a5",
-			"type": "text",
-			"text": "### [[IO接口-基本概念]]",
-			"x": 1060,
-			"y": 7530,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "7081920304a5b6c7",
-			"type": "text",
-			"text": "### [[IO接口-定义和功能]]",
-			"x": 1460,
-			"y": 7410,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "a5b6c7d8e9f00112",
-			"type": "text",
-			"text": "### [[IO接口-基本结构]]",
-			"x": 1460,
-			"y": 7500,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "d8e9f00112233445",
-			"type": "text",
-			"text": "### [[IO接口-端口]]",
-			"x": 1460,
-			"y": 7590,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "0112233445566778",
-			"type": "text",
-			"text": "### [[IO接口-类型]]",
-			"x": 1460,
-			"y": 7680,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "3445566778899aab",
-			"type": "text",
-			"text": "### [[程序查询方式]]",
-			"x": 1060,
-			"y": 7770,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "7ad8487b978c0ea4",
-			"type": "text",
-			"text": "### [[程序中断方式]]",
-			"x": 1060,
-			"y": 7860,
-			"width": 250,
-			"height": 60
-		},
-		{
-			"id": "52fdd39588de881b",
-			"type": "text",
-			"text": "### [[IO方式-DMA方式]]",
-			"x": 1060,
-			"y": 7950,
-			"width": 250,
-			"height": 60
-		}
+	"nodes":[
+		{"id":"521fc03614f7ce5e","type":"text","text":"[[指令长度是否固定]]","x":1338,"y":1582,"width":250,"height":60},
+		{"id":"d3b322926311535e","type":"text","text":"[[操作数地址码的数目]]","x":1338,"y":1684,"width":250,"height":60},
+		{"id":"ba84e3116905e76f","type":"text","text":"操作码长度是否固定","x":1338,"y":1774,"width":250,"height":60},
+		{"id":"2c21c4d4865b0ad2","type":"text","text":"### [[指令格式]]","x":980,"y":1684,"width":250,"height":60},
+		{"id":"ba86829b1193746d","type":"text","text":"### [[Cache]]","x":1247,"y":716,"width":250,"height":60},
+		{"id":"ef431b8c03885f13","type":"text","text":"#### [[虚拟存储器的访存过程]]","x":2002,"y":876,"width":250,"height":60},
+		{"id":"b724d9beb193edc7","type":"text","text":"#### [[快表TLB]]","x":2002,"y":996,"width":145,"height":54},
+		{"id":"bcbf0ce22dae7654","type":"text","text":"#### [[TLB-Cache]]","x":1998,"y":1112,"width":165,"height":60},
+		{"id":"c8ef845df12d6d2d","type":"text","text":"### 主存储器与CPU的连接","x":1230,"y":359,"width":284,"height":50},
+		{"id":"57a8bb5e395e5d83","type":"text","text":"### 多模块存储器","x":1239,"y":456,"width":250,"height":60},
+		{"id":"3365ab4158ba1601","type":"text","text":"### 外部存储器","x":1239,"y":569,"width":250,"height":60},
+		{"id":"8d08820074ac4ae5","type":"text","text":"### 主存储器","x":1247,"y":249,"width":250,"height":60},
+		{"id":"b3dbd6deaafc55fc","type":"text","text":"### 存储系统基本概念","x":1259,"y":89,"width":250,"height":60},
+		{"id":"a187a416f4819a92","type":"text","text":"## 存储系统","x":529,"y":569,"width":175,"height":60,"color":"6"},
+		{"id":"ad185900ed06dc02","type":"text","text":"# 计算机组成原理","x":-280,"y":968,"width":269,"height":72,"color":"1"},
+		{"id":"e325442c7cec1b65","type":"text","text":"## [[指令寻址]]","x":1338,"y":1940,"width":250,"height":60},
+		{"id":"6180d2360f3837f9","type":"text","text":"[[定长操作码]]","x":1800,"y":1727,"width":250,"height":60},
+		{"id":"d724a8629a9540dc","type":"text","text":"[[扩展操作码]]","x":1800,"y":1820,"width":250,"height":60},
+		{"id":"6ab757086fd69403","type":"text","text":"## [[数据寻址]]","x":1338,"y":2310,"width":250,"height":60},
+		{"id":"b73978ae1443f2fe","type":"text","text":"## [[寻址方式]]","x":980,"y":2130,"width":250,"height":60},
+		{"id":"18af7587ab04d5d1","type":"text","text":"[[基址寻址]]","x":1800,"y":2540,"width":250,"height":60},
+		{"id":"d463889cce7874b2","type":"text","text":"偏移寻址","x":2158,"y":2540,"width":250,"height":60},
+		{"id":"bd09808b82a0245e","type":"text","text":"[[相对寻址]]","x":1798,"y":2625,"width":250,"height":60},
+		{"id":"15770b0a03bfbcd2","type":"text","text":"[[堆栈寻址]]","x":1798,"y":2714,"width":250,"height":60},
+		{"id":"6727c54c8e69d088","type":"text","text":"[[寄存器寻址]]","x":1798,"y":2218,"width":250,"height":60},
+		{"id":"c1d486f2211ef79f","type":"text","text":"[[寄存器间接寻址]]","x":1798,"y":2312,"width":250,"height":60},
+		{"id":"dd53e32f260e1d75","type":"text","text":"[[隐含寻址]]","x":1798,"y":2392,"width":250,"height":60},
+		{"id":"23d07bcdc1d62710","type":"text","text":"[[变址寻址]]","x":1798,"y":2472,"width":250,"height":60},
+		{"id":"664e73377a1599d7","type":"text","text":"[[立即数寻址]]","x":1798,"y":1952,"width":250,"height":60},
+		{"id":"cd8baf82c23e20c7","type":"text","text":"[[直接寻址]]","x":1798,"y":2042,"width":250,"height":60},
+		{"id":"b500521ce280afd8","type":"text","text":"[[间接寻址]]","x":1798,"y":2130,"width":250,"height":60},
+		{"id":"0e229913505725ae","type":"text","text":"### [[大小端存储]]","x":1328,"y":2552,"width":250,"height":60},
+		{"id":"eaaab044d7db28c5","type":"text","text":"### [[边界对齐]]","x":1328,"y":2442,"width":250,"height":60},
+		{"id":"f72d88e99d433266","type":"text","text":"## 数据对齐","x":980,"y":2492,"width":250,"height":60},
+		{"id":"bca03c0563354283","type":"text","text":"## [[CISC和RISC]]","x":980,"y":2612,"width":250,"height":60},
+		{"id":"5b88528f1b670c75","type":"text","text":"[[通用寄存器]]","x":1797,"y":2840,"width":250,"height":60},
+		{"id":"e8007b7b5262fb20","type":"text","text":"### 常用汇编指令","x":1325,"y":2900,"width":250,"height":60},
+		{"id":"eb1f3bd22d32874e","type":"text","text":"[[常用指令]]","x":1797,"y":2960,"width":250,"height":60},
+		{"id":"0213cc96b564e1cf","type":"text","text":"[[控制流指令]]","x":2158,"y":3051,"width":250,"height":60},
+		{"id":"ee2ed08285194100","type":"text","text":"[[数据传送指令]]","x":2155,"y":2870,"width":250,"height":60},
+		{"id":"f5d19875fe37fff9","type":"text","text":"[[算术和逻辑运算指令]]","x":2155,"y":2960,"width":250,"height":60},
+		{"id":"b65f50cfbcacc8ec","type":"text","text":"## 高级语言代码与机器代码之间的对应","x":977,"y":2896,"width":250,"height":64},
+		{"id":"f868b022183e0d86","type":"text","text":"# [[指令系统]]","x":520,"y":2278,"width":250,"height":60},
+		{"id":"eca1f7b71e8b2780","type":"text","text":"### [[指令周期]]","x":1421,"y":3728,"width":250,"height":60},
+		{"id":"c83f13f340fe49de","type":"text","text":"### 指令周期的数据流","x":1421,"y":3810,"width":250,"height":60},
+		{"id":"6033ea1fecde0194","type":"text","text":"[[取指周期]]","x":1781,"y":3687,"width":250,"height":60},
+		{"id":"e2d60e89342253bd","type":"text","text":"[[间址周期]]","x":1781,"y":3775,"width":250,"height":60},
+		{"id":"ff1ce7b39bec66f3","type":"text","text":"[[执行周期]]","x":1781,"y":3855,"width":250,"height":60},
+		{"id":"e32605f70a397735","type":"text","text":"### [[CPU的功能]]","x":1419,"y":3440,"width":250,"height":60},
+		{"id":"71eedf4e15b0ab85","type":"text","text":"## CPU的功能和基本结构","x":979,"y":3502,"width":246,"height":80},
+		{"id":"2eaeb33d85567044","type":"text","text":"### [[CPU的基本结构]]","x":1419,"y":3572,"width":250,"height":60},
+		{"id":"2b7954634cc0c46e","type":"text","text":"[[结构相关（资源冲突、资源冒险）]]","x":1781,"y":4520,"width":300,"height":60},
+		{"id":"a91bc2301a5f1209","type":"text","text":"[[数据相关（数据冲突、数据冒险）]]","x":1781,"y":4600,"width":300,"height":60},
+		{"id":"ee49ce7751dbf502","type":"text","text":"[[控制相关（控制冲突、控制冒险）]]","x":1781,"y":4672,"width":300,"height":60},
+		{"id":"5a560097febe2572","type":"text","text":"[[流水线的吞吐率TP]]","x":1781,"y":4760,"width":250,"height":60},
+		{"id":"32c272ee48b7d13c","type":"text","text":"[[流水线的加速比S]]","x":1781,"y":4850,"width":250,"height":60},
+		{"id":"2762c9a29abf10b1","type":"text","text":"[[流水线的效率]]","x":1781,"y":4940,"width":250,"height":60},
+		{"id":"06e4cb473561c2de","type":"text","text":"### [[五段流水线]]","x":1421,"y":4360,"width":250,"height":60},
+		{"id":"47fdefd62ad52a72","type":"text","text":"### [[流水线的设置]]","x":1421,"y":4440,"width":250,"height":60},
+		{"id":"335e65329cd7f819","type":"text","text":"### [[流水线的表示方法]]","x":1421,"y":4520,"width":250,"height":60},
+		{"id":"25fe0003b6f35a43","type":"text","text":"### [[流水线的影响因素]]","x":1421,"y":4600,"width":250,"height":60,"color":"3"},
+		{"id":"734112556bb7a9e7","type":"text","text":"### [[流水线的性能指标]]","x":1421,"y":4850,"width":250,"height":60},
+		{"id":"6ef41834cbb39934","type":"text","text":"### [[高级流水线技术]]","x":1421,"y":4970,"width":250,"height":60},
+		{"id":"40ac0f16666479e6","type":"text","text":"## [[指令流水线]]","x":981,"y":4660,"width":250,"height":60},
+		{"id":"cce8b134982b478c","type":"text","text":"## [[数据通路]]","x":991,"y":5139,"width":250,"height":60},
+		{"id":"e79f15c0afdc630b","type":"text","text":"### [[数据通路的组成]]","x":1421,"y":5079,"width":250,"height":60},
+		{"id":"7e7be0103fdaf2d5","type":"text","text":"### [[数据通路的基本结构]]","x":1421,"y":5183,"width":250,"height":60},
+		{"id":"4a3929505fa05bde","type":"text","text":"[[单周期处理器]]","x":1781,"y":4017,"width":250,"height":60},
+		{"id":"8d3c009d9c2829d7","type":"text","text":"[[多周期处理器]]","x":1781,"y":4090,"width":250,"height":60},
+		{"id":"867afe19d43872e6","type":"text","text":"### [[指令执行方案]]","x":1419,"y":4090,"width":250,"height":60},
+		{"id":"711635253eb7ba95","type":"text","text":"## 指令执行过程","x":980,"y":3936,"width":250,"height":60},
+		{"id":"b148a736488cff4e","type":"text","text":"[[流水线处理器]]","x":1781,"y":4160,"width":250,"height":60},
+		{"id":"3f5831a11635c228","type":"text","text":"[[单总线结构的数据通路]]","x":1781,"y":5153,"width":250,"height":60,"color":"3"},
+		{"id":"b63ee7e02098015a","type":"text","text":"[[专用结构的数据通路]]","x":1781,"y":5220,"width":250,"height":60},
+		{"id":"49ec4f401eb4a291","type":"text","text":"### [[虚拟存储器]]","x":1239,"y":996,"width":250,"height":62},
+		{"id":"90a3b7c8e78b49b4","type":"text","text":"#### [[页式虚拟存储器]]","x":1555,"y":998,"width":256,"height":60},
+		{"id":"95ec70d85c61d04a","type":"text","text":"### [[控制器的控制方式]]","x":1419,"y":5327,"width":250,"height":60},
+		{"id":"75d6c91a7fc0bfae","type":"text","text":"### [[硬布线控制器（组合逻辑控制器）]]","x":1419,"y":5428,"width":250,"height":81},
+		{"id":"60a58d1e5146b948","type":"text","text":"### [[微程序控制器]]","x":1418,"y":5559,"width":250,"height":60},
+		{"id":"0de7e76e89c1e417","type":"text","text":"## [[控制器]]","x":991,"y":5439,"width":250,"height":60},
+		{"id":"a1c30f38e91cc975","type":"text","text":"[[微指令的编码方式]]","x":1820,"y":5524,"width":250,"height":60},
+		{"id":"4071eeac895522ee","type":"text","text":"[[微指令的地址形成方式]]","x":1820,"y":5619,"width":250,"height":60},
+		{"id":"a127ade90267f82b","type":"text","text":"[[微指令的格式]]","x":1820,"y":5696,"width":250,"height":60},
+		{"id":"d36c7151f11a72a4","type":"text","text":"[[微程序控制器的组成]]","x":1820,"y":5439,"width":250,"height":60,"color":"3"},
+		{"id":"ea238f6ed7ba3c9d","type":"text","text":"[[中断周期]]","x":1781,"y":3936,"width":250,"height":60},
+		{"id":"2f587fe3b24e217e","type":"text","text":"[[异常（内中断）]]","x":1820,"y":5840,"width":250,"height":60},
+		{"id":"c4ea40b9c0686a3a","type":"text","text":"[[中断（外中断）]]）","x":1820,"y":5960,"width":250,"height":60},
+		{"id":"0ac5a4b3e7e299dc","type":"text","text":"### 异常和中断的分类","x":1418,"y":5900,"width":250,"height":60},
+		{"id":"f520811ac4fda156","type":"text","text":"### [[中断响应过程]]","x":1418,"y":6020,"width":250,"height":60},
+		{"id":"ab322d81f2781c36","type":"text","text":"### [[中断服务过程]]","x":1418,"y":6140,"width":250,"height":60},
+		{"id":"3b8f862e80dd2812","type":"text","text":"### [[多重中断]]","x":1418,"y":6239,"width":250,"height":60},
+		{"id":"9e97afb39c257a13","type":"text","text":"## [[异常和中断]]","x":1000,"y":6080,"width":250,"height":60},
+		{"id":"3f2fb25ec4f843be","type":"text","text":"### [[中断判优]]","x":1418,"y":6340,"width":250,"height":60},
+		{"id":"63662c21f31a8851","type":"text","text":"[[中断响应优先级和处理优先级的例题]]","x":1780,"y":6280,"width":250,"height":60},
+		{"id":"9efd0110abc50844","type":"text","text":"## [[多处理器基本概念]]","x":1000,"y":6580,"width":250,"height":60},
+		{"id":"24b5dc638d511ba2","type":"text","text":"## 中央处理器","x":480,"y":5030,"width":234,"height":60},
+		{"id":"172b68591bd02751","type":"text","text":"[[SISD、SIMD、MIMD]]","x":1418,"y":6479,"width":250,"height":54},
+		{"id":"b58aa5a6815410c3","type":"text","text":"[[硬件多线程]]","x":1418,"y":6550,"width":250,"height":60},
+		{"id":"caea83146fb02d9c","type":"text","text":"[[多核处理器]]","x":1418,"y":6629,"width":250,"height":60},
+		{"id":"61c9a3a26a068d04","type":"text","text":"[[共享内存多处理器SMP]]","x":1418,"y":6709,"width":250,"height":60},
+		{"id":"12a12a95a01d6a40","type":"text","text":"## 数据的表示和运算","x":773,"y":-1420,"width":250,"height":60,"color":"6"},
+		{"id":"b5dc959872dc219c","type":"text","text":"### 数制与编码","x":1175,"y":-1608,"width":250,"height":60},
+		{"id":"ec39be7bdfdaf9da","type":"text","text":"[[定点数]]","x":1596,"y":-1578,"width":250,"height":60},
+		{"id":"85f1f495017d72eb","type":"text","text":"[[进位计数制]]","x":1603,"y":-1668,"width":250,"height":60},
+		{"id":"6706e3ca91f8924c","type":"text","text":"[[定点数的转换]]","x":2020,"y":-1500,"width":250,"height":60},
+		{"id":"4b88fb9f14b43831","type":"text","text":"[[无符号数]]","x":2022,"y":-1750,"width":250,"height":60},
+		{"id":"b976a6d75be1eee1","type":"text","text":"[[有符号数]]","x":2022,"y":-1608,"width":250,"height":60},
+		{"id":"830a80c81642693a","type":"text","text":"[[零扩展和符号扩展]]","x":2027,"y":-1417,"width":250,"height":60},
+		{"id":"2f48bdc858b5e4ed","type":"text","text":"[[原码]]","x":2420,"y":-1735,"width":250,"height":60},
+		{"id":"2954247957f888d4","type":"text","text":"[[反码]]","x":2420,"y":-1653,"width":250,"height":60},
+		{"id":"1feac452811feda3","type":"text","text":"[[补码]]","x":2420,"y":-1563,"width":250,"height":60},
+		{"id":"f945b11053d00703","type":"text","text":"[[移码]]","x":2420,"y":-1477,"width":250,"height":60},
+		{"id":"21caa2b59ec438f0","type":"text","text":"电路基础","x":1606,"y":-1229,"width":250,"height":60},
+		{"id":"c149eb78f9a98894","type":"text","text":"[[加法器]]","x":1606,"y":-1034,"width":250,"height":60},
+		{"id":"ddc741f8f8139aad","type":"text","text":"[[逻辑门电路]]","x":2030,"y":-1280,"width":250,"height":60},
+		{"id":"6b9829e5dd44799b","type":"text","text":"[[多路选择器和三态门]]","x":2030,"y":-1199,"width":250,"height":60},
+		{"id":"fb4cd0260432de5f","type":"text","text":"[[一位全加器]]","x":2030,"y":-1105,"width":250,"height":60},
+		{"id":"393b251aab8266f6","type":"text","text":"[[并行加法器]]","x":2030,"y":-1034,"width":250,"height":60},
+		{"id":"9fdba253e7729282","type":"text","text":"[[带标志位的加法器]]","x":2030,"y":-953,"width":250,"height":60},
+		{"id":"da1baf49f1a1fcbd","type":"text","text":"### [[浮点数]]","x":1182,"y":-320,"width":250,"height":60},
+		{"id":"a019be283afd505b","type":"text","text":"### 运算方法和运算电路","x":1175,"y":-876,"width":250,"height":60},
+		{"id":"32ad61e3802214d4","type":"text","text":"[[算术逻辑单元ALU]]","x":1606,"y":-923,"width":250,"height":60,"color":"6"},
+		{"id":"71d03bc273a5c69b","type":"text","text":"[[定点数的移位运算]]","x":1613,"y":-816,"width":250,"height":60,"color":"6"},
+		{"id":"8fb1d378d837c868","type":"text","text":"[[定点数的加减运算]]","x":1613,"y":-720,"width":250,"height":60},
+		{"id":"0962226b9298b0b2","type":"text","text":"[[无符号数的加减运算]]","x":1613,"y":-615,"width":250,"height":60,"color":"6"},
+		{"id":"59986731e0db6d14","type":"text","text":"### [[IEEE 754标准的格式]]","x":1542,"y":-439,"width":250,"height":60},
+		{"id":"d3a5bf6f50726bc8","type":"text","text":"### [[浮点数的加减运算]]","x":1542,"y":-200,"width":250,"height":60},
+		{"id":"7bc10eb34c2916e4","type":"text","text":"### [[IEEE 754浮点数的表示范围]]","x":1542,"y":-320,"width":250,"height":60},
+		{"id":"9c84ff6a47d87392","type":"text","text":"[[浮点数加减运算的舍入问题]]","x":1912,"y":-260,"width":250,"height":60,"color":"6"},
+		{"id":"0b074d9a5d4199ee","type":"text","text":"[[浮点数加减运算的溢出问题]]","x":1912,"y":-160,"width":250,"height":60,"color":"6"},
+		{"id":"7a1b2c3d4e5f6071","type":"text","text":"### [[总线概述]]","x":1060,"y":6840,"width":250,"height":60},
+		{"id":"9c3d4e5f60718293","type":"text","text":"### [[总线分类]]","x":1060,"y":6930,"width":250,"height":60},
+		{"id":"54866b81d9109246","type":"text","text":"## 总线系统","x":600,"y":7020,"width":234,"height":60},
+		{"id":"5a6b7c8d9e0f1122","type":"text","text":"### [[总线性能指标]]","x":1060,"y":7020,"width":250,"height":60},
+		{"id":"7c8d9e0f11223344","type":"text","text":"### [[总线结构]]","x":1060,"y":7110,"width":250,"height":60},
+		{"id":"4b5c6d7e8f900011","type":"text","text":"### [[总线事务和定时]]","x":1060,"y":7200,"width":250,"height":60},
+		{"id":"6e3799f63db56b8a","type":"text","text":"## I/O系统","x":600,"y":7650,"width":234,"height":60},
+		{"id":"5e6f7081920304a5","type":"text","text":"### [[IO接口-基本概念]]","x":1060,"y":7530,"width":250,"height":60},
+		{"id":"7081920304a5b6c7","type":"text","text":"### [[IO接口-定义和功能]]","x":1460,"y":7410,"width":250,"height":60},
+		{"id":"a5b6c7d8e9f00112","type":"text","text":"### [[IO接口-基本结构]]","x":1460,"y":7500,"width":250,"height":60},
+		{"id":"d8e9f00112233445","type":"text","text":"### [[IO接口-端口]]","x":1460,"y":7590,"width":250,"height":60},
+		{"id":"0112233445566778","type":"text","text":"### [[IO接口-类型]]","x":1460,"y":7680,"width":250,"height":60},
+		{"id":"3445566778899aab","type":"text","text":"### [[程序查询方式]]","x":1060,"y":7770,"width":250,"height":60},
+		{"id":"7ad8487b978c0ea4","type":"text","text":"### [[程序中断方式]]","x":1060,"y":7860,"width":250,"height":60},
+		{"id":"52fdd39588de881b","type":"text","text":"### [[IO方式-DMA方式]]","x":1060,"y":7950,"width":250,"height":60},
+		{"id":"88e45fddac2b9238","type":"text","text":"## 计算机系统概述","x":650,"y":-3020,"width":270,"height":70,"color":"6"},
+		{"id":"2027dd4c9dcb7e62","type":"text","text":"[[计算机性能指标]]","x":1050,"y":-3130,"width":250,"height":60},
+		{"id":"fe3b1e7f8ce6ca73","type":"text","text":"[[计算机发展历程]]","x":1050,"y":-2950,"width":250,"height":60},
+		{"id":"a0bd71b31edc1df6","type":"text","text":"[[计算机系统的层次结构]]","x":1035,"y":-3040,"width":280,"height":60},
+		{"id":"cd3bd1b8be586a53","type":"text","text":"[[硬件的发展]]","x":1710,"y":-3050,"width":250,"height":60},
+		{"id":"9bb6a815959a515b","type":"text","text":"[[软件的发展]]","x":1710,"y":-2960,"width":250,"height":60},
+		{"id":"a8965c7900583ac7","type":"text","text":"[[运算器的基本组成]]","x":2060,"y":-2795,"width":250,"height":60},
+		{"id":"3b316ff194d997b5","type":"text","text":"[[计算机硬件的基本组成]]","x":1710,"y":-2750,"width":250,"height":60},
+		{"id":"5e08c92812cefbb0","type":"text","text":"[[控制器的基本组成]]","x":2060,"y":-2705,"width":250,"height":60},
+		{"id":"40f54b5ebbab0857","type":"text","text":"[[冯·诺依曼计算机的特点]]","x":1710,"y":-2840,"width":250,"height":60}
 	],
-	"edges": [
-		{
-			"id": "2dac73dfcb6293ba",
-			"fromNode": "88e45fddac2b9238",
-			"fromSide": "right",
-			"toNode": "a0bd71b31edc1df6",
-			"toSide": "left"
-		},
-		{
-			"id": "94575213d2ec414e",
-			"fromNode": "88e45fddac2b9238",
-			"fromSide": "right",
-			"toNode": "2027dd4c9dcb7e62",
-			"toSide": "left"
-		},
-		{
-			"id": "40ea1583c80944e5",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "88e45fddac2b9238",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "c3c46ee424238abc",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "12a12a95a01d6a40",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "313b06b062442d5d",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "a187a416f4819a92",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "5f4ee4c3e2769c29",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "b3dbd6deaafc55fc",
-			"toSide": "left"
-		},
-		{
-			"id": "a0c48cf5bac67117",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "8d08820074ac4ae5",
-			"toSide": "left"
-		},
-		{
-			"id": "778654b76124310b",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "ba86829b1193746d",
-			"toSide": "left"
-		},
-		{
-			"id": "10f70f7902a00268",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "c8ef845df12d6d2d",
-			"toSide": "left"
-		},
-		{
-			"id": "98ce6d0393e3142b",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "57a8bb5e395e5d83",
-			"toSide": "left"
-		},
-		{
-			"id": "6f396ea4787a4465",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "3365ab4158ba1601",
-			"toSide": "left"
-		},
-		{
-			"id": "5dc053fb801b2f6f",
-			"fromNode": "a187a416f4819a92",
-			"fromSide": "right",
-			"toNode": "49ec4f401eb4a291",
-			"toSide": "left"
-		},
-		{
-			"id": "b8c5628f9a83a51a",
-			"fromNode": "90a3b7c8e78b49b4",
-			"fromSide": "right",
-			"toNode": "ef431b8c03885f13",
-			"toSide": "left"
-		},
-		{
-			"id": "eda817126542ded4",
-			"fromNode": "49ec4f401eb4a291",
-			"fromSide": "right",
-			"toNode": "90a3b7c8e78b49b4",
-			"toSide": "left"
-		},
-		{
-			"id": "205dda6ebc33c801",
-			"fromNode": "90a3b7c8e78b49b4",
-			"fromSide": "right",
-			"toNode": "b724d9beb193edc7",
-			"toSide": "left"
-		},
-		{
-			"id": "15ae90e1300fc0d3",
-			"fromNode": "90a3b7c8e78b49b4",
-			"fromSide": "right",
-			"toNode": "bcbf0ce22dae7654",
-			"toSide": "left"
-		},
-		{
-			"id": "d8b77ba5685f7fd5",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "f868b022183e0d86",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "ea44020553c776e3",
-			"fromNode": "12a12a95a01d6a40",
-			"fromSide": "right",
-			"toNode": "b5dc959872dc219c",
-			"toSide": "left"
-		},
-		{
-			"id": "2b6fbe037788f66a",
-			"fromNode": "12a12a95a01d6a40",
-			"fromSide": "right",
-			"toNode": "a019be283afd505b",
-			"toSide": "left"
-		},
-		{
-			"id": "39b31e45f53c2578",
-			"fromNode": "12a12a95a01d6a40",
-			"fromSide": "right",
-			"toNode": "da1baf49f1a1fcbd",
-			"toSide": "left"
-		},
-		{
-			"id": "24f5ee4402c81a3f",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "24b5dc638d511ba2",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "50e79a4283c9d49d",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "54866b81d9109246",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "d12a7d5b5483f5fb",
-			"fromNode": "ad185900ed06dc02",
-			"fromSide": "right",
-			"toNode": "6e3799f63db56b8a",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "0ec82e4f0ee6ecfa",
-			"fromNode": "f868b022183e0d86",
-			"fromSide": "right",
-			"toNode": "2c21c4d4865b0ad2",
-			"toSide": "left"
-		},
-		{
-			"id": "bec5bd4f3086085a",
-			"fromNode": "2c21c4d4865b0ad2",
-			"fromSide": "right",
-			"toNode": "ba84e3116905e76f",
-			"toSide": "left"
-		},
-		{
-			"id": "2dc256af8c246c3d",
-			"fromNode": "2c21c4d4865b0ad2",
-			"fromSide": "right",
-			"toNode": "d3b322926311535e",
-			"toSide": "left"
-		},
-		{
-			"id": "8bfcb599c4a44d0e",
-			"fromNode": "2c21c4d4865b0ad2",
-			"fromSide": "right",
-			"toNode": "521fc03614f7ce5e",
-			"toSide": "left"
-		},
-		{
-			"id": "808c909f71c5c9fc",
-			"fromNode": "ba84e3116905e76f",
-			"fromSide": "right",
-			"toNode": "6180d2360f3837f9",
-			"toSide": "left"
-		},
-		{
-			"id": "b0765d9ba6f29928",
-			"fromNode": "ba84e3116905e76f",
-			"fromSide": "right",
-			"toNode": "d724a8629a9540dc",
-			"toSide": "left"
-		},
-		{
-			"id": "9e9cdce4e804772a",
-			"fromNode": "f868b022183e0d86",
-			"fromSide": "right",
-			"toNode": "b73978ae1443f2fe",
-			"toSide": "left"
-		},
-		{
-			"id": "660daa75ab92e3a8",
-			"fromNode": "b73978ae1443f2fe",
-			"fromSide": "right",
-			"toNode": "e325442c7cec1b65",
-			"toSide": "left"
-		},
-		{
-			"id": "e0b87ab301c45198",
-			"fromNode": "b73978ae1443f2fe",
-			"fromSide": "right",
-			"toNode": "6ab757086fd69403",
-			"toSide": "left"
-		},
-		{
-			"id": "d84f53f9ec97d1a7",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "664e73377a1599d7",
-			"toSide": "left"
-		},
-		{
-			"id": "2caf9fae0a8199d9",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "cd8baf82c23e20c7",
-			"toSide": "left"
-		},
-		{
-			"id": "5653e2b7b133c139",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "b500521ce280afd8",
-			"toSide": "left"
-		},
-		{
-			"id": "5eeab5f03ac673c8",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "6727c54c8e69d088",
-			"toSide": "left"
-		},
-		{
-			"id": "85ee0fae8bbbb0f6",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "c1d486f2211ef79f",
-			"toSide": "left"
-		},
-		{
-			"id": "0bcf3e0e9a766791",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "dd53e32f260e1d75",
-			"toSide": "left"
-		},
-		{
-			"id": "0c9ca596982786bd",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "23d07bcdc1d62710",
-			"toSide": "left"
-		},
-		{
-			"id": "f395d087e06d8776",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "18af7587ab04d5d1",
-			"toSide": "left"
-		},
-		{
-			"id": "59651f341eb0271e",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "bd09808b82a0245e",
-			"toSide": "left"
-		},
-		{
-			"id": "1b20d1e5a6ecbedc",
-			"fromNode": "23d07bcdc1d62710",
-			"fromSide": "right",
-			"toNode": "d463889cce7874b2",
-			"toSide": "left"
-		},
-		{
-			"id": "1c842b1962366717",
-			"fromNode": "18af7587ab04d5d1",
-			"fromSide": "right",
-			"toNode": "d463889cce7874b2",
-			"toSide": "left"
-		},
-		{
-			"id": "34c452ad663e8b99",
-			"fromNode": "bd09808b82a0245e",
-			"fromSide": "right",
-			"toNode": "d463889cce7874b2",
-			"toSide": "left"
-		},
-		{
-			"id": "4ddaa1d9c8fe4b98",
-			"fromNode": "6ab757086fd69403",
-			"fromSide": "right",
-			"toNode": "15770b0a03bfbcd2",
-			"toSide": "left"
-		},
-		{
-			"id": "f73f929c3a04e312",
-			"fromNode": "f868b022183e0d86",
-			"fromSide": "right",
-			"toNode": "f72d88e99d433266",
-			"toSide": "left"
-		},
-		{
-			"id": "ab98f5a62c0e5bd5",
-			"fromNode": "f72d88e99d433266",
-			"fromSide": "right",
-			"toNode": "eaaab044d7db28c5",
-			"toSide": "left"
-		},
-		{
-			"id": "68d6f238528f62c7",
-			"fromNode": "f72d88e99d433266",
-			"fromSide": "right",
-			"toNode": "0e229913505725ae",
-			"toSide": "left"
-		},
-		{
-			"id": "c7fb9426388690c7",
-			"fromNode": "f868b022183e0d86",
-			"fromSide": "right",
-			"toNode": "bca03c0563354283",
-			"toSide": "left"
-		},
-		{
-			"id": "1690919532c2abe6",
-			"fromNode": "f868b022183e0d86",
-			"fromSide": "right",
-			"toNode": "b65f50cfbcacc8ec",
-			"toSide": "left"
-		},
-		{
-			"id": "22b23f19af3bfe3a",
-			"fromNode": "b65f50cfbcacc8ec",
-			"fromSide": "right",
-			"toNode": "e8007b7b5262fb20",
-			"toSide": "left"
-		},
-		{
-			"id": "e165877a3d120997",
-			"fromNode": "e8007b7b5262fb20",
-			"fromSide": "right",
-			"toNode": "5b88528f1b670c75",
-			"toSide": "left"
-		},
-		{
-			"id": "b1b932a183214c72",
-			"fromNode": "e8007b7b5262fb20",
-			"fromSide": "right",
-			"toNode": "eb1f3bd22d32874e",
-			"toSide": "left"
-		},
-		{
-			"id": "e330226af3866491",
-			"fromNode": "eb1f3bd22d32874e",
-			"fromSide": "right",
-			"toNode": "ee2ed08285194100",
-			"toSide": "left"
-		},
-		{
-			"id": "53be3c4617a79763",
-			"fromNode": "eb1f3bd22d32874e",
-			"fromSide": "right",
-			"toNode": "f5d19875fe37fff9",
-			"toSide": "left"
-		},
-		{
-			"id": "4c268447e0419a3f",
-			"fromNode": "eb1f3bd22d32874e",
-			"fromSide": "right",
-			"toNode": "0213cc96b564e1cf",
-			"toSide": "left"
-		},
-		{
-			"id": "28a1fba1185bdfae",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "71eedf4e15b0ab85",
-			"toSide": "left"
-		},
-		{
-			"id": "1b3e57dfef95ec23",
-			"fromNode": "71eedf4e15b0ab85",
-			"fromSide": "right",
-			"toNode": "e32605f70a397735",
-			"toSide": "left"
-		},
-		{
-			"id": "b568aaa66cc494c1",
-			"fromNode": "71eedf4e15b0ab85",
-			"fromSide": "right",
-			"toNode": "2eaeb33d85567044",
-			"toSide": "left"
-		},
-		{
-			"id": "4275064546fa8690",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "711635253eb7ba95",
-			"toSide": "left"
-		},
-		{
-			"id": "c7d0aa9b016dc43b",
-			"fromNode": "711635253eb7ba95",
-			"fromSide": "right",
-			"toNode": "eca1f7b71e8b2780",
-			"toSide": "left"
-		},
-		{
-			"id": "5796fa5716e1a0d3",
-			"fromNode": "711635253eb7ba95",
-			"fromSide": "right",
-			"toNode": "c83f13f340fe49de",
-			"toSide": "left"
-		},
-		{
-			"id": "d76101d5231a66e8",
-			"fromNode": "c83f13f340fe49de",
-			"fromSide": "right",
-			"toNode": "6033ea1fecde0194",
-			"toSide": "left"
-		},
-		{
-			"id": "8b68e9a2321bcf38",
-			"fromNode": "c83f13f340fe49de",
-			"fromSide": "right",
-			"toNode": "e2d60e89342253bd",
-			"toSide": "left"
-		},
-		{
-			"id": "c966f6e9a307b039",
-			"fromNode": "c83f13f340fe49de",
-			"fromSide": "right",
-			"toNode": "ff1ce7b39bec66f3",
-			"toSide": "left"
-		},
-		{
-			"id": "b730220180b987be",
-			"fromNode": "c83f13f340fe49de",
-			"fromSide": "right",
-			"toNode": "ea238f6ed7ba3c9d",
-			"toSide": "left"
-		},
-		{
-			"id": "ec260501fd2c35f2",
-			"fromNode": "711635253eb7ba95",
-			"fromSide": "right",
-			"toNode": "867afe19d43872e6",
-			"toSide": "left"
-		},
-		{
-			"id": "983f6ba29a5fb44a",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "40ac0f16666479e6",
-			"toSide": "left"
-		},
-		{
-			"id": "dd5415cba1002577",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "06e4cb473561c2de",
-			"toSide": "left"
-		},
-		{
-			"id": "1d1bb50f413d67be",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "47fdefd62ad52a72",
-			"toSide": "left"
-		},
-		{
-			"id": "dcde72e25ed01c33",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "335e65329cd7f819",
-			"toSide": "left"
-		},
-		{
-			"id": "21954fc956d378d4",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "25fe0003b6f35a43",
-			"toSide": "left"
-		},
-		{
-			"id": "533bfe0e35ac0412",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "734112556bb7a9e7",
-			"toSide": "left"
-		},
-		{
-			"id": "c2db1366babe5545",
-			"fromNode": "25fe0003b6f35a43",
-			"fromSide": "right",
-			"toNode": "2b7954634cc0c46e",
-			"toSide": "left"
-		},
-		{
-			"id": "d5c2e18ee097faec",
-			"fromNode": "25fe0003b6f35a43",
-			"fromSide": "right",
-			"toNode": "a91bc2301a5f1209",
-			"toSide": "left"
-		},
-		{
-			"id": "6703bdefe8e7b268",
-			"fromNode": "25fe0003b6f35a43",
-			"fromSide": "right",
-			"toNode": "ee49ce7751dbf502",
-			"toSide": "left"
-		},
-		{
-			"id": "98b300b1aefee429",
-			"fromNode": "734112556bb7a9e7",
-			"fromSide": "right",
-			"toNode": "5a560097febe2572",
-			"toSide": "left"
-		},
-		{
-			"id": "3addb681a9b27866",
-			"fromNode": "734112556bb7a9e7",
-			"fromSide": "right",
-			"toNode": "32c272ee48b7d13c",
-			"toSide": "left"
-		},
-		{
-			"id": "c8714e10b695e10c",
-			"fromNode": "734112556bb7a9e7",
-			"fromSide": "right",
-			"toNode": "2762c9a29abf10b1",
-			"toSide": "left"
-		},
-		{
-			"id": "c8a0f4d0b4aa5b0d",
-			"fromNode": "40ac0f16666479e6",
-			"fromSide": "right",
-			"toNode": "6ef41834cbb39934",
-			"toSide": "left"
-		},
-		{
-			"id": "68b9f98791267a80",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "cce8b134982b478c",
-			"toSide": "left"
-		},
-		{
-			"id": "f0a591285a568214",
-			"fromNode": "cce8b134982b478c",
-			"fromSide": "right",
-			"toNode": "e79f15c0afdc630b",
-			"toSide": "left"
-		},
-		{
-			"id": "fe2768fcc6090c7e",
-			"fromNode": "cce8b134982b478c",
-			"fromSide": "right",
-			"toNode": "7e7be0103fdaf2d5",
-			"toSide": "left"
-		},
-		{
-			"id": "f8684dd49f3b60af",
-			"fromNode": "7e7be0103fdaf2d5",
-			"fromSide": "right",
-			"toNode": "3f5831a11635c228",
-			"toSide": "left"
-		},
-		{
-			"id": "a61db77f19c68003",
-			"fromNode": "867afe19d43872e6",
-			"fromSide": "right",
-			"toNode": "4a3929505fa05bde",
-			"toSide": "left"
-		},
-		{
-			"id": "ecd639edd9ed1a7a",
-			"fromNode": "867afe19d43872e6",
-			"fromSide": "right",
-			"toNode": "8d3c009d9c2829d7",
-			"toSide": "left"
-		},
-		{
-			"id": "b0cc5ab6c016961f",
-			"fromNode": "867afe19d43872e6",
-			"fromSide": "right",
-			"toNode": "b148a736488cff4e",
-			"toSide": "left"
-		},
-		{
-			"id": "6df76ebee1db3cea",
-			"fromNode": "7e7be0103fdaf2d5",
-			"fromSide": "right",
-			"toNode": "b63ee7e02098015a",
-			"toSide": "left"
-		},
-		{
-			"id": "0745cc4c99d4e88f",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "0de7e76e89c1e417",
-			"toSide": "left"
-		},
-		{
-			"id": "8d850e15ebb5a866",
-			"fromNode": "0de7e76e89c1e417",
-			"fromSide": "right",
-			"toNode": "95ec70d85c61d04a",
-			"toSide": "left"
-		},
-		{
-			"id": "bca849a299840cf7",
-			"fromNode": "0de7e76e89c1e417",
-			"fromSide": "right",
-			"toNode": "75d6c91a7fc0bfae",
-			"toSide": "left"
-		},
-		{
-			"id": "aa049a3d7d9b9bfd",
-			"fromNode": "0de7e76e89c1e417",
-			"fromSide": "right",
-			"toNode": "60a58d1e5146b948",
-			"toSide": "left"
-		},
-		{
-			"id": "e416e527e4c0b977",
-			"fromNode": "60a58d1e5146b948",
-			"fromSide": "right",
-			"toNode": "d36c7151f11a72a4",
-			"toSide": "left"
-		},
-		{
-			"id": "881e80c0956e2f47",
-			"fromNode": "60a58d1e5146b948",
-			"fromSide": "right",
-			"toNode": "a1c30f38e91cc975",
-			"toSide": "left"
-		},
-		{
-			"id": "290a52ab0bafaeb1",
-			"fromNode": "60a58d1e5146b948",
-			"fromSide": "right",
-			"toNode": "4071eeac895522ee",
-			"toSide": "left"
-		},
-		{
-			"id": "c7600a80c27eb0a5",
-			"fromNode": "60a58d1e5146b948",
-			"fromSide": "right",
-			"toNode": "a127ade90267f82b",
-			"toSide": "left"
-		},
-		{
-			"id": "fc0b7d0dbe09f19e",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "9e97afb39c257a13",
-			"toSide": "left"
-		},
-		{
-			"id": "1ae96295185121d1",
-			"fromNode": "9e97afb39c257a13",
-			"fromSide": "right",
-			"toNode": "0ac5a4b3e7e299dc",
-			"toSide": "left"
-		},
-		{
-			"id": "a724cfef63c5380d",
-			"fromNode": "0ac5a4b3e7e299dc",
-			"fromSide": "right",
-			"toNode": "2f587fe3b24e217e",
-			"toSide": "left"
-		},
-		{
-			"id": "fc05f6ece590a81b",
-			"fromNode": "0ac5a4b3e7e299dc",
-			"fromSide": "right",
-			"toNode": "c4ea40b9c0686a3a",
-			"toSide": "left"
-		},
-		{
-			"id": "02ad30ccbd07841a",
-			"fromNode": "9e97afb39c257a13",
-			"fromSide": "right",
-			"toNode": "f520811ac4fda156",
-			"toSide": "left"
-		},
-		{
-			"id": "f348eb5d5d4d766c",
-			"fromNode": "9e97afb39c257a13",
-			"fromSide": "right",
-			"toNode": "ab322d81f2781c36",
-			"toSide": "left"
-		},
-		{
-			"id": "07312ecc136bd467",
-			"fromNode": "9e97afb39c257a13",
-			"fromSide": "right",
-			"toNode": "3b8f862e80dd2812",
-			"toSide": "left"
-		},
-		{
-			"id": "b8c41df06c78d208",
-			"fromNode": "9e97afb39c257a13",
-			"fromSide": "right",
-			"toNode": "3f2fb25ec4f843be",
-			"toSide": "left"
-		},
-		{
-			"id": "4aa1938c4ff7e0d7",
-			"fromNode": "3b8f862e80dd2812",
-			"fromSide": "right",
-			"toNode": "63662c21f31a8851",
-			"toSide": "left"
-		},
-		{
-			"id": "2828cfba97ac728d",
-			"fromNode": "3f2fb25ec4f843be",
-			"fromSide": "right",
-			"toNode": "63662c21f31a8851",
-			"toSide": "left"
-		},
-		{
-			"id": "7659c511e777887f",
-			"fromNode": "24b5dc638d511ba2",
-			"fromSide": "right",
-			"toNode": "9efd0110abc50844",
-			"toSide": "left"
-		},
-		{
-			"id": "6ac3c80ba47ee61a",
-			"fromNode": "9efd0110abc50844",
-			"fromSide": "right",
-			"toNode": "172b68591bd02751",
-			"toSide": "left"
-		},
-		{
-			"id": "cf68113acf4ed0ae",
-			"fromNode": "9efd0110abc50844",
-			"fromSide": "right",
-			"toNode": "b58aa5a6815410c3",
-			"toSide": "left"
-		},
-		{
-			"id": "a62ecaf9e5fa6664",
-			"fromNode": "9efd0110abc50844",
-			"fromSide": "right",
-			"toNode": "caea83146fb02d9c",
-			"toSide": "left"
-		},
-		{
-			"id": "c4a29989445cce8a",
-			"fromNode": "9efd0110abc50844",
-			"fromSide": "right",
-			"toNode": "61c9a3a26a068d04",
-			"toSide": "left"
-		},
-		{
-			"id": "5eeaab6ef44bfcf8",
-			"fromNode": "b5dc959872dc219c",
-			"fromSide": "right",
-			"toNode": "85f1f495017d72eb",
-			"toSide": "left"
-		},
-		{
-			"id": "2286b0f206044ecc",
-			"fromNode": "b5dc959872dc219c",
-			"fromSide": "right",
-			"toNode": "ec39be7bdfdaf9da",
-			"toSide": "left"
-		},
-		{
-			"id": "aebf086476d57538",
-			"fromNode": "ec39be7bdfdaf9da",
-			"fromSide": "right",
-			"toNode": "4b88fb9f14b43831",
-			"toSide": "left"
-		},
-		{
-			"id": "0b7713f558cfb3ac",
-			"fromNode": "ec39be7bdfdaf9da",
-			"fromSide": "right",
-			"toNode": "b976a6d75be1eee1",
-			"toSide": "left"
-		},
-		{
-			"id": "7906ec949f4db8db",
-			"fromNode": "b976a6d75be1eee1",
-			"fromSide": "right",
-			"toNode": "2f48bdc858b5e4ed",
-			"toSide": "left"
-		},
-		{
-			"id": "cd5748c2eec917cd",
-			"fromNode": "b976a6d75be1eee1",
-			"fromSide": "right",
-			"toNode": "2954247957f888d4",
-			"toSide": "left"
-		},
-		{
-			"id": "b04781ed8b318a08",
-			"fromNode": "b976a6d75be1eee1",
-			"fromSide": "right",
-			"toNode": "1feac452811feda3",
-			"toSide": "left"
-		},
-		{
-			"id": "76d1d96f86141fc5",
-			"fromNode": "b976a6d75be1eee1",
-			"fromSide": "right",
-			"toNode": "f945b11053d00703",
-			"toSide": "left"
-		},
-		{
-			"id": "4a96f1e60e57c223",
-			"fromNode": "ec39be7bdfdaf9da",
-			"fromSide": "right",
-			"toNode": "6706e3ca91f8924c",
-			"toSide": "left"
-		},
-		{
-			"id": "1a7229fcff0c8ced",
-			"fromNode": "ec39be7bdfdaf9da",
-			"fromSide": "right",
-			"toNode": "830a80c81642693a",
-			"toSide": "left"
-		},
-		{
-			"id": "99236648297a1988",
-			"fromNode": "21caa2b59ec438f0",
-			"fromSide": "right",
-			"toNode": "ddc741f8f8139aad",
-			"toSide": "left"
-		},
-		{
-			"id": "9c9af74128998b33",
-			"fromNode": "21caa2b59ec438f0",
-			"fromSide": "right",
-			"toNode": "6b9829e5dd44799b",
-			"toSide": "left"
-		},
-		{
-			"id": "5150041cce1f22ee",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "21caa2b59ec438f0",
-			"toSide": "left"
-		},
-		{
-			"id": "5afecce000f1a026",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "c149eb78f9a98894",
-			"toSide": "left"
-		},
-		{
-			"id": "0a976393f6b2ce53",
-			"fromNode": "c149eb78f9a98894",
-			"fromSide": "right",
-			"toNode": "fb4cd0260432de5f",
-			"toSide": "left"
-		},
-		{
-			"id": "65d4d6ddf3fc20a8",
-			"fromNode": "c149eb78f9a98894",
-			"fromSide": "right",
-			"toNode": "393b251aab8266f6",
-			"toSide": "left"
-		},
-		{
-			"id": "f16714611be0801e",
-			"fromNode": "c149eb78f9a98894",
-			"fromSide": "right",
-			"toNode": "9fdba253e7729282",
-			"toSide": "left"
-		},
-		{
-			"id": "0f24a0d95f2e00a5",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "32ad61e3802214d4",
-			"toSide": "left"
-		},
-		{
-			"id": "890ca55f07f66518",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "71d03bc273a5c69b",
-			"toSide": "left"
-		},
-		{
-			"id": "ca09bf4528dd50a5",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "8fb1d378d837c868",
-			"toSide": "left"
-		},
-		{
-			"id": "c71bcdff6951f330",
-			"fromNode": "a019be283afd505b",
-			"fromSide": "right",
-			"toNode": "0962226b9298b0b2",
-			"toSide": "left"
-		},
-		{
-			"id": "7930591482abb7b4",
-			"fromNode": "da1baf49f1a1fcbd",
-			"fromSide": "right",
-			"toNode": "d3a5bf6f50726bc8",
-			"toSide": "left"
-		},
-		{
-			"id": "2afdc517b52ab315",
-			"fromNode": "da1baf49f1a1fcbd",
-			"fromSide": "right",
-			"toNode": "59986731e0db6d14",
-			"toSide": "left"
-		},
-		{
-			"id": "cb6458e6afaad11e",
-			"fromNode": "da1baf49f1a1fcbd",
-			"fromSide": "right",
-			"toNode": "7bc10eb34c2916e4",
-			"toSide": "left"
-		},
-		{
-			"id": "18d6dc577d838323",
-			"fromNode": "d3a5bf6f50726bc8",
-			"fromSide": "right",
-			"toNode": "9c84ff6a47d87392",
-			"toSide": "left"
-		},
-		{
-			"id": "a8bc7aa9005aa9d9",
-			"fromNode": "d3a5bf6f50726bc8",
-			"fromSide": "right",
-			"toNode": "0b074d9a5d4199ee",
-			"toSide": "left"
-		},
-		{
-			"id": "8b2c3d4e5f607182",
-			"fromNode": "54866b81d9109246",
-			"fromSide": "right",
-			"toNode": "7a1b2c3d4e5f6071",
-			"toSide": "left"
-		},
-		{
-			"id": "ad4e5f6071829304",
-			"fromNode": "54866b81d9109246",
-			"fromSide": "right",
-			"toNode": "9c3d4e5f60718293",
-			"toSide": "left"
-		},
-		{
-			"id": "be5f6071829304ab",
-			"fromNode": "7a1b2c3d4e5f6071",
-			"fromSide": "bottom",
-			"toNode": "9c3d4e5f60718293",
-			"toSide": "top"
-		},
-		{
-			"id": "1f2e3d4c5b6a7988",
-			"fromNode": "54866b81d9109246",
-			"fromSide": "right",
-			"toNode": "5a6b7c8d9e0f1122",
-			"toSide": "left"
-		},
-		{
-			"id": "2a3b4c5d6e7f8091",
-			"fromNode": "9c3d4e5f60718293",
-			"fromSide": "bottom",
-			"toNode": "5a6b7c8d9e0f1122",
-			"toSide": "top"
-		},
-		{
-			"id": "8d9e0f1122334455",
-			"fromNode": "54866b81d9109246",
-			"fromSide": "right",
-			"toNode": "7c8d9e0f11223344",
-			"toSide": "left"
-		},
-		{
-			"id": "9e0f112233445566",
-			"fromNode": "5a6b7c8d9e0f1122",
-			"fromSide": "bottom",
-			"toNode": "7c8d9e0f11223344",
-			"toSide": "top"
-		},
-		{
-			"id": "5b6c7d8e9f001122",
-			"fromNode": "54866b81d9109246",
-			"fromSide": "right",
-			"toNode": "4b5c6d7e8f900011",
-			"toSide": "left"
-		},
-		{
-			"id": "6b7c8d9e0f001233",
-			"fromNode": "7c8d9e0f11223344",
-			"fromSide": "bottom",
-			"toNode": "4b5c6d7e8f900011",
-			"toSide": "top"
-		},
-		{
-			"id": "6f7081920304a5b6",
-			"fromNode": "6e3799f63db56b8a",
-			"fromSide": "right",
-			"toNode": "5e6f7081920304a5",
-			"toSide": "left"
-		},
-		{
-			"id": "45566778899aabbc",
-			"fromNode": "6e3799f63db56b8a",
-			"fromSide": "right",
-			"toNode": "3445566778899aab",
-			"toSide": "left"
-		},
-		{
-			"id": "d26208b02e0fa300",
-			"fromNode": "5e6f7081920304a5",
-			"fromSide": "right",
-			"toNode": "7081920304a5b6c7",
-			"toSide": "left"
-		},
-		{
-			"id": "42f33fb6ff8751ff",
-			"fromNode": "5e6f7081920304a5",
-			"fromSide": "right",
-			"toNode": "a5b6c7d8e9f00112",
-			"toSide": "left"
-		},
-		{
-			"id": "0c2ffa861856d376",
-			"fromNode": "5e6f7081920304a5",
-			"fromSide": "right",
-			"toNode": "d8e9f00112233445",
-			"toSide": "left"
-		},
-		{
-			"id": "26f62bd2502860c4",
-			"fromNode": "5e6f7081920304a5",
-			"fromSide": "right",
-			"toNode": "0112233445566778",
-			"toSide": "left"
-		},
-		{
-			"id": "ef5e2a5dd7bfbf65",
-			"fromNode": "6e3799f63db56b8a",
-			"fromSide": "right",
-			"toNode": "7ad8487b978c0ea4",
-			"toSide": "left"
-		},
-		{
-			"id": "7c45e36c7c65144c",
-			"fromNode": "6e3799f63db56b8a",
-			"fromSide": "right",
-			"toNode": "52fdd39588de881b",
-			"toSide": "left"
-		}
+	"edges":[
+		{"id":"2dac73dfcb6293ba","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"a0bd71b31edc1df6","toSide":"left"},
+		{"id":"94575213d2ec414e","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"2027dd4c9dcb7e62","toSide":"left"},
+		{"id":"40ea1583c80944e5","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"88e45fddac2b9238","toSide":"left","color":"1"},
+		{"id":"c3c46ee424238abc","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"12a12a95a01d6a40","toSide":"left","color":"1"},
+		{"id":"313b06b062442d5d","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"a187a416f4819a92","toSide":"left","color":"1"},
+		{"id":"5f4ee4c3e2769c29","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"b3dbd6deaafc55fc","toSide":"left"},
+		{"id":"a0c48cf5bac67117","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"8d08820074ac4ae5","toSide":"left"},
+		{"id":"778654b76124310b","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"ba86829b1193746d","toSide":"left"},
+		{"id":"10f70f7902a00268","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"c8ef845df12d6d2d","toSide":"left"},
+		{"id":"98ce6d0393e3142b","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"57a8bb5e395e5d83","toSide":"left"},
+		{"id":"6f396ea4787a4465","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"3365ab4158ba1601","toSide":"left"},
+		{"id":"5dc053fb801b2f6f","fromNode":"a187a416f4819a92","fromSide":"right","toNode":"49ec4f401eb4a291","toSide":"left"},
+		{"id":"b8c5628f9a83a51a","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"ef431b8c03885f13","toSide":"left"},
+		{"id":"eda817126542ded4","fromNode":"49ec4f401eb4a291","fromSide":"right","toNode":"90a3b7c8e78b49b4","toSide":"left"},
+		{"id":"205dda6ebc33c801","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"b724d9beb193edc7","toSide":"left"},
+		{"id":"15ae90e1300fc0d3","fromNode":"90a3b7c8e78b49b4","fromSide":"right","toNode":"bcbf0ce22dae7654","toSide":"left"},
+		{"id":"d8b77ba5685f7fd5","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"f868b022183e0d86","toSide":"left","color":"1"},
+		{"id":"ea44020553c776e3","fromNode":"12a12a95a01d6a40","fromSide":"right","toNode":"b5dc959872dc219c","toSide":"left"},
+		{"id":"2b6fbe037788f66a","fromNode":"12a12a95a01d6a40","fromSide":"right","toNode":"a019be283afd505b","toSide":"left"},
+		{"id":"39b31e45f53c2578","fromNode":"12a12a95a01d6a40","fromSide":"right","toNode":"da1baf49f1a1fcbd","toSide":"left"},
+		{"id":"24f5ee4402c81a3f","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"24b5dc638d511ba2","toSide":"left","color":"1"},
+		{"id":"50e79a4283c9d49d","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"54866b81d9109246","toSide":"left","color":"1"},
+		{"id":"d12a7d5b5483f5fb","fromNode":"ad185900ed06dc02","fromSide":"right","toNode":"6e3799f63db56b8a","toSide":"left","color":"1"},
+		{"id":"0ec82e4f0ee6ecfa","fromNode":"f868b022183e0d86","fromSide":"right","toNode":"2c21c4d4865b0ad2","toSide":"left"},
+		{"id":"bec5bd4f3086085a","fromNode":"2c21c4d4865b0ad2","fromSide":"right","toNode":"ba84e3116905e76f","toSide":"left"},
+		{"id":"2dc256af8c246c3d","fromNode":"2c21c4d4865b0ad2","fromSide":"right","toNode":"d3b322926311535e","toSide":"left"},
+		{"id":"8bfcb599c4a44d0e","fromNode":"2c21c4d4865b0ad2","fromSide":"right","toNode":"521fc03614f7ce5e","toSide":"left"},
+		{"id":"808c909f71c5c9fc","fromNode":"ba84e3116905e76f","fromSide":"right","toNode":"6180d2360f3837f9","toSide":"left"},
+		{"id":"b0765d9ba6f29928","fromNode":"ba84e3116905e76f","fromSide":"right","toNode":"d724a8629a9540dc","toSide":"left"},
+		{"id":"9e9cdce4e804772a","fromNode":"f868b022183e0d86","fromSide":"right","toNode":"b73978ae1443f2fe","toSide":"left"},
+		{"id":"660daa75ab92e3a8","fromNode":"b73978ae1443f2fe","fromSide":"right","toNode":"e325442c7cec1b65","toSide":"left"},
+		{"id":"e0b87ab301c45198","fromNode":"b73978ae1443f2fe","fromSide":"right","toNode":"6ab757086fd69403","toSide":"left"},
+		{"id":"d84f53f9ec97d1a7","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"664e73377a1599d7","toSide":"left"},
+		{"id":"2caf9fae0a8199d9","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"cd8baf82c23e20c7","toSide":"left"},
+		{"id":"5653e2b7b133c139","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"b500521ce280afd8","toSide":"left"},
+		{"id":"5eeab5f03ac673c8","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"6727c54c8e69d088","toSide":"left"},
+		{"id":"85ee0fae8bbbb0f6","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"c1d486f2211ef79f","toSide":"left"},
+		{"id":"0bcf3e0e9a766791","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"dd53e32f260e1d75","toSide":"left"},
+		{"id":"0c9ca596982786bd","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"23d07bcdc1d62710","toSide":"left"},
+		{"id":"f395d087e06d8776","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"18af7587ab04d5d1","toSide":"left"},
+		{"id":"59651f341eb0271e","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"bd09808b82a0245e","toSide":"left"},
+		{"id":"1b20d1e5a6ecbedc","fromNode":"23d07bcdc1d62710","fromSide":"right","toNode":"d463889cce7874b2","toSide":"left"},
+		{"id":"1c842b1962366717","fromNode":"18af7587ab04d5d1","fromSide":"right","toNode":"d463889cce7874b2","toSide":"left"},
+		{"id":"34c452ad663e8b99","fromNode":"bd09808b82a0245e","fromSide":"right","toNode":"d463889cce7874b2","toSide":"left"},
+		{"id":"4ddaa1d9c8fe4b98","fromNode":"6ab757086fd69403","fromSide":"right","toNode":"15770b0a03bfbcd2","toSide":"left"},
+		{"id":"f73f929c3a04e312","fromNode":"f868b022183e0d86","fromSide":"right","toNode":"f72d88e99d433266","toSide":"left"},
+		{"id":"ab98f5a62c0e5bd5","fromNode":"f72d88e99d433266","fromSide":"right","toNode":"eaaab044d7db28c5","toSide":"left"},
+		{"id":"68d6f238528f62c7","fromNode":"f72d88e99d433266","fromSide":"right","toNode":"0e229913505725ae","toSide":"left"},
+		{"id":"c7fb9426388690c7","fromNode":"f868b022183e0d86","fromSide":"right","toNode":"bca03c0563354283","toSide":"left"},
+		{"id":"1690919532c2abe6","fromNode":"f868b022183e0d86","fromSide":"right","toNode":"b65f50cfbcacc8ec","toSide":"left"},
+		{"id":"22b23f19af3bfe3a","fromNode":"b65f50cfbcacc8ec","fromSide":"right","toNode":"e8007b7b5262fb20","toSide":"left"},
+		{"id":"e165877a3d120997","fromNode":"e8007b7b5262fb20","fromSide":"right","toNode":"5b88528f1b670c75","toSide":"left"},
+		{"id":"b1b932a183214c72","fromNode":"e8007b7b5262fb20","fromSide":"right","toNode":"eb1f3bd22d32874e","toSide":"left"},
+		{"id":"e330226af3866491","fromNode":"eb1f3bd22d32874e","fromSide":"right","toNode":"ee2ed08285194100","toSide":"left"},
+		{"id":"53be3c4617a79763","fromNode":"eb1f3bd22d32874e","fromSide":"right","toNode":"f5d19875fe37fff9","toSide":"left"},
+		{"id":"4c268447e0419a3f","fromNode":"eb1f3bd22d32874e","fromSide":"right","toNode":"0213cc96b564e1cf","toSide":"left"},
+		{"id":"28a1fba1185bdfae","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"71eedf4e15b0ab85","toSide":"left"},
+		{"id":"1b3e57dfef95ec23","fromNode":"71eedf4e15b0ab85","fromSide":"right","toNode":"e32605f70a397735","toSide":"left"},
+		{"id":"b568aaa66cc494c1","fromNode":"71eedf4e15b0ab85","fromSide":"right","toNode":"2eaeb33d85567044","toSide":"left"},
+		{"id":"4275064546fa8690","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"711635253eb7ba95","toSide":"left"},
+		{"id":"c7d0aa9b016dc43b","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"eca1f7b71e8b2780","toSide":"left"},
+		{"id":"5796fa5716e1a0d3","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"c83f13f340fe49de","toSide":"left"},
+		{"id":"d76101d5231a66e8","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"6033ea1fecde0194","toSide":"left"},
+		{"id":"8b68e9a2321bcf38","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"e2d60e89342253bd","toSide":"left"},
+		{"id":"c966f6e9a307b039","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ff1ce7b39bec66f3","toSide":"left"},
+		{"id":"b730220180b987be","fromNode":"c83f13f340fe49de","fromSide":"right","toNode":"ea238f6ed7ba3c9d","toSide":"left"},
+		{"id":"ec260501fd2c35f2","fromNode":"711635253eb7ba95","fromSide":"right","toNode":"867afe19d43872e6","toSide":"left"},
+		{"id":"983f6ba29a5fb44a","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"40ac0f16666479e6","toSide":"left"},
+		{"id":"dd5415cba1002577","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"06e4cb473561c2de","toSide":"left"},
+		{"id":"1d1bb50f413d67be","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"47fdefd62ad52a72","toSide":"left"},
+		{"id":"dcde72e25ed01c33","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"335e65329cd7f819","toSide":"left"},
+		{"id":"21954fc956d378d4","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"25fe0003b6f35a43","toSide":"left"},
+		{"id":"533bfe0e35ac0412","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"734112556bb7a9e7","toSide":"left"},
+		{"id":"c2db1366babe5545","fromNode":"25fe0003b6f35a43","fromSide":"right","toNode":"2b7954634cc0c46e","toSide":"left"},
+		{"id":"d5c2e18ee097faec","fromNode":"25fe0003b6f35a43","fromSide":"right","toNode":"a91bc2301a5f1209","toSide":"left"},
+		{"id":"6703bdefe8e7b268","fromNode":"25fe0003b6f35a43","fromSide":"right","toNode":"ee49ce7751dbf502","toSide":"left"},
+		{"id":"98b300b1aefee429","fromNode":"734112556bb7a9e7","fromSide":"right","toNode":"5a560097febe2572","toSide":"left"},
+		{"id":"3addb681a9b27866","fromNode":"734112556bb7a9e7","fromSide":"right","toNode":"32c272ee48b7d13c","toSide":"left"},
+		{"id":"c8714e10b695e10c","fromNode":"734112556bb7a9e7","fromSide":"right","toNode":"2762c9a29abf10b1","toSide":"left"},
+		{"id":"c8a0f4d0b4aa5b0d","fromNode":"40ac0f16666479e6","fromSide":"right","toNode":"6ef41834cbb39934","toSide":"left"},
+		{"id":"68b9f98791267a80","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"cce8b134982b478c","toSide":"left"},
+		{"id":"f0a591285a568214","fromNode":"cce8b134982b478c","fromSide":"right","toNode":"e79f15c0afdc630b","toSide":"left"},
+		{"id":"fe2768fcc6090c7e","fromNode":"cce8b134982b478c","fromSide":"right","toNode":"7e7be0103fdaf2d5","toSide":"left"},
+		{"id":"f8684dd49f3b60af","fromNode":"7e7be0103fdaf2d5","fromSide":"right","toNode":"3f5831a11635c228","toSide":"left"},
+		{"id":"a61db77f19c68003","fromNode":"867afe19d43872e6","fromSide":"right","toNode":"4a3929505fa05bde","toSide":"left"},
+		{"id":"ecd639edd9ed1a7a","fromNode":"867afe19d43872e6","fromSide":"right","toNode":"8d3c009d9c2829d7","toSide":"left"},
+		{"id":"b0cc5ab6c016961f","fromNode":"867afe19d43872e6","fromSide":"right","toNode":"b148a736488cff4e","toSide":"left"},
+		{"id":"6df76ebee1db3cea","fromNode":"7e7be0103fdaf2d5","fromSide":"right","toNode":"b63ee7e02098015a","toSide":"left"},
+		{"id":"0745cc4c99d4e88f","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"0de7e76e89c1e417","toSide":"left"},
+		{"id":"8d850e15ebb5a866","fromNode":"0de7e76e89c1e417","fromSide":"right","toNode":"95ec70d85c61d04a","toSide":"left"},
+		{"id":"bca849a299840cf7","fromNode":"0de7e76e89c1e417","fromSide":"right","toNode":"75d6c91a7fc0bfae","toSide":"left"},
+		{"id":"aa049a3d7d9b9bfd","fromNode":"0de7e76e89c1e417","fromSide":"right","toNode":"60a58d1e5146b948","toSide":"left"},
+		{"id":"e416e527e4c0b977","fromNode":"60a58d1e5146b948","fromSide":"right","toNode":"d36c7151f11a72a4","toSide":"left"},
+		{"id":"881e80c0956e2f47","fromNode":"60a58d1e5146b948","fromSide":"right","toNode":"a1c30f38e91cc975","toSide":"left"},
+		{"id":"290a52ab0bafaeb1","fromNode":"60a58d1e5146b948","fromSide":"right","toNode":"4071eeac895522ee","toSide":"left"},
+		{"id":"c7600a80c27eb0a5","fromNode":"60a58d1e5146b948","fromSide":"right","toNode":"a127ade90267f82b","toSide":"left"},
+		{"id":"fc0b7d0dbe09f19e","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"9e97afb39c257a13","toSide":"left"},
+		{"id":"1ae96295185121d1","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"0ac5a4b3e7e299dc","toSide":"left"},
+		{"id":"a724cfef63c5380d","fromNode":"0ac5a4b3e7e299dc","fromSide":"right","toNode":"2f587fe3b24e217e","toSide":"left"},
+		{"id":"fc05f6ece590a81b","fromNode":"0ac5a4b3e7e299dc","fromSide":"right","toNode":"c4ea40b9c0686a3a","toSide":"left"},
+		{"id":"02ad30ccbd07841a","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"f520811ac4fda156","toSide":"left"},
+		{"id":"f348eb5d5d4d766c","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"ab322d81f2781c36","toSide":"left"},
+		{"id":"07312ecc136bd467","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"3b8f862e80dd2812","toSide":"left"},
+		{"id":"b8c41df06c78d208","fromNode":"9e97afb39c257a13","fromSide":"right","toNode":"3f2fb25ec4f843be","toSide":"left"},
+		{"id":"4aa1938c4ff7e0d7","fromNode":"3b8f862e80dd2812","fromSide":"right","toNode":"63662c21f31a8851","toSide":"left"},
+		{"id":"2828cfba97ac728d","fromNode":"3f2fb25ec4f843be","fromSide":"right","toNode":"63662c21f31a8851","toSide":"left"},
+		{"id":"7659c511e777887f","fromNode":"24b5dc638d511ba2","fromSide":"right","toNode":"9efd0110abc50844","toSide":"left"},
+		{"id":"6ac3c80ba47ee61a","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"172b68591bd02751","toSide":"left"},
+		{"id":"cf68113acf4ed0ae","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"b58aa5a6815410c3","toSide":"left"},
+		{"id":"a62ecaf9e5fa6664","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"caea83146fb02d9c","toSide":"left"},
+		{"id":"c4a29989445cce8a","fromNode":"9efd0110abc50844","fromSide":"right","toNode":"61c9a3a26a068d04","toSide":"left"},
+		{"id":"5eeaab6ef44bfcf8","fromNode":"b5dc959872dc219c","fromSide":"right","toNode":"85f1f495017d72eb","toSide":"left"},
+		{"id":"2286b0f206044ecc","fromNode":"b5dc959872dc219c","fromSide":"right","toNode":"ec39be7bdfdaf9da","toSide":"left"},
+		{"id":"aebf086476d57538","fromNode":"ec39be7bdfdaf9da","fromSide":"right","toNode":"4b88fb9f14b43831","toSide":"left"},
+		{"id":"0b7713f558cfb3ac","fromNode":"ec39be7bdfdaf9da","fromSide":"right","toNode":"b976a6d75be1eee1","toSide":"left"},
+		{"id":"7906ec949f4db8db","fromNode":"b976a6d75be1eee1","fromSide":"right","toNode":"2f48bdc858b5e4ed","toSide":"left"},
+		{"id":"cd5748c2eec917cd","fromNode":"b976a6d75be1eee1","fromSide":"right","toNode":"2954247957f888d4","toSide":"left"},
+		{"id":"b04781ed8b318a08","fromNode":"b976a6d75be1eee1","fromSide":"right","toNode":"1feac452811feda3","toSide":"left"},
+		{"id":"76d1d96f86141fc5","fromNode":"b976a6d75be1eee1","fromSide":"right","toNode":"f945b11053d00703","toSide":"left"},
+		{"id":"4a96f1e60e57c223","fromNode":"ec39be7bdfdaf9da","fromSide":"right","toNode":"6706e3ca91f8924c","toSide":"left"},
+		{"id":"1a7229fcff0c8ced","fromNode":"ec39be7bdfdaf9da","fromSide":"right","toNode":"830a80c81642693a","toSide":"left"},
+		{"id":"99236648297a1988","fromNode":"21caa2b59ec438f0","fromSide":"right","toNode":"ddc741f8f8139aad","toSide":"left"},
+		{"id":"9c9af74128998b33","fromNode":"21caa2b59ec438f0","fromSide":"right","toNode":"6b9829e5dd44799b","toSide":"left"},
+		{"id":"5150041cce1f22ee","fromNode":"a019be283afd505b","fromSide":"right","toNode":"21caa2b59ec438f0","toSide":"left"},
+		{"id":"5afecce000f1a026","fromNode":"a019be283afd505b","fromSide":"right","toNode":"c149eb78f9a98894","toSide":"left"},
+		{"id":"0a976393f6b2ce53","fromNode":"c149eb78f9a98894","fromSide":"right","toNode":"fb4cd0260432de5f","toSide":"left"},
+		{"id":"65d4d6ddf3fc20a8","fromNode":"c149eb78f9a98894","fromSide":"right","toNode":"393b251aab8266f6","toSide":"left"},
+		{"id":"f16714611be0801e","fromNode":"c149eb78f9a98894","fromSide":"right","toNode":"9fdba253e7729282","toSide":"left"},
+		{"id":"0f24a0d95f2e00a5","fromNode":"a019be283afd505b","fromSide":"right","toNode":"32ad61e3802214d4","toSide":"left"},
+		{"id":"890ca55f07f66518","fromNode":"a019be283afd505b","fromSide":"right","toNode":"71d03bc273a5c69b","toSide":"left"},
+		{"id":"ca09bf4528dd50a5","fromNode":"a019be283afd505b","fromSide":"right","toNode":"8fb1d378d837c868","toSide":"left"},
+		{"id":"c71bcdff6951f330","fromNode":"a019be283afd505b","fromSide":"right","toNode":"0962226b9298b0b2","toSide":"left"},
+		{"id":"7930591482abb7b4","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"d3a5bf6f50726bc8","toSide":"left"},
+		{"id":"2afdc517b52ab315","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"59986731e0db6d14","toSide":"left"},
+		{"id":"cb6458e6afaad11e","fromNode":"da1baf49f1a1fcbd","fromSide":"right","toNode":"7bc10eb34c2916e4","toSide":"left"},
+		{"id":"18d6dc577d838323","fromNode":"d3a5bf6f50726bc8","fromSide":"right","toNode":"9c84ff6a47d87392","toSide":"left"},
+		{"id":"a8bc7aa9005aa9d9","fromNode":"d3a5bf6f50726bc8","fromSide":"right","toNode":"0b074d9a5d4199ee","toSide":"left"},
+		{"id":"8b2c3d4e5f607182","fromNode":"54866b81d9109246","fromSide":"right","toNode":"7a1b2c3d4e5f6071","toSide":"left"},
+		{"id":"ad4e5f6071829304","fromNode":"54866b81d9109246","fromSide":"right","toNode":"9c3d4e5f60718293","toSide":"left"},
+		{"id":"be5f6071829304ab","fromNode":"7a1b2c3d4e5f6071","fromSide":"bottom","toNode":"9c3d4e5f60718293","toSide":"top"},
+		{"id":"1f2e3d4c5b6a7988","fromNode":"54866b81d9109246","fromSide":"right","toNode":"5a6b7c8d9e0f1122","toSide":"left"},
+		{"id":"2a3b4c5d6e7f8091","fromNode":"9c3d4e5f60718293","fromSide":"bottom","toNode":"5a6b7c8d9e0f1122","toSide":"top"},
+		{"id":"8d9e0f1122334455","fromNode":"54866b81d9109246","fromSide":"right","toNode":"7c8d9e0f11223344","toSide":"left"},
+		{"id":"9e0f112233445566","fromNode":"5a6b7c8d9e0f1122","fromSide":"bottom","toNode":"7c8d9e0f11223344","toSide":"top"},
+		{"id":"5b6c7d8e9f001122","fromNode":"54866b81d9109246","fromSide":"right","toNode":"4b5c6d7e8f900011","toSide":"left"},
+		{"id":"6b7c8d9e0f001233","fromNode":"7c8d9e0f11223344","fromSide":"bottom","toNode":"4b5c6d7e8f900011","toSide":"top"},
+		{"id":"6f7081920304a5b6","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"5e6f7081920304a5","toSide":"left"},
+		{"id":"45566778899aabbc","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"3445566778899aab","toSide":"left"},
+		{"id":"d26208b02e0fa300","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"7081920304a5b6c7","toSide":"left"},
+		{"id":"42f33fb6ff8751ff","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"a5b6c7d8e9f00112","toSide":"left"},
+		{"id":"0c2ffa861856d376","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"d8e9f00112233445","toSide":"left"},
+		{"id":"26f62bd2502860c4","fromNode":"5e6f7081920304a5","fromSide":"right","toNode":"0112233445566778","toSide":"left"},
+		{"id":"ef5e2a5dd7bfbf65","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"7ad8487b978c0ea4","toSide":"left"},
+		{"id":"7c45e36c7c65144c","fromNode":"6e3799f63db56b8a","fromSide":"right","toNode":"52fdd39588de881b","toSide":"left"},
+		{"id":"81473751c20b206c","fromNode":"88e45fddac2b9238","fromSide":"right","toNode":"fe3b1e7f8ce6ca73","toSide":"left"},
+		{"id":"23d04dd5352bf2d6","fromNode":"fe3b1e7f8ce6ca73","fromSide":"right","toNode":"cd3bd1b8be586a53","toSide":"left"},
+		{"id":"28ac5b3c095c87f8","fromNode":"fe3b1e7f8ce6ca73","fromSide":"right","toNode":"9bb6a815959a515b","toSide":"left"},
+		{"id":"31dab37f24dbdcc1","fromNode":"fe3b1e7f8ce6ca73","fromSide":"right","toNode":"40f54b5ebbab0857","toSide":"left"},
+		{"id":"3b04f7ee3dce9b78","fromNode":"fe3b1e7f8ce6ca73","fromSide":"right","toNode":"3b316ff194d997b5","toSide":"left"},
+		{"id":"a91b6a089f7c5da2","fromNode":"3b316ff194d997b5","fromSide":"right","toNode":"a8965c7900583ac7","toSide":"left"},
+		{"id":"df8052fc52a36117","fromNode":"3b316ff194d997b5","fromSide":"right","toNode":"5e08c92812cefbb0","toSide":"left"}
 	]
 }
