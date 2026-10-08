@@ -1,203 +1,1599 @@
 {
-	"nodes":[
-		{"id":"2a73839e727e2e6c","type":"text","text":"## 数据结构的基本概念","x":589,"y":-361,"width":250,"height":60},
-		{"id":"f067311a0ab5a5a8","type":"text","text":"### [[数据]]","x":1040,"y":-563,"width":250,"height":60},
-		{"id":"7cbb852d33382985","type":"text","text":"### [[数据元素]]","x":1040,"y":-477,"width":250,"height":60},
-		{"id":"07eb80c2e2634221","type":"text","text":"### [[数据对象]]","x":1040,"y":-391,"width":250,"height":60},
-		{"id":"a6442834dd045b11","type":"text","text":"### [[数据类型]]","x":1040,"y":-313,"width":250,"height":60},
-		{"id":"0740e7e1fecbd6c1","type":"text","text":"### [[抽象数据类型]]","x":1040,"y":-233,"width":250,"height":60},
-		{"id":"cd59710a5e7e31e1","type":"text","text":"### [[数据结构]]","x":1040,"y":-153,"width":250,"height":60},
-		{"id":"83870ccd5da32919","type":"text","text":"[[逻辑结构]]","x":1387,"y":-231,"width":250,"height":60},
-		{"id":"ac5e17c5311b3481","type":"text","text":"[[存储结构]]","x":1387,"y":-153,"width":250,"height":60},
-		{"id":"85ae3236a3fc297d","type":"text","text":"[[数据运算]]","x":1387,"y":-73,"width":250,"height":60},
-		{"id":"5d73f358adcc5409","type":"text","text":"## 算法和算法评价","x":589,"y":100,"width":250,"height":60},
-		{"id":"05972fd552a2f380","type":"text","text":"# 绪论","x":180,"y":-153,"width":250,"height":60},
-		{"id":"115ed60fbb499ad2","type":"text","text":"### 算法效率的度量","x":1040,"y":180,"width":250,"height":60},
-		{"id":"286de665024d296d","type":"text","text":"### [[算法的基本概念]]","x":1040,"y":40,"width":250,"height":60},
-		{"id":"5ceb55710b5c7935","type":"text","text":"[[时间复杂度]]","x":1412,"y":119,"width":250,"height":60},
-		{"id":"1b0b2189ec962bf8","type":"text","text":"[[空间复杂度]]","x":1412,"y":240,"width":250,"height":55},
-		{"id":"5777b9d79ccfafe1","type":"text","text":"### [[线性表的定义]]","x":1046,"y":343,"width":250,"height":60},
-		{"id":"3ae036dc2e4e6d2b","type":"text","text":"### [[线性表的基本操作]]","x":1046,"y":467,"width":250,"height":60},
-		{"id":"130d48a5353c432b","type":"text","text":"## 线性表的定义和基本操作","x":640,"y":400,"width":250,"height":60},
-		{"id":"9639ae113990cdf0","type":"text","text":"### [[顺序表初始化]]","x":1046,"y":577,"width":250,"height":60},
-		{"id":"0d48d5aa47c44928","type":"text","text":"### [[顺序表取值]]","x":1046,"y":667,"width":250,"height":60},
-		{"id":"50a2e956e5e296b0","type":"text","text":"### [[顺序表插入]]","x":1046,"y":840,"width":250,"height":60},
-		{"id":"6161d4cd817d6470","type":"text","text":"## [[顺序表]]","x":640,"y":748,"width":250,"height":60},
-		{"id":"8db123ecfa538bba","type":"text","text":"# 数据结构","x":-440,"y":1840,"width":250,"height":60},
-		{"id":"0aef39ee0a844423","type":"text","text":"### 单链表的基本操作","x":1046,"y":1105,"width":250,"height":60},
-		{"id":"573b71cd412c2505","type":"text","text":"### [[双链表]]","x":1046,"y":1195,"width":250,"height":60},
-		{"id":"d2290c0db0ad342a","type":"text","text":"### [[循环链表]]","x":1046,"y":1278,"width":250,"height":60},
-		{"id":"78a0415bcc8fd2bf","type":"text","text":"### [[静态链表]]","x":1046,"y":1378,"width":250,"height":60},
-		{"id":"30cde1cf06b42350","type":"text","text":"## [[链表]]","x":640,"y":1238,"width":250,"height":60},
-		{"id":"98ac7ff86acd3b72","type":"text","text":"[[单链表的初始化]]","x":1537,"y":855,"width":250,"height":60},
-		{"id":"0fa1ed2577509242","type":"text","text":"[[单链表的按序查找]]","x":1533,"y":950,"width":250,"height":60},
-		{"id":"6877cd92db627ba7","type":"text","text":"[[单链表的按值查找]]","x":1530,"y":1040,"width":250,"height":60},
-		{"id":"bd10d90504364156","type":"text","text":"[[单链表求表长]]","x":1530,"y":1132,"width":250,"height":60},
-		{"id":"c4cf7a103294a715","type":"text","text":"[[单链表的插入]]","x":1530,"y":1215,"width":250,"height":60},
-		{"id":"a02b4d9f028f6ed9","type":"text","text":"[[单链表的删除]]","x":1530,"y":1295,"width":250,"height":60},
-		{"id":"652fc47a292ad938","type":"text","text":"[[单链表的建立]]","x":1530,"y":1375,"width":250,"height":60},
-		{"id":"fe46e0724c90d384","type":"text","text":"# [[线性表]]","x":200,"y":840,"width":250,"height":60},
-		{"id":"0667c4739a94f78a","type":"text","text":"## [[顺序表和链表的比较]]","x":640,"y":1360,"width":250,"height":60},
-		{"id":"9c606be993bb79b4","type":"text","text":"### [[顺序表删除]]","x":1046,"y":940,"width":250,"height":60},
-		{"id":"e1421e3c4302645f","type":"text","text":"### [[顺序表查找]]","x":1046,"y":760,"width":250,"height":60},
-		{"id":"4d3b7ae4f378f4ea","type":"text","text":"### [[顺序栈]]","x":1046,"y":1599,"width":250,"height":60},
-		{"id":"8d6c938197c7dc63","type":"text","text":"### [[链栈]]","x":1046,"y":1719,"width":250,"height":60},
-		{"id":"6e07a84e11f9de4c","type":"text","text":"[[顺序栈的基本操作]]","x":1530,"y":1539,"width":250,"height":60},
-		{"id":"d50fb6fd62b580c6","type":"text","text":"[[共享栈]]","x":1528,"y":1676,"width":250,"height":60},
-		{"id":"1d8b74f967f5c682","type":"text","text":"### [[顺序队列]]","x":1046,"y":2123,"width":250,"height":60},
-		{"id":"11330ae9eaa564d8","type":"text","text":"### [[链队]]","x":1046,"y":2283,"width":250,"height":60},
-		{"id":"484042af89d58c75","type":"text","text":"## [[队列]]","x":640,"y":2283,"width":250,"height":60},
-		{"id":"79ac235291168fce","type":"text","text":"### [[双端队列]]","x":1046,"y":2383,"width":250,"height":60},
-		{"id":"3039cec5831e222f","type":"text","text":"[[顺序队列的基本操作]]","x":1526,"y":2080,"width":250,"height":60},
-		{"id":"7c2f53614f2d78d2","type":"text","text":"[[循环队列]]","x":1528,"y":2170,"width":250,"height":60},
-		{"id":"4a8969c22b94fc34","type":"text","text":"[[链队的基本操作]]","x":1526,"y":2283,"width":250,"height":60},
-		{"id":"1aa1f301bbfae4ed","type":"text","text":"### [[栈的应用]]","x":1046,"y":1829,"width":250,"height":60},
-		{"id":"0e6887035a3f17e0","type":"text","text":"## [[栈]]","x":640,"y":1719,"width":250,"height":60},
-		{"id":"0439a106de05400d","type":"text","text":"### [[队列的应用]]","x":1046,"y":2480,"width":250,"height":60},
-		{"id":"01b5404db81f6eaf","type":"text","text":"## [[数组]]","x":640,"y":2383,"width":250,"height":60},
-		{"id":"edb6755a93870258","type":"text","text":"### [[三角矩阵]]","x":1046,"y":2685,"width":250,"height":60},
-		{"id":"b504962660dab2f4","type":"text","text":"### [[三对角矩阵]]","x":1046,"y":2780,"width":250,"height":60},
-		{"id":"330d8b9c8f500423","type":"text","text":"### [[对称矩阵]]","x":1046,"y":2600,"width":250,"height":60},
-		{"id":"df3bcd0973b4232b","type":"text","text":"# 栈、队列、数组","x":200,"y":2170,"width":250,"height":60},
-		{"id":"c20fa7fa733fed2d","type":"text","text":"### [[稀疏矩阵]]","x":1046,"y":2880,"width":250,"height":60},
-		{"id":"e28053ac96502b28","type":"text","text":"## [[数据结构-矩阵]]","x":640,"y":2745,"width":250,"height":60},
-		{"id":"c6084943815f0bca","type":"text","text":"## [[串的存储结构]]","x":640,"y":2925,"width":250,"height":60},
-		{"id":"af6c95ff1810a555","type":"text","text":"## [[串的基本操作]]","x":640,"y":3020,"width":250,"height":60},
-		{"id":"f3ec49923b4f9e15","type":"text","text":"## [[串的模式匹配]]","x":640,"y":3110,"width":250,"height":60},
-		{"id":"ff012703cda003df","type":"text","text":"### [[简单模式匹配算法]]","x":1020,"y":3072,"width":250,"height":60},
-		{"id":"8a28dd7400a3b5a9","type":"text","text":"### [[KMP算法]]","x":1020,"y":3149,"width":250,"height":60},
-		{"id":"5d8ac9c3b7b46bdd","type":"text","text":"# [[串]]","x":160,"y":3020,"width":250,"height":60},
-		{"id":"0da47faaf6538713","type":"text","text":"### [[二叉树的中序线索化]]","x":1038,"y":3530,"width":250,"height":60},
-		{"id":"de18ec78c13c5d76","type":"text","text":"### [[二叉树的先序线索化]]","x":1038,"y":3650,"width":250,"height":60},
-		{"id":"cbedb8a5e5e02b11","type":"text","text":"### [[二叉树的后序线索化]]","x":1038,"y":3760,"width":250,"height":60},
-		{"id":"6549a731f76f832d","type":"text","text":"### [[哈夫曼编码]]","x":1038,"y":3960,"width":250,"height":60},
-		{"id":"6a0d3f9cbdb1be5b","type":"text","text":"## [[二叉树]]","x":640,"y":3340,"width":250,"height":60},
-		{"id":"b7eff66569acb9a3","type":"text","text":"## [[遍历二叉树]]","x":640,"y":3470,"width":250,"height":60},
-		{"id":"e29e76082a8bb971","type":"text","text":"## [[线索二叉树]]","x":640,"y":3650,"width":250,"height":60},
-		{"id":"17a2dbd77b70a223","type":"text","text":"## [[树的存储结构]]","x":640,"y":3760,"width":250,"height":60},
-		{"id":"21e83d7385937b01","type":"text","text":"## [[树的遍历]]","x":640,"y":3860,"width":250,"height":60},
-		{"id":"06526b0c2e6af62a","type":"text","text":"## [[哈夫曼树]]","x":640,"y":3960,"width":250,"height":60},
-		{"id":"9c3659f91677b255","type":"text","text":"### [[特殊的二叉树]]","x":1046,"y":3280,"width":250,"height":60},
-		{"id":"b66966fc26973068","type":"text","text":"[[二叉树的顺序存储结构]]","x":1420,"y":3344,"width":250,"height":60},
-		{"id":"656a5dc5684c887b","type":"text","text":"### 二叉树的存储结构","x":1046,"y":3400,"width":250,"height":60},
-		{"id":"d937e57d613ca9eb","type":"text","text":"[[二叉树的链式存储结构]]","x":1420,"y":3460,"width":250,"height":60},
-		{"id":"9e471cacd5bfca96","type":"text","text":"# [[树]]","x":160,"y":3650,"width":250,"height":60},
-		{"id":"a71c4e9d20b6f385","type":"text","text":"### [[图#图的定义|图的定义]]","x":1040,"y":4100,"width":250,"height":60},
-		{"id":"b83d5f0e31c7a496","type":"text","text":"### [[图#图的分类|图的分类]]","x":1040,"y":4180,"width":250,"height":60},
-		{"id":"d05f712a53e9c6b8","type":"text","text":"### [[图#权和网、邻接点、路径、回路|权和网、邻接点、路径、回路]]","x":1040,"y":4260,"width":250,"height":60},
-		{"id":"6d8e9f0a1b2c3d4e","type":"text","text":"### [[图#子图、连通分量、强连通分量|子图、连通分量、强连通分量]]","x":1040,"y":4340,"width":250,"height":60},
-		{"id":"9f0a1b2c3d4e5f60","type":"text","text":"### [[图#生成树和生成森林|生成树和生成森林]]","x":1040,"y":4420,"width":250,"height":60},
-		{"id":"5a6b7c8d9e0f1a2b","type":"text","text":"### [[图#几个性质|几个性质]]","x":1040,"y":4500,"width":250,"height":60},
-		{"id":"c94e601f42d8b5a7","type":"text","text":"### [[图#顶点的度|顶点的度]]","x":1040,"y":4580,"width":250,"height":60},
-		{"id":"a1b2c3d4e5f60718","type":"text","text":"### [[邻接矩阵]]","x":1040,"y":4800,"width":250,"height":60},
-		{"id":"c3d4e5f60718293a","type":"text","text":"### [[邻接表]]","x":1040,"y":4890,"width":250,"height":60},
-		{"id":"e5f60718293a4b5c","type":"text","text":"### [[十字链表]]","x":1040,"y":4980,"width":250,"height":60},
-		{"id":"0718293a4b5c6d7e","type":"text","text":"### [[邻接多重表]]","x":1040,"y":5070,"width":250,"height":60},
-		{"id":"2f8b1c6a4d7e9013","type":"text","text":"## 图的基本概念","x":640,"y":4370,"width":250,"height":60},
-		{"id":"3e7a207e337b9e44","type":"text","text":"# [[图]]","x":180,"y":4610,"width":250,"height":60},
-		{"id":"293a4b5c6d7e8f90","type":"text","text":"## [[图的基本操作]]","x":640,"y":5160,"width":250,"height":60},
-		{"id":"4b5c6d7e8f901234","type":"text","text":"## [[图的遍历]]","x":640,"y":5250,"width":250,"height":60},
-		{"id":"5c6d7e8f90123456","type":"text","text":"### [[广度优先遍历BFS]]","x":1040,"y":5250,"width":250,"height":60},
-		{"id":"b1c2d3e4f5a6b7c8","type":"text","text":"## [[图的存储结构|图的存储]]","x":640,"y":4950,"width":250,"height":60}
+	"nodes": [
+		{
+			"id": "2a73839e727e2e6c",
+			"type": "text",
+			"text": "## 数据结构的基本概念",
+			"x": 589,
+			"y": -361,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "f067311a0ab5a5a8",
+			"type": "text",
+			"text": "### [[数据]]",
+			"x": 1040,
+			"y": -563,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "7cbb852d33382985",
+			"type": "text",
+			"text": "### [[数据元素]]",
+			"x": 1040,
+			"y": -477,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "07eb80c2e2634221",
+			"type": "text",
+			"text": "### [[数据对象]]",
+			"x": 1040,
+			"y": -391,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "a6442834dd045b11",
+			"type": "text",
+			"text": "### [[数据类型]]",
+			"x": 1040,
+			"y": -313,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0740e7e1fecbd6c1",
+			"type": "text",
+			"text": "### [[抽象数据类型]]",
+			"x": 1040,
+			"y": -233,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "cd59710a5e7e31e1",
+			"type": "text",
+			"text": "### [[数据结构]]",
+			"x": 1040,
+			"y": -153,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "83870ccd5da32919",
+			"type": "text",
+			"text": "[[逻辑结构]]",
+			"x": 1387,
+			"y": -231,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "ac5e17c5311b3481",
+			"type": "text",
+			"text": "[[存储结构]]",
+			"x": 1387,
+			"y": -153,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "85ae3236a3fc297d",
+			"type": "text",
+			"text": "[[数据运算]]",
+			"x": 1387,
+			"y": -73,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5d73f358adcc5409",
+			"type": "text",
+			"text": "## 算法和算法评价",
+			"x": 589,
+			"y": 100,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "05972fd552a2f380",
+			"type": "text",
+			"text": "# 绪论",
+			"x": 180,
+			"y": -153,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "115ed60fbb499ad2",
+			"type": "text",
+			"text": "### 算法效率的度量",
+			"x": 1040,
+			"y": 180,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "286de665024d296d",
+			"type": "text",
+			"text": "### [[算法的基本概念]]",
+			"x": 1040,
+			"y": 40,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5ceb55710b5c7935",
+			"type": "text",
+			"text": "[[时间复杂度]]",
+			"x": 1412,
+			"y": 119,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "1b0b2189ec962bf8",
+			"type": "text",
+			"text": "[[空间复杂度]]",
+			"x": 1412,
+			"y": 240,
+			"width": 250,
+			"height": 55
+		},
+		{
+			"id": "5777b9d79ccfafe1",
+			"type": "text",
+			"text": "### [[线性表的定义]]",
+			"x": 1046,
+			"y": 343,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "3ae036dc2e4e6d2b",
+			"type": "text",
+			"text": "### [[线性表的基本操作]]",
+			"x": 1046,
+			"y": 467,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "130d48a5353c432b",
+			"type": "text",
+			"text": "## 线性表的定义和基本操作",
+			"x": 640,
+			"y": 400,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9639ae113990cdf0",
+			"type": "text",
+			"text": "### [[顺序表初始化]]",
+			"x": 1046,
+			"y": 577,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0d48d5aa47c44928",
+			"type": "text",
+			"text": "### [[顺序表取值]]",
+			"x": 1046,
+			"y": 667,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "50a2e956e5e296b0",
+			"type": "text",
+			"text": "### [[顺序表插入]]",
+			"x": 1046,
+			"y": 840,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6161d4cd817d6470",
+			"type": "text",
+			"text": "## [[顺序表]]",
+			"x": 640,
+			"y": 748,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "8db123ecfa538bba",
+			"type": "text",
+			"text": "# 数据结构",
+			"x": -440,
+			"y": 1840,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0aef39ee0a844423",
+			"type": "text",
+			"text": "### 单链表的基本操作",
+			"x": 1046,
+			"y": 1105,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "573b71cd412c2505",
+			"type": "text",
+			"text": "### [[双链表]]",
+			"x": 1046,
+			"y": 1195,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "d2290c0db0ad342a",
+			"type": "text",
+			"text": "### [[循环链表]]",
+			"x": 1046,
+			"y": 1278,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "78a0415bcc8fd2bf",
+			"type": "text",
+			"text": "### [[静态链表]]",
+			"x": 1046,
+			"y": 1378,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "30cde1cf06b42350",
+			"type": "text",
+			"text": "## [[链表]]",
+			"x": 640,
+			"y": 1238,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "98ac7ff86acd3b72",
+			"type": "text",
+			"text": "[[单链表的初始化]]",
+			"x": 1537,
+			"y": 855,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0fa1ed2577509242",
+			"type": "text",
+			"text": "[[单链表的按序查找]]",
+			"x": 1533,
+			"y": 950,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6877cd92db627ba7",
+			"type": "text",
+			"text": "[[单链表的按值查找]]",
+			"x": 1530,
+			"y": 1040,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "bd10d90504364156",
+			"type": "text",
+			"text": "[[单链表求表长]]",
+			"x": 1530,
+			"y": 1132,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c4cf7a103294a715",
+			"type": "text",
+			"text": "[[单链表的插入]]",
+			"x": 1530,
+			"y": 1215,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "a02b4d9f028f6ed9",
+			"type": "text",
+			"text": "[[单链表的删除]]",
+			"x": 1530,
+			"y": 1295,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "652fc47a292ad938",
+			"type": "text",
+			"text": "[[单链表的建立]]",
+			"x": 1530,
+			"y": 1375,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "fe46e0724c90d384",
+			"type": "text",
+			"text": "# [[线性表]]",
+			"x": 200,
+			"y": 840,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0667c4739a94f78a",
+			"type": "text",
+			"text": "## [[顺序表和链表的比较]]",
+			"x": 640,
+			"y": 1360,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9c606be993bb79b4",
+			"type": "text",
+			"text": "### [[顺序表删除]]",
+			"x": 1046,
+			"y": 940,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "e1421e3c4302645f",
+			"type": "text",
+			"text": "### [[顺序表查找]]",
+			"x": 1046,
+			"y": 760,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "4d3b7ae4f378f4ea",
+			"type": "text",
+			"text": "### [[顺序栈]]",
+			"x": 1046,
+			"y": 1599,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "8d6c938197c7dc63",
+			"type": "text",
+			"text": "### [[链栈]]",
+			"x": 1046,
+			"y": 1719,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6e07a84e11f9de4c",
+			"type": "text",
+			"text": "[[顺序栈的基本操作]]",
+			"x": 1530,
+			"y": 1539,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "d50fb6fd62b580c6",
+			"type": "text",
+			"text": "[[共享栈]]",
+			"x": 1528,
+			"y": 1676,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "1d8b74f967f5c682",
+			"type": "text",
+			"text": "### [[顺序队列]]",
+			"x": 1046,
+			"y": 2123,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "11330ae9eaa564d8",
+			"type": "text",
+			"text": "### [[链队]]",
+			"x": 1046,
+			"y": 2283,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "484042af89d58c75",
+			"type": "text",
+			"text": "## [[队列]]",
+			"x": 640,
+			"y": 2283,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "79ac235291168fce",
+			"type": "text",
+			"text": "### [[双端队列]]",
+			"x": 1046,
+			"y": 2383,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "3039cec5831e222f",
+			"type": "text",
+			"text": "[[顺序队列的基本操作]]",
+			"x": 1526,
+			"y": 2080,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "7c2f53614f2d78d2",
+			"type": "text",
+			"text": "[[循环队列]]",
+			"x": 1528,
+			"y": 2170,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "4a8969c22b94fc34",
+			"type": "text",
+			"text": "[[链队的基本操作]]",
+			"x": 1526,
+			"y": 2283,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "1aa1f301bbfae4ed",
+			"type": "text",
+			"text": "### [[栈的应用]]",
+			"x": 1046,
+			"y": 1829,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0e6887035a3f17e0",
+			"type": "text",
+			"text": "## [[栈]]",
+			"x": 640,
+			"y": 1719,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0439a106de05400d",
+			"type": "text",
+			"text": "### [[队列的应用]]",
+			"x": 1046,
+			"y": 2480,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "01b5404db81f6eaf",
+			"type": "text",
+			"text": "## [[数组]]",
+			"x": 640,
+			"y": 2383,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "edb6755a93870258",
+			"type": "text",
+			"text": "### [[三角矩阵]]",
+			"x": 1046,
+			"y": 2685,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b504962660dab2f4",
+			"type": "text",
+			"text": "### [[三对角矩阵]]",
+			"x": 1046,
+			"y": 2780,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "330d8b9c8f500423",
+			"type": "text",
+			"text": "### [[对称矩阵]]",
+			"x": 1046,
+			"y": 2600,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "df3bcd0973b4232b",
+			"type": "text",
+			"text": "# 栈、队列、数组",
+			"x": 200,
+			"y": 2170,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c20fa7fa733fed2d",
+			"type": "text",
+			"text": "### [[稀疏矩阵]]",
+			"x": 1046,
+			"y": 2880,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "e28053ac96502b28",
+			"type": "text",
+			"text": "## [[数据结构-矩阵]]",
+			"x": 640,
+			"y": 2745,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c6084943815f0bca",
+			"type": "text",
+			"text": "## [[串的存储结构]]",
+			"x": 640,
+			"y": 2925,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "af6c95ff1810a555",
+			"type": "text",
+			"text": "## [[串的基本操作]]",
+			"x": 640,
+			"y": 3020,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "f3ec49923b4f9e15",
+			"type": "text",
+			"text": "## [[串的模式匹配]]",
+			"x": 640,
+			"y": 3110,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "ff012703cda003df",
+			"type": "text",
+			"text": "### [[简单模式匹配算法]]",
+			"x": 1020,
+			"y": 3072,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "8a28dd7400a3b5a9",
+			"type": "text",
+			"text": "### [[KMP算法]]",
+			"x": 1020,
+			"y": 3149,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5d8ac9c3b7b46bdd",
+			"type": "text",
+			"text": "# [[串]]",
+			"x": 160,
+			"y": 3020,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0da47faaf6538713",
+			"type": "text",
+			"text": "### [[二叉树的中序线索化]]",
+			"x": 1038,
+			"y": 3530,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "de18ec78c13c5d76",
+			"type": "text",
+			"text": "### [[二叉树的先序线索化]]",
+			"x": 1038,
+			"y": 3650,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "cbedb8a5e5e02b11",
+			"type": "text",
+			"text": "### [[二叉树的后序线索化]]",
+			"x": 1038,
+			"y": 3760,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6549a731f76f832d",
+			"type": "text",
+			"text": "### [[哈夫曼编码]]",
+			"x": 1038,
+			"y": 3960,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6a0d3f9cbdb1be5b",
+			"type": "text",
+			"text": "## [[二叉树]]",
+			"x": 640,
+			"y": 3340,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b7eff66569acb9a3",
+			"type": "text",
+			"text": "## [[遍历二叉树]]",
+			"x": 640,
+			"y": 3470,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "e29e76082a8bb971",
+			"type": "text",
+			"text": "## [[线索二叉树]]",
+			"x": 640,
+			"y": 3650,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "17a2dbd77b70a223",
+			"type": "text",
+			"text": "## [[树的存储结构]]",
+			"x": 640,
+			"y": 3760,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "21e83d7385937b01",
+			"type": "text",
+			"text": "## [[树的遍历]]",
+			"x": 640,
+			"y": 3860,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "06526b0c2e6af62a",
+			"type": "text",
+			"text": "## [[哈夫曼树]]",
+			"x": 640,
+			"y": 3960,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9c3659f91677b255",
+			"type": "text",
+			"text": "### [[特殊的二叉树]]",
+			"x": 1046,
+			"y": 3280,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b66966fc26973068",
+			"type": "text",
+			"text": "[[二叉树的顺序存储结构]]",
+			"x": 1420,
+			"y": 3344,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "656a5dc5684c887b",
+			"type": "text",
+			"text": "### 二叉树的存储结构",
+			"x": 1046,
+			"y": 3400,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "d937e57d613ca9eb",
+			"type": "text",
+			"text": "[[二叉树的链式存储结构]]",
+			"x": 1420,
+			"y": 3460,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9e471cacd5bfca96",
+			"type": "text",
+			"text": "# [[树]]",
+			"x": 160,
+			"y": 3650,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "a71c4e9d20b6f385",
+			"type": "text",
+			"text": "### [[图#图的定义|图的定义]]",
+			"x": 1040,
+			"y": 4100,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b83d5f0e31c7a496",
+			"type": "text",
+			"text": "### [[图#图的分类|图的分类]]",
+			"x": 1040,
+			"y": 4180,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "d05f712a53e9c6b8",
+			"type": "text",
+			"text": "### [[图#权和网、邻接点、路径、回路|权和网、邻接点、路径、回路]]",
+			"x": 1040,
+			"y": 4260,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "6d8e9f0a1b2c3d4e",
+			"type": "text",
+			"text": "### [[图#子图、连通分量、强连通分量|子图、连通分量、强连通分量]]",
+			"x": 1040,
+			"y": 4340,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9f0a1b2c3d4e5f60",
+			"type": "text",
+			"text": "### [[图#生成树和生成森林|生成树和生成森林]]",
+			"x": 1040,
+			"y": 4420,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5a6b7c8d9e0f1a2b",
+			"type": "text",
+			"text": "### [[图#几个性质|几个性质]]",
+			"x": 1040,
+			"y": 4500,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c94e601f42d8b5a7",
+			"type": "text",
+			"text": "### [[图#顶点的度|顶点的度]]",
+			"x": 1040,
+			"y": 4580,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "a1b2c3d4e5f60718",
+			"type": "text",
+			"text": "### [[邻接矩阵]]",
+			"x": 1040,
+			"y": 4800,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c3d4e5f60718293a",
+			"type": "text",
+			"text": "### [[邻接表]]",
+			"x": 1040,
+			"y": 4890,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "e5f60718293a4b5c",
+			"type": "text",
+			"text": "### [[十字链表]]",
+			"x": 1040,
+			"y": 4980,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "0718293a4b5c6d7e",
+			"type": "text",
+			"text": "### [[邻接多重表]]",
+			"x": 1040,
+			"y": 5070,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "2f8b1c6a4d7e9013",
+			"type": "text",
+			"text": "## 图的基本概念",
+			"x": 640,
+			"y": 4370,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "3e7a207e337b9e44",
+			"type": "text",
+			"text": "# [[图]]",
+			"x": 180,
+			"y": 4610,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "293a4b5c6d7e8f90",
+			"type": "text",
+			"text": "## [[图的基本操作]]",
+			"x": 640,
+			"y": 5160,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "4b5c6d7e8f901234",
+			"type": "text",
+			"text": "## [[图的遍历]]",
+			"x": 640,
+			"y": 5250,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5c6d7e8f90123456",
+			"type": "text",
+			"text": "### [[广度优先遍历BFS]]",
+			"x": 1040,
+			"y": 5250,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b1c2d3e4f5a6b7c8",
+			"type": "text",
+			"text": "## [[图的存储结构|图的存储]]",
+			"x": 640,
+			"y": 4950,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "5feed6ee9ee32bb0",
+			"type": "text",
+			"text": "### [[深度优先遍历DFS]]",
+			"x": 1040,
+			"y": 5340,
+			"width": 250,
+			"height": 60
+		}
 	],
-	"edges":[
-		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
-		{"id":"62c19f4e97bb84ad","fromNode":"05972fd552a2f380","fromSide":"right","toNode":"2a73839e727e2e6c","toSide":"left"},
-		{"id":"78d3944d1281d9ca","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"83870ccd5da32919","toSide":"left"},
-		{"id":"d8f5bf00f347b10a","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"ac5e17c5311b3481","toSide":"left"},
-		{"id":"d376436b162cf780","fromNode":"cd59710a5e7e31e1","fromSide":"right","toNode":"85ae3236a3fc297d","toSide":"left"},
-		{"id":"f46f441bbac575b7","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"f067311a0ab5a5a8","toSide":"left"},
-		{"id":"c771e98bf367f11f","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"7cbb852d33382985","toSide":"left"},
-		{"id":"bf374cc8d48126d7","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"07eb80c2e2634221","toSide":"left"},
-		{"id":"0e9e3516d65e8c4b","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"a6442834dd045b11","toSide":"left"},
-		{"id":"f7e35a8c6d00f69b","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"0740e7e1fecbd6c1","toSide":"left"},
-		{"id":"d5be766951b69917","fromNode":"2a73839e727e2e6c","fromSide":"right","toNode":"cd59710a5e7e31e1","toSide":"left"},
-		{"id":"91ae45740077e67a","fromNode":"05972fd552a2f380","fromSide":"right","toNode":"5d73f358adcc5409","toSide":"left"},
-		{"id":"c1cdd22b47e185f9","fromNode":"5d73f358adcc5409","fromSide":"right","toNode":"286de665024d296d","toSide":"left"},
-		{"id":"a74a58a69249ea39","fromNode":"5d73f358adcc5409","fromSide":"right","toNode":"115ed60fbb499ad2","toSide":"left"},
-		{"id":"061abfdf0c5db239","fromNode":"115ed60fbb499ad2","fromSide":"right","toNode":"5ceb55710b5c7935","toSide":"left"},
-		{"id":"0616e61cc77d010f","fromNode":"115ed60fbb499ad2","fromSide":"right","toNode":"1b0b2189ec962bf8","toSide":"left"},
-		{"id":"966e00ae6d83ff7a","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"fe46e0724c90d384","toSide":"left"},
-		{"id":"0c1c008f6d4844eb","fromNode":"fe46e0724c90d384","fromSide":"right","toNode":"130d48a5353c432b","toSide":"left"},
-		{"id":"8b7021fd255a2bee","fromNode":"130d48a5353c432b","fromSide":"right","toNode":"5777b9d79ccfafe1","toSide":"left"},
-		{"id":"39727c5c80c8b65f","fromNode":"130d48a5353c432b","fromSide":"right","toNode":"3ae036dc2e4e6d2b","toSide":"left"},
-		{"id":"3e1b9b950d773625","fromNode":"fe46e0724c90d384","fromSide":"right","toNode":"6161d4cd817d6470","toSide":"left"},
-		{"id":"4d03fc26019136ea","fromNode":"6161d4cd817d6470","fromSide":"right","toNode":"9639ae113990cdf0","toSide":"left"},
-		{"id":"91f05c00c2c5acfd","fromNode":"6161d4cd817d6470","fromSide":"right","toNode":"0d48d5aa47c44928","toSide":"left"},
-		{"id":"97d39c5c7d504ce8","fromNode":"6161d4cd817d6470","fromSide":"right","toNode":"e1421e3c4302645f","toSide":"left"},
-		{"id":"5a3b73e260616371","fromNode":"6161d4cd817d6470","fromSide":"right","toNode":"50a2e956e5e296b0","toSide":"left"},
-		{"id":"75c2d8bbcd900cba","fromNode":"6161d4cd817d6470","fromSide":"right","toNode":"9c606be993bb79b4","toSide":"left"},
-		{"id":"6c8b53f25b6a4d3d","fromNode":"fe46e0724c90d384","fromSide":"right","toNode":"30cde1cf06b42350","toSide":"left"},
-		{"id":"5dc2962bdb3f67dd","fromNode":"30cde1cf06b42350","fromSide":"right","toNode":"0aef39ee0a844423","toSide":"left"},
-		{"id":"4eb1a104eb84eb79","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"98ac7ff86acd3b72","toSide":"left"},
-		{"id":"7a6dcc7a7e394fc2","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"0fa1ed2577509242","toSide":"left"},
-		{"id":"706b7df096eae847","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"6877cd92db627ba7","toSide":"left"},
-		{"id":"d82575a3a7f188d7","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"bd10d90504364156","toSide":"left"},
-		{"id":"90f11de639a8337a","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"c4cf7a103294a715","toSide":"left"},
-		{"id":"740da132fc99b8fb","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"a02b4d9f028f6ed9","toSide":"left"},
-		{"id":"80aa407da3130977","fromNode":"0aef39ee0a844423","fromSide":"right","toNode":"652fc47a292ad938","toSide":"left"},
-		{"id":"a353856800cd1b57","fromNode":"30cde1cf06b42350","fromSide":"right","toNode":"573b71cd412c2505","toSide":"left"},
-		{"id":"e64190bc1b4c76b7","fromNode":"30cde1cf06b42350","fromSide":"right","toNode":"d2290c0db0ad342a","toSide":"left"},
-		{"id":"0b987d3100ffb0e4","fromNode":"30cde1cf06b42350","fromSide":"right","toNode":"78a0415bcc8fd2bf","toSide":"left"},
-		{"id":"c8dc1a618ecf974c","fromNode":"fe46e0724c90d384","fromSide":"right","toNode":"0667c4739a94f78a","toSide":"left"},
-		{"id":"a6ebae83e309715c","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"df3bcd0973b4232b","toSide":"left"},
-		{"id":"6225381a7a297b82","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"0e6887035a3f17e0","toSide":"left"},
-		{"id":"eb6720cafc6cf588","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"4d3b7ae4f378f4ea","toSide":"left"},
-		{"id":"07b054fe600aac3e","fromNode":"4d3b7ae4f378f4ea","fromSide":"right","toNode":"6e07a84e11f9de4c","toSide":"left"},
-		{"id":"990365103c2a75b0","fromNode":"4d3b7ae4f378f4ea","fromSide":"right","toNode":"d50fb6fd62b580c6","toSide":"left"},
-		{"id":"3a7d9fb3a9e086c8","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"8d6c938197c7dc63","toSide":"left"},
-		{"id":"087398d9d50ab71c","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"484042af89d58c75","toSide":"left"},
-		{"id":"af6813a8439fcded","fromNode":"484042af89d58c75","fromSide":"right","toNode":"1d8b74f967f5c682","toSide":"left"},
-		{"id":"f7ac040f419cb3ef","fromNode":"1d8b74f967f5c682","fromSide":"right","toNode":"3039cec5831e222f","toSide":"left"},
-		{"id":"35ff3415b0688541","fromNode":"1d8b74f967f5c682","fromSide":"right","toNode":"7c2f53614f2d78d2","toSide":"left"},
-		{"id":"0b7079784568282f","fromNode":"484042af89d58c75","fromSide":"right","toNode":"11330ae9eaa564d8","toSide":"left"},
-		{"id":"dbae9df223460b7c","fromNode":"11330ae9eaa564d8","fromSide":"right","toNode":"4a8969c22b94fc34","toSide":"left"},
-		{"id":"8fe1eee6394f84e7","fromNode":"484042af89d58c75","fromSide":"right","toNode":"79ac235291168fce","toSide":"left"},
-		{"id":"83b73a9535cdd8ed","fromNode":"0e6887035a3f17e0","fromSide":"right","toNode":"1aa1f301bbfae4ed","toSide":"left"},
-		{"id":"226fe0e9b288a612","fromNode":"484042af89d58c75","fromSide":"right","toNode":"0439a106de05400d","toSide":"left"},
-		{"id":"4fa63e130d1ea486","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"01b5404db81f6eaf","toSide":"left"},
-		{"id":"ac9412d4eba9335a","fromNode":"df3bcd0973b4232b","fromSide":"right","toNode":"e28053ac96502b28","toSide":"left"},
-		{"id":"59c7951adf296dd2","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"330d8b9c8f500423","toSide":"left"},
-		{"id":"7454858a451544ab","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"edb6755a93870258","toSide":"left"},
-		{"id":"6598361eb8445658","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"b504962660dab2f4","toSide":"left"},
-		{"id":"ba94adb53934e422","fromNode":"e28053ac96502b28","fromSide":"right","toNode":"c20fa7fa733fed2d","toSide":"left"},
-		{"id":"ac8497ff8aba8d1c","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"5d8ac9c3b7b46bdd","toSide":"left"},
-		{"id":"f78407c0c260bf77","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"c6084943815f0bca","toSide":"left"},
-		{"id":"de37ae0f23f0ca3f","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"af6c95ff1810a555","toSide":"left"},
-		{"id":"daca5401ad83abf9","fromNode":"5d8ac9c3b7b46bdd","fromSide":"right","toNode":"f3ec49923b4f9e15","toSide":"left"},
-		{"id":"e7e41b4c91dd3aa6","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"ff012703cda003df","toSide":"left"},
-		{"id":"26ed93a082c2c713","fromNode":"f3ec49923b4f9e15","fromSide":"right","toNode":"8a28dd7400a3b5a9","toSide":"left"},
-		{"id":"0dc74387865d9549","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"9e471cacd5bfca96","toSide":"left"},
-		{"id":"9cbb59f60d2f091d","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"6a0d3f9cbdb1be5b","toSide":"left"},
-		{"id":"5f69660332e7f1f5","fromNode":"6a0d3f9cbdb1be5b","fromSide":"right","toNode":"9c3659f91677b255","toSide":"left"},
-		{"id":"b35a857731b730bc","fromNode":"6a0d3f9cbdb1be5b","fromSide":"right","toNode":"656a5dc5684c887b","toSide":"left"},
-		{"id":"43e28428a9f2595a","fromNode":"656a5dc5684c887b","fromSide":"right","toNode":"b66966fc26973068","toSide":"left"},
-		{"id":"3156801415107914","fromNode":"656a5dc5684c887b","fromSide":"right","toNode":"d937e57d613ca9eb","toSide":"left"},
-		{"id":"b88839ed5bfaa460","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"b7eff66569acb9a3","toSide":"left"},
-		{"id":"f1d6d0f1e749d773","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"e29e76082a8bb971","toSide":"left"},
-		{"id":"6ec3342650b9c7c0","fromNode":"e29e76082a8bb971","fromSide":"right","toNode":"0da47faaf6538713","toSide":"left"},
-		{"id":"d7e01cffa655a2ce","fromNode":"e29e76082a8bb971","fromSide":"right","toNode":"de18ec78c13c5d76","toSide":"left"},
-		{"id":"6226ead87e83f6a9","fromNode":"e29e76082a8bb971","fromSide":"right","toNode":"cbedb8a5e5e02b11","toSide":"left"},
-		{"id":"ec78dfdfafbfd9dc","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"17a2dbd77b70a223","toSide":"left"},
-		{"id":"211ba999a268511a","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"21e83d7385937b01","toSide":"left"},
-		{"id":"2b5865b413e592a4","fromNode":"9e471cacd5bfca96","fromSide":"right","toNode":"06526b0c2e6af62a","toSide":"left"},
-		{"id":"96eb765f079350d7","fromNode":"06526b0c2e6af62a","fromSide":"right","toNode":"6549a731f76f832d","toSide":"left"},
-		{"id":"8e68e8ced54f6343","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"3e7a207e337b9e44","toSide":"left"},
-		{"id":"3a4b5c6d7e8f9012","fromNode":"3e7a207e337b9e44","fromSide":"right","toNode":"293a4b5c6d7e8f90","toSide":"left"},
-		{"id":"6d7e8f9012345678","fromNode":"3e7a207e337b9e44","fromSide":"right","toNode":"4b5c6d7e8f901234","toSide":"left"},
-		{"id":"7e8f90123456789a","fromNode":"4b5c6d7e8f901234","fromSide":"right","toNode":"5c6d7e8f90123456","toSide":"left"},
-		{"id":"c4f1a7b2d9e30516","fromNode":"3e7a207e337b9e44","fromSide":"right","toNode":"2f8b1c6a4d7e9013","toSide":"left"},
-		{"id":"c9d0e1f2a3b4c5d6","fromNode":"3e7a207e337b9e44","fromSide":"right","toNode":"b1c2d3e4f5a6b7c8","toSide":"left"},
-		{"id":"b2c3d4e5f6071829","fromNode":"b1c2d3e4f5a6b7c8","fromSide":"right","toNode":"a1b2c3d4e5f60718","toSide":"left"},
-		{"id":"d4e5f6071829304b","fromNode":"b1c2d3e4f5a6b7c8","fromSide":"right","toNode":"c3d4e5f60718293a","toSide":"left"},
-		{"id":"f60718293a4b5c6d","fromNode":"b1c2d3e4f5a6b7c8","fromSide":"right","toNode":"e5f60718293a4b5c","toSide":"left"},
-		{"id":"1829304b5c6d7e8f","fromNode":"b1c2d3e4f5a6b7c8","fromSide":"right","toNode":"0718293a4b5c6d7e","toSide":"left"},
-		{"id":"e16a823b64fad7c9","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"a71c4e9d20b6f385","toSide":"left"},
-		{"id":"f27b934c75abe8da","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"b83d5f0e31c7a496","toSide":"left"},
-		{"id":"038c045d86bcf9eb","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"d05f712a53e9c6b8","toSide":"left"},
-		{"id":"a0b1c2d3e4f5a6b7","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"9f0a1b2c3d4e5f60","toSide":"left"},
-		{"id":"8e9f0a1b2c3d4e5f","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"6d8e9f0a1b2c3d4e","toSide":"left"},
-		{"id":"6b7c8d9e0f1a2b3c","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"5a6b7c8d9e0f1a2b","toSide":"left"},
-		{"id":"7c8d9e0f1a2b3c4d","fromNode":"2f8b1c6a4d7e9013","fromSide":"right","toNode":"c94e601f42d8b5a7","toSide":"left"}
+	"edges": [
+		{
+			"id": "ebdf8a61cebbf706",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "05972fd552a2f380",
+			"toSide": "left"
+		},
+		{
+			"id": "62c19f4e97bb84ad",
+			"fromNode": "05972fd552a2f380",
+			"fromSide": "right",
+			"toNode": "2a73839e727e2e6c",
+			"toSide": "left"
+		},
+		{
+			"id": "78d3944d1281d9ca",
+			"fromNode": "cd59710a5e7e31e1",
+			"fromSide": "right",
+			"toNode": "83870ccd5da32919",
+			"toSide": "left"
+		},
+		{
+			"id": "d8f5bf00f347b10a",
+			"fromNode": "cd59710a5e7e31e1",
+			"fromSide": "right",
+			"toNode": "ac5e17c5311b3481",
+			"toSide": "left"
+		},
+		{
+			"id": "d376436b162cf780",
+			"fromNode": "cd59710a5e7e31e1",
+			"fromSide": "right",
+			"toNode": "85ae3236a3fc297d",
+			"toSide": "left"
+		},
+		{
+			"id": "f46f441bbac575b7",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "f067311a0ab5a5a8",
+			"toSide": "left"
+		},
+		{
+			"id": "c771e98bf367f11f",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "7cbb852d33382985",
+			"toSide": "left"
+		},
+		{
+			"id": "bf374cc8d48126d7",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "07eb80c2e2634221",
+			"toSide": "left"
+		},
+		{
+			"id": "0e9e3516d65e8c4b",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "a6442834dd045b11",
+			"toSide": "left"
+		},
+		{
+			"id": "f7e35a8c6d00f69b",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "0740e7e1fecbd6c1",
+			"toSide": "left"
+		},
+		{
+			"id": "d5be766951b69917",
+			"fromNode": "2a73839e727e2e6c",
+			"fromSide": "right",
+			"toNode": "cd59710a5e7e31e1",
+			"toSide": "left"
+		},
+		{
+			"id": "91ae45740077e67a",
+			"fromNode": "05972fd552a2f380",
+			"fromSide": "right",
+			"toNode": "5d73f358adcc5409",
+			"toSide": "left"
+		},
+		{
+			"id": "c1cdd22b47e185f9",
+			"fromNode": "5d73f358adcc5409",
+			"fromSide": "right",
+			"toNode": "286de665024d296d",
+			"toSide": "left"
+		},
+		{
+			"id": "a74a58a69249ea39",
+			"fromNode": "5d73f358adcc5409",
+			"fromSide": "right",
+			"toNode": "115ed60fbb499ad2",
+			"toSide": "left"
+		},
+		{
+			"id": "061abfdf0c5db239",
+			"fromNode": "115ed60fbb499ad2",
+			"fromSide": "right",
+			"toNode": "5ceb55710b5c7935",
+			"toSide": "left"
+		},
+		{
+			"id": "0616e61cc77d010f",
+			"fromNode": "115ed60fbb499ad2",
+			"fromSide": "right",
+			"toNode": "1b0b2189ec962bf8",
+			"toSide": "left"
+		},
+		{
+			"id": "966e00ae6d83ff7a",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "fe46e0724c90d384",
+			"toSide": "left"
+		},
+		{
+			"id": "0c1c008f6d4844eb",
+			"fromNode": "fe46e0724c90d384",
+			"fromSide": "right",
+			"toNode": "130d48a5353c432b",
+			"toSide": "left"
+		},
+		{
+			"id": "8b7021fd255a2bee",
+			"fromNode": "130d48a5353c432b",
+			"fromSide": "right",
+			"toNode": "5777b9d79ccfafe1",
+			"toSide": "left"
+		},
+		{
+			"id": "39727c5c80c8b65f",
+			"fromNode": "130d48a5353c432b",
+			"fromSide": "right",
+			"toNode": "3ae036dc2e4e6d2b",
+			"toSide": "left"
+		},
+		{
+			"id": "3e1b9b950d773625",
+			"fromNode": "fe46e0724c90d384",
+			"fromSide": "right",
+			"toNode": "6161d4cd817d6470",
+			"toSide": "left"
+		},
+		{
+			"id": "4d03fc26019136ea",
+			"fromNode": "6161d4cd817d6470",
+			"fromSide": "right",
+			"toNode": "9639ae113990cdf0",
+			"toSide": "left"
+		},
+		{
+			"id": "91f05c00c2c5acfd",
+			"fromNode": "6161d4cd817d6470",
+			"fromSide": "right",
+			"toNode": "0d48d5aa47c44928",
+			"toSide": "left"
+		},
+		{
+			"id": "97d39c5c7d504ce8",
+			"fromNode": "6161d4cd817d6470",
+			"fromSide": "right",
+			"toNode": "e1421e3c4302645f",
+			"toSide": "left"
+		},
+		{
+			"id": "5a3b73e260616371",
+			"fromNode": "6161d4cd817d6470",
+			"fromSide": "right",
+			"toNode": "50a2e956e5e296b0",
+			"toSide": "left"
+		},
+		{
+			"id": "75c2d8bbcd900cba",
+			"fromNode": "6161d4cd817d6470",
+			"fromSide": "right",
+			"toNode": "9c606be993bb79b4",
+			"toSide": "left"
+		},
+		{
+			"id": "6c8b53f25b6a4d3d",
+			"fromNode": "fe46e0724c90d384",
+			"fromSide": "right",
+			"toNode": "30cde1cf06b42350",
+			"toSide": "left"
+		},
+		{
+			"id": "5dc2962bdb3f67dd",
+			"fromNode": "30cde1cf06b42350",
+			"fromSide": "right",
+			"toNode": "0aef39ee0a844423",
+			"toSide": "left"
+		},
+		{
+			"id": "4eb1a104eb84eb79",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "98ac7ff86acd3b72",
+			"toSide": "left"
+		},
+		{
+			"id": "7a6dcc7a7e394fc2",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "0fa1ed2577509242",
+			"toSide": "left"
+		},
+		{
+			"id": "706b7df096eae847",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "6877cd92db627ba7",
+			"toSide": "left"
+		},
+		{
+			"id": "d82575a3a7f188d7",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "bd10d90504364156",
+			"toSide": "left"
+		},
+		{
+			"id": "90f11de639a8337a",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "c4cf7a103294a715",
+			"toSide": "left"
+		},
+		{
+			"id": "740da132fc99b8fb",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "a02b4d9f028f6ed9",
+			"toSide": "left"
+		},
+		{
+			"id": "80aa407da3130977",
+			"fromNode": "0aef39ee0a844423",
+			"fromSide": "right",
+			"toNode": "652fc47a292ad938",
+			"toSide": "left"
+		},
+		{
+			"id": "a353856800cd1b57",
+			"fromNode": "30cde1cf06b42350",
+			"fromSide": "right",
+			"toNode": "573b71cd412c2505",
+			"toSide": "left"
+		},
+		{
+			"id": "e64190bc1b4c76b7",
+			"fromNode": "30cde1cf06b42350",
+			"fromSide": "right",
+			"toNode": "d2290c0db0ad342a",
+			"toSide": "left"
+		},
+		{
+			"id": "0b987d3100ffb0e4",
+			"fromNode": "30cde1cf06b42350",
+			"fromSide": "right",
+			"toNode": "78a0415bcc8fd2bf",
+			"toSide": "left"
+		},
+		{
+			"id": "c8dc1a618ecf974c",
+			"fromNode": "fe46e0724c90d384",
+			"fromSide": "right",
+			"toNode": "0667c4739a94f78a",
+			"toSide": "left"
+		},
+		{
+			"id": "a6ebae83e309715c",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "df3bcd0973b4232b",
+			"toSide": "left"
+		},
+		{
+			"id": "6225381a7a297b82",
+			"fromNode": "df3bcd0973b4232b",
+			"fromSide": "right",
+			"toNode": "0e6887035a3f17e0",
+			"toSide": "left"
+		},
+		{
+			"id": "eb6720cafc6cf588",
+			"fromNode": "0e6887035a3f17e0",
+			"fromSide": "right",
+			"toNode": "4d3b7ae4f378f4ea",
+			"toSide": "left"
+		},
+		{
+			"id": "07b054fe600aac3e",
+			"fromNode": "4d3b7ae4f378f4ea",
+			"fromSide": "right",
+			"toNode": "6e07a84e11f9de4c",
+			"toSide": "left"
+		},
+		{
+			"id": "990365103c2a75b0",
+			"fromNode": "4d3b7ae4f378f4ea",
+			"fromSide": "right",
+			"toNode": "d50fb6fd62b580c6",
+			"toSide": "left"
+		},
+		{
+			"id": "3a7d9fb3a9e086c8",
+			"fromNode": "0e6887035a3f17e0",
+			"fromSide": "right",
+			"toNode": "8d6c938197c7dc63",
+			"toSide": "left"
+		},
+		{
+			"id": "087398d9d50ab71c",
+			"fromNode": "df3bcd0973b4232b",
+			"fromSide": "right",
+			"toNode": "484042af89d58c75",
+			"toSide": "left"
+		},
+		{
+			"id": "af6813a8439fcded",
+			"fromNode": "484042af89d58c75",
+			"fromSide": "right",
+			"toNode": "1d8b74f967f5c682",
+			"toSide": "left"
+		},
+		{
+			"id": "f7ac040f419cb3ef",
+			"fromNode": "1d8b74f967f5c682",
+			"fromSide": "right",
+			"toNode": "3039cec5831e222f",
+			"toSide": "left"
+		},
+		{
+			"id": "35ff3415b0688541",
+			"fromNode": "1d8b74f967f5c682",
+			"fromSide": "right",
+			"toNode": "7c2f53614f2d78d2",
+			"toSide": "left"
+		},
+		{
+			"id": "0b7079784568282f",
+			"fromNode": "484042af89d58c75",
+			"fromSide": "right",
+			"toNode": "11330ae9eaa564d8",
+			"toSide": "left"
+		},
+		{
+			"id": "dbae9df223460b7c",
+			"fromNode": "11330ae9eaa564d8",
+			"fromSide": "right",
+			"toNode": "4a8969c22b94fc34",
+			"toSide": "left"
+		},
+		{
+			"id": "8fe1eee6394f84e7",
+			"fromNode": "484042af89d58c75",
+			"fromSide": "right",
+			"toNode": "79ac235291168fce",
+			"toSide": "left"
+		},
+		{
+			"id": "83b73a9535cdd8ed",
+			"fromNode": "0e6887035a3f17e0",
+			"fromSide": "right",
+			"toNode": "1aa1f301bbfae4ed",
+			"toSide": "left"
+		},
+		{
+			"id": "226fe0e9b288a612",
+			"fromNode": "484042af89d58c75",
+			"fromSide": "right",
+			"toNode": "0439a106de05400d",
+			"toSide": "left"
+		},
+		{
+			"id": "4fa63e130d1ea486",
+			"fromNode": "df3bcd0973b4232b",
+			"fromSide": "right",
+			"toNode": "01b5404db81f6eaf",
+			"toSide": "left"
+		},
+		{
+			"id": "ac9412d4eba9335a",
+			"fromNode": "df3bcd0973b4232b",
+			"fromSide": "right",
+			"toNode": "e28053ac96502b28",
+			"toSide": "left"
+		},
+		{
+			"id": "59c7951adf296dd2",
+			"fromNode": "e28053ac96502b28",
+			"fromSide": "right",
+			"toNode": "330d8b9c8f500423",
+			"toSide": "left"
+		},
+		{
+			"id": "7454858a451544ab",
+			"fromNode": "e28053ac96502b28",
+			"fromSide": "right",
+			"toNode": "edb6755a93870258",
+			"toSide": "left"
+		},
+		{
+			"id": "6598361eb8445658",
+			"fromNode": "e28053ac96502b28",
+			"fromSide": "right",
+			"toNode": "b504962660dab2f4",
+			"toSide": "left"
+		},
+		{
+			"id": "ba94adb53934e422",
+			"fromNode": "e28053ac96502b28",
+			"fromSide": "right",
+			"toNode": "c20fa7fa733fed2d",
+			"toSide": "left"
+		},
+		{
+			"id": "ac8497ff8aba8d1c",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "5d8ac9c3b7b46bdd",
+			"toSide": "left"
+		},
+		{
+			"id": "f78407c0c260bf77",
+			"fromNode": "5d8ac9c3b7b46bdd",
+			"fromSide": "right",
+			"toNode": "c6084943815f0bca",
+			"toSide": "left"
+		},
+		{
+			"id": "de37ae0f23f0ca3f",
+			"fromNode": "5d8ac9c3b7b46bdd",
+			"fromSide": "right",
+			"toNode": "af6c95ff1810a555",
+			"toSide": "left"
+		},
+		{
+			"id": "daca5401ad83abf9",
+			"fromNode": "5d8ac9c3b7b46bdd",
+			"fromSide": "right",
+			"toNode": "f3ec49923b4f9e15",
+			"toSide": "left"
+		},
+		{
+			"id": "e7e41b4c91dd3aa6",
+			"fromNode": "f3ec49923b4f9e15",
+			"fromSide": "right",
+			"toNode": "ff012703cda003df",
+			"toSide": "left"
+		},
+		{
+			"id": "26ed93a082c2c713",
+			"fromNode": "f3ec49923b4f9e15",
+			"fromSide": "right",
+			"toNode": "8a28dd7400a3b5a9",
+			"toSide": "left"
+		},
+		{
+			"id": "0dc74387865d9549",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "9e471cacd5bfca96",
+			"toSide": "left"
+		},
+		{
+			"id": "9cbb59f60d2f091d",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "6a0d3f9cbdb1be5b",
+			"toSide": "left"
+		},
+		{
+			"id": "5f69660332e7f1f5",
+			"fromNode": "6a0d3f9cbdb1be5b",
+			"fromSide": "right",
+			"toNode": "9c3659f91677b255",
+			"toSide": "left"
+		},
+		{
+			"id": "b35a857731b730bc",
+			"fromNode": "6a0d3f9cbdb1be5b",
+			"fromSide": "right",
+			"toNode": "656a5dc5684c887b",
+			"toSide": "left"
+		},
+		{
+			"id": "43e28428a9f2595a",
+			"fromNode": "656a5dc5684c887b",
+			"fromSide": "right",
+			"toNode": "b66966fc26973068",
+			"toSide": "left"
+		},
+		{
+			"id": "3156801415107914",
+			"fromNode": "656a5dc5684c887b",
+			"fromSide": "right",
+			"toNode": "d937e57d613ca9eb",
+			"toSide": "left"
+		},
+		{
+			"id": "b88839ed5bfaa460",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "b7eff66569acb9a3",
+			"toSide": "left"
+		},
+		{
+			"id": "f1d6d0f1e749d773",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "e29e76082a8bb971",
+			"toSide": "left"
+		},
+		{
+			"id": "6ec3342650b9c7c0",
+			"fromNode": "e29e76082a8bb971",
+			"fromSide": "right",
+			"toNode": "0da47faaf6538713",
+			"toSide": "left"
+		},
+		{
+			"id": "d7e01cffa655a2ce",
+			"fromNode": "e29e76082a8bb971",
+			"fromSide": "right",
+			"toNode": "de18ec78c13c5d76",
+			"toSide": "left"
+		},
+		{
+			"id": "6226ead87e83f6a9",
+			"fromNode": "e29e76082a8bb971",
+			"fromSide": "right",
+			"toNode": "cbedb8a5e5e02b11",
+			"toSide": "left"
+		},
+		{
+			"id": "ec78dfdfafbfd9dc",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "17a2dbd77b70a223",
+			"toSide": "left"
+		},
+		{
+			"id": "211ba999a268511a",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "21e83d7385937b01",
+			"toSide": "left"
+		},
+		{
+			"id": "2b5865b413e592a4",
+			"fromNode": "9e471cacd5bfca96",
+			"fromSide": "right",
+			"toNode": "06526b0c2e6af62a",
+			"toSide": "left"
+		},
+		{
+			"id": "96eb765f079350d7",
+			"fromNode": "06526b0c2e6af62a",
+			"fromSide": "right",
+			"toNode": "6549a731f76f832d",
+			"toSide": "left"
+		},
+		{
+			"id": "8e68e8ced54f6343",
+			"fromNode": "8db123ecfa538bba",
+			"fromSide": "right",
+			"toNode": "3e7a207e337b9e44",
+			"toSide": "left"
+		},
+		{
+			"id": "3a4b5c6d7e8f9012",
+			"fromNode": "3e7a207e337b9e44",
+			"fromSide": "right",
+			"toNode": "293a4b5c6d7e8f90",
+			"toSide": "left"
+		},
+		{
+			"id": "6d7e8f9012345678",
+			"fromNode": "3e7a207e337b9e44",
+			"fromSide": "right",
+			"toNode": "4b5c6d7e8f901234",
+			"toSide": "left"
+		},
+		{
+			"id": "7e8f90123456789a",
+			"fromNode": "4b5c6d7e8f901234",
+			"fromSide": "right",
+			"toNode": "5c6d7e8f90123456",
+			"toSide": "left"
+		},
+		{
+			"id": "c4f1a7b2d9e30516",
+			"fromNode": "3e7a207e337b9e44",
+			"fromSide": "right",
+			"toNode": "2f8b1c6a4d7e9013",
+			"toSide": "left"
+		},
+		{
+			"id": "c9d0e1f2a3b4c5d6",
+			"fromNode": "3e7a207e337b9e44",
+			"fromSide": "right",
+			"toNode": "b1c2d3e4f5a6b7c8",
+			"toSide": "left"
+		},
+		{
+			"id": "b2c3d4e5f6071829",
+			"fromNode": "b1c2d3e4f5a6b7c8",
+			"fromSide": "right",
+			"toNode": "a1b2c3d4e5f60718",
+			"toSide": "left"
+		},
+		{
+			"id": "d4e5f6071829304b",
+			"fromNode": "b1c2d3e4f5a6b7c8",
+			"fromSide": "right",
+			"toNode": "c3d4e5f60718293a",
+			"toSide": "left"
+		},
+		{
+			"id": "f60718293a4b5c6d",
+			"fromNode": "b1c2d3e4f5a6b7c8",
+			"fromSide": "right",
+			"toNode": "e5f60718293a4b5c",
+			"toSide": "left"
+		},
+		{
+			"id": "1829304b5c6d7e8f",
+			"fromNode": "b1c2d3e4f5a6b7c8",
+			"fromSide": "right",
+			"toNode": "0718293a4b5c6d7e",
+			"toSide": "left"
+		},
+		{
+			"id": "e16a823b64fad7c9",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "a71c4e9d20b6f385",
+			"toSide": "left"
+		},
+		{
+			"id": "f27b934c75abe8da",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "b83d5f0e31c7a496",
+			"toSide": "left"
+		},
+		{
+			"id": "038c045d86bcf9eb",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "d05f712a53e9c6b8",
+			"toSide": "left"
+		},
+		{
+			"id": "a0b1c2d3e4f5a6b7",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "9f0a1b2c3d4e5f60",
+			"toSide": "left"
+		},
+		{
+			"id": "8e9f0a1b2c3d4e5f",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "6d8e9f0a1b2c3d4e",
+			"toSide": "left"
+		},
+		{
+			"id": "6b7c8d9e0f1a2b3c",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "5a6b7c8d9e0f1a2b",
+			"toSide": "left"
+		},
+		{
+			"id": "7c8d9e0f1a2b3c4d",
+			"fromNode": "2f8b1c6a4d7e9013",
+			"fromSide": "right",
+			"toNode": "c94e601f42d8b5a7",
+			"toSide": "left"
+		},
+		{
+			"id": "aaef802b4ffd91cb",
+			"fromNode": "4b5c6d7e8f901234",
+			"fromSide": "right",
+			"toNode": "5feed6ee9ee32bb0",
+			"toSide": "left"
+		}
 	]
 }
