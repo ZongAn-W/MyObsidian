@@ -1052,6 +1052,15 @@
 			"y": 6330,
 			"width": 250,
 			"height": 60
+		},
+		{
+			"id": "f5a3f60269c4525f",
+			"type": "text",
+			"text": "### [[红黑树]]",
+			"x": 640,
+			"y": 6420,
+			"width": 250,
+			"height": 60
 		}
 	],
 	"edges": [
@@ -1865,6 +1874,13 @@
 			"fromNode": "172668bb132bb0a4",
 			"fromSide": "right",
 			"toNode": "108d65711a8392b2",
+			"toSide": "left"
+		},
+		{
+			"id": "48368d370e1867b5",
+			"fromNode": "172668bb132bb0a4",
+			"fromSide": "right",
+			"toNode": "f5a3f60269c4525f",
 			"toSide": "left"
 		}
 	]
