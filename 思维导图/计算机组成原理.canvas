@@ -12,7 +12,7 @@
 		{"id":"57a8bb5e395e5d83","type":"text","text":"### 多模块存储器","x":1239,"y":456,"width":250,"height":60},
 		{"id":"3365ab4158ba1601","type":"text","text":"### 外部存储器","x":1239,"y":569,"width":250,"height":60},
 		{"id":"8d08820074ac4ae5","type":"text","text":"### 主存储器","x":1247,"y":249,"width":250,"height":60},
-		{"id":"b3dbd6deaafc55fc","type":"text","text":"### 存储系统基本概念","x":1259,"y":89,"width":250,"height":60},
+		{"id":"b3dbd6deaafc55fc","type":"text","text":"### [[存储系统基本概念]]","x":1259,"y":89,"width":250,"height":60},
 		{"id":"a187a416f4819a92","type":"text","text":"## 存储系统","x":529,"y":569,"width":175,"height":60,"color":"6"},
 		{"id":"ad185900ed06dc02","type":"text","text":"# 计算机组成原理","x":-280,"y":968,"width":269,"height":72,"color":"1"},
 		{"id":"e325442c7cec1b65","type":"text","text":"## [[指令寻址]]","x":1338,"y":1940,"width":250,"height":60},
