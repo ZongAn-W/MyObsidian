@@ -28,7 +28,9 @@
 		{"id":"a75fa2648e1a8349","type":"text","text":"### [[分块矩阵的转置]]","x":1247,"y":1440,"width":250,"height":60},
 		{"id":"9594a72f45c8fbdb","type":"text","text":"### [[分块对角阵]]","x":1247,"y":1520,"width":250,"height":60},
 		{"id":"b307d4d399b3a31e","type":"text","text":"### [[拉普拉斯行列式]]","x":1249,"y":1600,"width":250,"height":60},
-		{"id":"cd14d1da54124584","type":"text","text":"## [[分块矩阵]]","x":840,"y":1490,"width":250,"height":60}
+		{"id":"cd14d1da54124584","type":"text","text":"## [[分块矩阵]]","x":840,"y":1490,"width":250,"height":60},
+		{"id":"ee3b2de1e88688e4","type":"text","text":"### [[行阶梯形与行最简形]]","x":1248,"y":1690,"width":250,"height":60},
+		{"id":"0f9822c6215be9d5","type":"text","text":"### [[高斯消元法]]","x":1248,"y":1780,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"74a98697b60ac528","fromNode":"dc259681894a4d44","fromSide":"right","toNode":"1d72f5025416cb45","toSide":"left"},
@@ -58,6 +60,8 @@
 		{"id":"a02386fc63750fb0","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"2f98abcfdbb3279a","toSide":"left"},
 		{"id":"e94ac916af35c8e9","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"a75fa2648e1a8349","toSide":"left"},
 		{"id":"9c8424f686e12118","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"9594a72f45c8fbdb","toSide":"left"},
-		{"id":"79481f9ef0b5f077","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"b307d4d399b3a31e","toSide":"left"}
+		{"id":"79481f9ef0b5f077","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"b307d4d399b3a31e","toSide":"left"},
+		{"id":"02bb36df47d78057","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"ee3b2de1e88688e4","toSide":"left"},
+		{"id":"54df9ebcaa787cb4","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"0f9822c6215be9d5","toSide":"left"}
 	]
 }

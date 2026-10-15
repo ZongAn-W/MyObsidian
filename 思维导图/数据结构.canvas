@@ -1061,6 +1061,24 @@
 			"y": 6420,
 			"width": 250,
 			"height": 60
+		},
+		{
+			"id": "606ae71e4062daa3",
+			"type": "text",
+			"text": "### [[B树]]",
+			"x": 640,
+			"y": 6510,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "87f0d7d0a468f7d0",
+			"type": "text",
+			"text": "### [[B+树]]",
+			"x": 640,
+			"y": 6600,
+			"width": 250,
+			"height": 60
 		}
 	],
 	"edges": [
@@ -1881,6 +1899,20 @@
 			"fromNode": "172668bb132bb0a4",
 			"fromSide": "right",
 			"toNode": "f5a3f60269c4525f",
+			"toSide": "left"
+		},
+		{
+			"id": "c673bb5ca5913148",
+			"fromNode": "172668bb132bb0a4",
+			"fromSide": "right",
+			"toNode": "606ae71e4062daa3",
+			"toSide": "left"
+		},
+		{
+			"id": "166298cffbd30355",
+			"fromNode": "172668bb132bb0a4",
+			"fromSide": "right",
+			"toNode": "87f0d7d0a468f7d0",
 			"toSide": "left"
 		}
 	]
