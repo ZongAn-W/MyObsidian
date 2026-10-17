@@ -1,10 +1,18 @@
 # Obsidian local workspace state
 .obsidian/
-
-# Local trash and generated scratch files
 .trash/
+
+# Generated scratch files (plugin caches, mermaid temp, annotation backups)
+*.hwbk
 .temp_pages/
 .tmp-mermaid/
+
+# Verification scratch area (check scripts, npm cache, mermaid install, handoff)
+/.verify
+
+# Node/npm runtime output
+node_modules/
+npm-debug.log*
 
 # OS/editor noise
 Thumbs.db
@@ -19,4 +27,3 @@ Desktop.ini
 
 # Runtime logs
 *.log
-/.verify

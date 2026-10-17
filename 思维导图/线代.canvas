@@ -30,7 +30,9 @@
 		{"id":"b307d4d399b3a31e","type":"text","text":"### [[拉普拉斯行列式]]","x":1249,"y":1600,"width":250,"height":60},
 		{"id":"cd14d1da54124584","type":"text","text":"## [[分块矩阵]]","x":840,"y":1490,"width":250,"height":60},
 		{"id":"ee3b2de1e88688e4","type":"text","text":"### [[行阶梯形与行最简形]]","x":1248,"y":1690,"width":250,"height":60},
-		{"id":"0f9822c6215be9d5","type":"text","text":"### [[高斯消元法]]","x":1248,"y":1780,"width":250,"height":60}
+		{"id":"0f9822c6215be9d5","type":"text","text":"### [[高斯消元法]]","x":1248,"y":1780,"width":250,"height":60},
+		{"id":"4c3d211b57fe4f76","type":"text","text":"### [[初等矩阵]]","x":1248,"y":1870,"width":250,"height":60},
+		{"id":"3b228f2708fd6ad8","type":"text","text":"### [[矩阵的等价]]","x":1248,"y":1960,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"74a98697b60ac528","fromNode":"dc259681894a4d44","fromSide":"right","toNode":"1d72f5025416cb45","toSide":"left"},
@@ -62,6 +64,8 @@
 		{"id":"9c8424f686e12118","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"9594a72f45c8fbdb","toSide":"left"},
 		{"id":"79481f9ef0b5f077","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"b307d4d399b3a31e","toSide":"left"},
 		{"id":"02bb36df47d78057","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"ee3b2de1e88688e4","toSide":"left"},
-		{"id":"54df9ebcaa787cb4","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"0f9822c6215be9d5","toSide":"left"}
+		{"id":"54df9ebcaa787cb4","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"0f9822c6215be9d5","toSide":"left"},
+		{"id":"1dd0fb0c03b88c61","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"4c3d211b57fe4f76","toSide":"left"},
+		{"id":"28733484b9fc41e2","fromNode":"cd14d1da54124584","fromSide":"right","toNode":"3b228f2708fd6ad8","toSide":"left"}
 	]
 }

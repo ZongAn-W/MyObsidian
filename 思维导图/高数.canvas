@@ -503,6 +503,24 @@
 			"y": 3600,
 			"width": 250,
 			"height": 60
+		},
+		{
+			"id": "e27f12b64663b2b6",
+			"type": "text",
+			"text": "### [[麦克劳林公式]]",
+			"x": 448,
+			"y": 3690,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c05582af503e2bdc",
+			"type": "text",
+			"text": "### [[泰勒公式]]",
+			"x": 448,
+			"y": 3780,
+			"width": 250,
+			"height": 60
 		}
 	],
 	"edges": [
@@ -889,6 +907,20 @@
 			"fromNode": "b2c3d4e5f6071829",
 			"fromSide": "right",
 			"toNode": "dbe3df45a6961338",
+			"toSide": "left"
+		},
+		{
+			"id": "4be72057d840ab8a",
+			"fromNode": "b2c3d4e5f6071829",
+			"fromSide": "right",
+			"toNode": "e27f12b64663b2b6",
+			"toSide": "left"
+		},
+		{
+			"id": "1220bea11917def2",
+			"fromNode": "b2c3d4e5f6071829",
+			"fromSide": "right",
+			"toNode": "c05582af503e2bdc",
 			"toSide": "left"
 		}
 	]
