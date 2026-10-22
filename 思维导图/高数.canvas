@@ -521,6 +521,69 @@
 			"y": 3780,
 			"width": 250,
 			"height": 60
+		},
+		{
+			"id": "4a5b0f535560a299",
+			"type": "text",
+			"text": "## 导数的应用",
+			"x": 448,
+			"y": 3960,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "260c2d877d46c835",
+			"type": "text",
+			"text": "### [[可导函数单调性的判定法]]",
+			"x": 880,
+			"y": 3960,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "b552c5ace993def8",
+			"type": "text",
+			"text": "### [[函数的极值与最值]]",
+			"x": 880,
+			"y": 4050,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c477d629e303ddcb",
+			"type": "text",
+			"text": "### [[函数极值的求法]]",
+			"x": 880,
+			"y": 4140,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "ceae6a8da61f121f",
+			"type": "text",
+			"text": "### [[求函数的最值或值域]]",
+			"x": 880,
+			"y": 4230,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "61f99b7a62131500",
+			"type": "text",
+			"text": "### [[函数不等式]]",
+			"x": 880,
+			"y": 4320,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "ba34fdc8e7fc7bbb",
+			"type": "text",
+			"text": "### [[数值型不等式]]",
+			"x": 880,
+			"y": 4410,
+			"width": 250,
+			"height": 60
 		}
 	],
 	"edges": [
@@ -921,6 +984,55 @@
 			"fromNode": "b2c3d4e5f6071829",
 			"fromSide": "right",
 			"toNode": "c05582af503e2bdc",
+			"toSide": "left"
+		},
+		{
+			"id": "e9ec8d133dd0e530",
+			"fromNode": "b12957dcac36deca",
+			"fromSide": "right",
+			"toNode": "4a5b0f535560a299",
+			"toSide": "left"
+		},
+		{
+			"id": "79e89823c7ed21f5",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "260c2d877d46c835",
+			"toSide": "left"
+		},
+		{
+			"id": "8e7a64451592ccfc",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "b552c5ace993def8",
+			"toSide": "left"
+		},
+		{
+			"id": "14e930be642dbad7",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "c477d629e303ddcb",
+			"toSide": "left"
+		},
+		{
+			"id": "8913670e12ea2682",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "ceae6a8da61f121f",
+			"toSide": "left"
+		},
+		{
+			"id": "71dc32c7b20584f6",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "61f99b7a62131500",
+			"toSide": "left"
+		},
+		{
+			"id": "872a4ef340722f17",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "ba34fdc8e7fc7bbb",
 			"toSide": "left"
 		}
 	]
