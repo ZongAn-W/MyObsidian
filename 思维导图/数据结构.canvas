@@ -122,7 +122,21 @@
 		{"id":"8db123ecfa538bba","type":"text","text":"# 数据结构","x":-520,"y":3209,"width":250,"height":60},
 		{"id":"172668bb132bb0a4","type":"text","text":"# 查找","x":180,"y":6270,"width":250,"height":60},
 		{"id":"3e7a207e337b9e44","type":"text","text":"# [[图]]","x":180,"y":5010,"width":250,"height":60},
-		{"id":"4b5c6d7e8f901234","type":"text","text":"## [[图的遍历]]","x":640,"y":5340,"width":250,"height":60}
+		{"id":"4b5c6d7e8f901234","type":"text","text":"## [[图的遍历]]","x":640,"y":5340,"width":250,"height":60},
+		{"id":"a77eff6e205b04dd","type":"text","text":"### [[直接插入排序]]","x":640,"y":6870,"width":250,"height":60},
+		{"id":"f8ebcc82bc8bc6e0","type":"text","text":"### [[折半插入排序]]","x":640,"y":6960,"width":250,"height":60},
+		{"id":"f28ab07464f98c59","type":"text","text":"### [[希尔排序]]","x":640,"y":7050,"width":250,"height":60},
+		{"id":"a6067a735a6787b5","type":"text","text":"### [[冒泡排序]]","x":640,"y":7140,"width":250,"height":60},
+		{"id":"9002049975e3ab7f","type":"text","text":"### [[快速排序]]","x":640,"y":7230,"width":250,"height":60},
+		{"id":"fb64a368ac24a211","type":"text","text":"### [[简单选择排序]]","x":640,"y":7320,"width":250,"height":60},
+		{"id":"5261dadf457a08d0","type":"text","text":"### [[堆排序]]","x":640,"y":7410,"width":250,"height":60},
+		{"id":"12f11192a7451784","type":"text","text":"### [[归并排序]]","x":640,"y":7500,"width":250,"height":60},
+		{"id":"71df3fc850dff5bd","type":"text","text":"### [[基数排序]]","x":640,"y":7590,"width":250,"height":60},
+		{"id":"d124a9624756d3f4","type":"text","text":"### [[外部排序的基本概念]]","x":640,"y":7680,"width":250,"height":60},
+		{"id":"eaad92856b62a29a","type":"text","text":"### [[外部排序的优化]]","x":640,"y":7770,"width":250,"height":60},
+		{"id":"2fcbb36db666cac4","type":"text","text":"### [[败者树]]","x":640,"y":7860,"width":250,"height":60},
+		{"id":"577b4986e1c7d022","type":"text","text":"### [[置换-选择排序]]","x":640,"y":7950,"width":250,"height":60},
+		{"id":"b459bbdc99755b86","type":"text","text":"### [[最佳归并树]]","x":640,"y":8040,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ebdf8a61cebbf706","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"05972fd552a2f380","toSide":"left"},
@@ -246,6 +260,20 @@
 		{"id":"166298cffbd30355","fromNode":"172668bb132bb0a4","fromSide":"right","toNode":"87f0d7d0a468f7d0","toSide":"left"},
 		{"id":"1e7a5d9b6725801f","fromNode":"172668bb132bb0a4","fromSide":"right","toNode":"7fafdfcdecc7fb83","toSide":"left"},
 		{"id":"989151ced0fbcfef","fromNode":"8db123ecfa538bba","fromSide":"right","toNode":"9d18ca4a9c0ab0d7","toSide":"left"},
-		{"id":"cb2cf90cc8caa031","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"a25fa2bdaa9379f0","toSide":"left"}
+		{"id":"cb2cf90cc8caa031","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"a25fa2bdaa9379f0","toSide":"left"},
+		{"id":"a5feb51762727130","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"a77eff6e205b04dd","toSide":"left"},
+		{"id":"0620a25028e4da09","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"f8ebcc82bc8bc6e0","toSide":"left"},
+		{"id":"626c2ccc56536c0a","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"f28ab07464f98c59","toSide":"left"},
+		{"id":"e338dabdbbc65eb2","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"a6067a735a6787b5","toSide":"left"},
+		{"id":"6cab81788d44d427","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"9002049975e3ab7f","toSide":"left"},
+		{"id":"132fd483d22a7a7b","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"fb64a368ac24a211","toSide":"left"},
+		{"id":"c6c7e66985c56374","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"5261dadf457a08d0","toSide":"left"},
+		{"id":"8d31dc25fa235010","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"12f11192a7451784","toSide":"left"},
+		{"id":"9af58c0e6c9fd602","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"71df3fc850dff5bd","toSide":"left"},
+		{"id":"1a896137134174de","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"d124a9624756d3f4","toSide":"left"},
+		{"id":"67bef0203b8ba6dd","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"eaad92856b62a29a","toSide":"left"},
+		{"id":"4b6d50b919a3d934","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"2fcbb36db666cac4","toSide":"left"},
+		{"id":"916e73407c549524","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"577b4986e1c7d022","toSide":"left"},
+		{"id":"05ebbc187ce30bd5","fromNode":"9d18ca4a9c0ab0d7","fromSide":"right","toNode":"b459bbdc99755b86","toSide":"left"}
 	]
 }
