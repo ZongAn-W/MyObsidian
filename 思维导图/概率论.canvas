@@ -1,0 +1,127 @@
+{
+	"nodes": [
+		{
+			"id": "c0b1c2d3e4f50001",
+			"type": "text",
+			"text": "# 概率论",
+			"x": -40,
+			"y": 0,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c0b1c2d3e4f50002",
+			"type": "text",
+			"text": "# 随机事件与概率",
+			"x": 420,
+			"y": 0,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "c0b1c2d3e4f50003",
+			"type": "text",
+			"text": "## [[随机事件与样本空间]]",
+			"x": 840,
+			"y": 0,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "f221cc7fb1975f30",
+			"type": "text",
+			"text": "## [[事件的关系及运算]]",
+			"x": 840,
+			"y": 90,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "49c11204227e90d4",
+			"type": "text",
+			"text": "## [[事件的运算]]",
+			"x": 840,
+			"y": 180,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "eb612a559f2f6a09",
+			"type": "text",
+			"text": "## [[事件的运算律]]",
+			"x": 840,
+			"y": 270,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "bbb456d6c66d01f4",
+			"type": "text",
+			"text": "## [[频率]]",
+			"x": 840,
+			"y": 360,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "a9ce707526cd74ff",
+			"type": "text",
+			"text": "## [[概率的公理化定义]]",
+			"x": 840,
+			"y": 450,
+			"width": 250,
+			"height": 60
+		}
+	],
+	"edges": [
+		{
+			"id": "c0b1c2d3e4f50004",
+			"fromNode": "c0b1c2d3e4f50001",
+			"fromSide": "right",
+			"toNode": "c0b1c2d3e4f50002",
+			"toSide": "left"
+		},
+		{
+			"id": "c0b1c2d3e4f50005",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "c0b1c2d3e4f50003",
+			"toSide": "left"
+		},
+		{
+			"id": "9275e4651e31996a",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "f221cc7fb1975f30",
+			"toSide": "left"
+		},
+		{
+			"id": "57b6b1e16f94db46",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "49c11204227e90d4",
+			"toSide": "left"
+		},
+		{
+			"id": "ab99d9123c471768",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "eb612a559f2f6a09",
+			"toSide": "left"
+		},
+		{
+			"id": "b81d5553c32bfe90",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "bbb456d6c66d01f4",
+			"toSide": "left"
+		},
+		{
+			"id": "b983d38eeb74ffcf",
+			"fromNode": "c0b1c2d3e4f50002",
+			"fromSide": "right",
+			"toNode": "a9ce707526cd74ff",
+			"toSide": "left"
+		}
+	]
+}

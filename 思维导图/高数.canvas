@@ -584,6 +584,24 @@
 			"y": 4410,
 			"width": 250,
 			"height": 60
+		},
+		{
+			"id": "c5fcee68aba79994",
+			"type": "text",
+			"text": "### [[求方程根的个数问题]]",
+			"x": 880,
+			"y": 4500,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"id": "9b657c604e1db84a",
+			"type": "text",
+			"text": "### [[含有参数的方程根个数问题]]",
+			"x": 880,
+			"y": 4590,
+			"width": 250,
+			"height": 60
 		}
 	],
 	"edges": [
@@ -1033,6 +1051,20 @@
 			"fromNode": "4a5b0f535560a299",
 			"fromSide": "right",
 			"toNode": "ba34fdc8e7fc7bbb",
+			"toSide": "left"
+		},
+		{
+			"id": "7a6529056a774d94",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "c5fcee68aba79994",
+			"toSide": "left"
+		},
+		{
+			"id": "cf9007bcf03c2978",
+			"fromNode": "4a5b0f535560a299",
+			"fromSide": "right",
+			"toNode": "9b657c604e1db84a",
 			"toSide": "left"
 		}
 	]
